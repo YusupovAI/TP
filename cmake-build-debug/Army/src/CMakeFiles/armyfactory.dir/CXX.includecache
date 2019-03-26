@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/iusup/CLionProjects/TP/Army/src/Point.cpp
+Point.h
+C:/Users/iusup/CLionProjects/TP/Army/src/Point.h
+
+C:/Users/iusup/CLionProjects/TP/Army/src/Point.h
+

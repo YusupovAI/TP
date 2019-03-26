@@ -4,16 +4,17 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/iusup/CLionProjects/TP/Army/src/HumanCatapult.cpp" "C:/Users/iusup/CLionProjects/TP/cmake-build-debug/Army/src/CMakeFiles/armyfactory.dir/HumanCatapult.cpp.obj"
+  "C:/Users/iusup/CLionProjects/TP/Army/src/Horseman/Horseman.cpp" "C:/Users/iusup/CLionProjects/TP/cmake-build-debug/Army/src/CMakeFiles/armyfactory.dir/Horseman/Horseman.cpp.obj"
+  "C:/Users/iusup/CLionProjects/TP/Army/src/Horseman/HumanHorseman.cpp" "C:/Users/iusup/CLionProjects/TP/cmake-build-debug/Army/src/CMakeFiles/armyfactory.dir/Horseman/HumanHorseman.cpp.obj"
+  "C:/Users/iusup/CLionProjects/TP/Army/src/Horseman/OrcHorseman.cpp" "C:/Users/iusup/CLionProjects/TP/cmake-build-debug/Army/src/CMakeFiles/armyfactory.dir/Horseman/OrcHorseman.cpp.obj"
   "C:/Users/iusup/CLionProjects/TP/Army/src/HumanFactory.cpp" "C:/Users/iusup/CLionProjects/TP/cmake-build-debug/Army/src/CMakeFiles/armyfactory.dir/HumanFactory.cpp.obj"
-  "C:/Users/iusup/CLionProjects/TP/Army/src/HumanInfantry.cpp" "C:/Users/iusup/CLionProjects/TP/cmake-build-debug/Army/src/CMakeFiles/armyfactory.dir/HumanInfantry.cpp.obj"
-  "C:/Users/iusup/CLionProjects/TP/Army/src/HumanMage.cpp" "C:/Users/iusup/CLionProjects/TP/cmake-build-debug/Army/src/CMakeFiles/armyfactory.dir/HumanMage.cpp.obj"
-  "C:/Users/iusup/CLionProjects/TP/Army/src/OrcCatapult.cpp" "C:/Users/iusup/CLionProjects/TP/cmake-build-debug/Army/src/CMakeFiles/armyfactory.dir/OrcCatapult.cpp.obj"
+  "C:/Users/iusup/CLionProjects/TP/Army/src/Infantry/HumanInfantry.cpp" "C:/Users/iusup/CLionProjects/TP/cmake-build-debug/Army/src/CMakeFiles/armyfactory.dir/Infantry/HumanInfantry.cpp.obj"
+  "C:/Users/iusup/CLionProjects/TP/Army/src/Infantry/OrcInfantry.cpp" "C:/Users/iusup/CLionProjects/TP/cmake-build-debug/Army/src/CMakeFiles/armyfactory.dir/Infantry/OrcInfantry.cpp.obj"
+  "C:/Users/iusup/CLionProjects/TP/Army/src/Mage/HumanMage.cpp" "C:/Users/iusup/CLionProjects/TP/cmake-build-debug/Army/src/CMakeFiles/armyfactory.dir/Mage/HumanMage.cpp.obj"
+  "C:/Users/iusup/CLionProjects/TP/Army/src/Mage/OrcMage.cpp" "C:/Users/iusup/CLionProjects/TP/cmake-build-debug/Army/src/CMakeFiles/armyfactory.dir/Mage/OrcMage.cpp.obj"
   "C:/Users/iusup/CLionProjects/TP/Army/src/OrcFactory.cpp" "C:/Users/iusup/CLionProjects/TP/cmake-build-debug/Army/src/CMakeFiles/armyfactory.dir/OrcFactory.cpp.obj"
-  "C:/Users/iusup/CLionProjects/TP/Army/src/OrcInfantry.cpp" "C:/Users/iusup/CLionProjects/TP/cmake-build-debug/Army/src/CMakeFiles/armyfactory.dir/OrcInfantry.cpp.obj"
-  "C:/Users/iusup/CLionProjects/TP/Army/src/OrcMage.cpp" "C:/Users/iusup/CLionProjects/TP/cmake-build-debug/Army/src/CMakeFiles/armyfactory.dir/OrcMage.cpp.obj"
   "C:/Users/iusup/CLionProjects/TP/Army/src/Point.cpp" "C:/Users/iusup/CLionProjects/TP/cmake-build-debug/Army/src/CMakeFiles/armyfactory.dir/Point.cpp.obj"
-  "C:/Users/iusup/CLionProjects/TP/Army/src/Warrior.cpp" "C:/Users/iusup/CLionProjects/TP/cmake-build-debug/Army/src/CMakeFiles/armyfactory.dir/Warrior.cpp.obj"
+  "C:/Users/iusup/CLionProjects/TP/Army/src/Unit.cpp" "C:/Users/iusup/CLionProjects/TP/cmake-build-debug/Army/src/CMakeFiles/armyfactory.dir/Unit.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

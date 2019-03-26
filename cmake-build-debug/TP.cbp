@@ -378,14 +378,24 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/iusup/CLionProjects/TP/Army/src/Catapult.h">
+		<Unit filename="C:/Users/iusup/CLionProjects/TP/Army/src/Horseman/Horseman.cpp">
+			<Option target="armyfactory"/>
+		</Unit>
+		<Unit filename="C:/Users/iusup/CLionProjects/TP/Army/src/Horseman/Horseman.h">
 			<Option target="armyfactory"/>
 			<Option target="army_tests"/>
 		</Unit>
-		<Unit filename="C:/Users/iusup/CLionProjects/TP/Army/src/HumanCatapult.cpp">
+		<Unit filename="C:/Users/iusup/CLionProjects/TP/Army/src/Horseman/HumanHorseman.cpp">
 			<Option target="armyfactory"/>
 		</Unit>
-		<Unit filename="C:/Users/iusup/CLionProjects/TP/Army/src/HumanCatapult.h">
+		<Unit filename="C:/Users/iusup/CLionProjects/TP/Army/src/Horseman/HumanHorseman.h">
+			<Option target="armyfactory"/>
+			<Option target="army_tests"/>
+		</Unit>
+		<Unit filename="C:/Users/iusup/CLionProjects/TP/Army/src/Horseman/OrcHorseman.cpp">
+			<Option target="armyfactory"/>
+		</Unit>
+		<Unit filename="C:/Users/iusup/CLionProjects/TP/Army/src/Horseman/OrcHorseman.h">
 			<Option target="armyfactory"/>
 			<Option target="army_tests"/>
 		</Unit>
@@ -396,32 +406,39 @@
 			<Option target="armyfactory"/>
 			<Option target="army_tests"/>
 		</Unit>
-		<Unit filename="C:/Users/iusup/CLionProjects/TP/Army/src/HumanInfantry.cpp">
+		<Unit filename="C:/Users/iusup/CLionProjects/TP/Army/src/Infantry/HumanInfantry.cpp">
 			<Option target="armyfactory"/>
 		</Unit>
-		<Unit filename="C:/Users/iusup/CLionProjects/TP/Army/src/HumanInfantry.h">
-			<Option target="armyfactory"/>
-			<Option target="army_tests"/>
-		</Unit>
-		<Unit filename="C:/Users/iusup/CLionProjects/TP/Army/src/HumanMage.cpp">
-			<Option target="armyfactory"/>
-		</Unit>
-		<Unit filename="C:/Users/iusup/CLionProjects/TP/Army/src/HumanMage.h">
+		<Unit filename="C:/Users/iusup/CLionProjects/TP/Army/src/Infantry/HumanInfantry.h">
 			<Option target="armyfactory"/>
 			<Option target="army_tests"/>
 		</Unit>
-		<Unit filename="C:/Users/iusup/CLionProjects/TP/Army/src/Infantry.h">
+		<Unit filename="C:/Users/iusup/CLionProjects/TP/Army/src/Infantry/Infantry.h">
 			<Option target="armyfactory"/>
 			<Option target="army_tests"/>
 		</Unit>
-		<Unit filename="C:/Users/iusup/CLionProjects/TP/Army/src/Mage.h">
+		<Unit filename="C:/Users/iusup/CLionProjects/TP/Army/src/Infantry/OrcInfantry.cpp">
+			<Option target="armyfactory"/>
+		</Unit>
+		<Unit filename="C:/Users/iusup/CLionProjects/TP/Army/src/Infantry/OrcInfantry.h">
 			<Option target="armyfactory"/>
 			<Option target="army_tests"/>
 		</Unit>
-		<Unit filename="C:/Users/iusup/CLionProjects/TP/Army/src/OrcCatapult.cpp">
+		<Unit filename="C:/Users/iusup/CLionProjects/TP/Army/src/Mage/HumanMage.cpp">
 			<Option target="armyfactory"/>
 		</Unit>
-		<Unit filename="C:/Users/iusup/CLionProjects/TP/Army/src/OrcCatapult.h">
+		<Unit filename="C:/Users/iusup/CLionProjects/TP/Army/src/Mage/HumanMage.h">
+			<Option target="armyfactory"/>
+			<Option target="army_tests"/>
+		</Unit>
+		<Unit filename="C:/Users/iusup/CLionProjects/TP/Army/src/Mage/Mage.h">
+			<Option target="armyfactory"/>
+			<Option target="army_tests"/>
+		</Unit>
+		<Unit filename="C:/Users/iusup/CLionProjects/TP/Army/src/Mage/OrcMage.cpp">
+			<Option target="armyfactory"/>
+		</Unit>
+		<Unit filename="C:/Users/iusup/CLionProjects/TP/Army/src/Mage/OrcMage.h">
 			<Option target="armyfactory"/>
 			<Option target="army_tests"/>
 		</Unit>
@@ -432,20 +449,6 @@
 			<Option target="armyfactory"/>
 			<Option target="army_tests"/>
 		</Unit>
-		<Unit filename="C:/Users/iusup/CLionProjects/TP/Army/src/OrcInfantry.cpp">
-			<Option target="armyfactory"/>
-		</Unit>
-		<Unit filename="C:/Users/iusup/CLionProjects/TP/Army/src/OrcInfantry.h">
-			<Option target="armyfactory"/>
-			<Option target="army_tests"/>
-		</Unit>
-		<Unit filename="C:/Users/iusup/CLionProjects/TP/Army/src/OrcMage.cpp">
-			<Option target="armyfactory"/>
-		</Unit>
-		<Unit filename="C:/Users/iusup/CLionProjects/TP/Army/src/OrcMage.h">
-			<Option target="armyfactory"/>
-			<Option target="army_tests"/>
-		</Unit>
 		<Unit filename="C:/Users/iusup/CLionProjects/TP/Army/src/Point.cpp">
 			<Option target="armyfactory"/>
 		</Unit>
@@ -453,10 +456,10 @@
 			<Option target="armyfactory"/>
 			<Option target="army_tests"/>
 		</Unit>
-		<Unit filename="C:/Users/iusup/CLionProjects/TP/Army/src/Warrior.cpp">
+		<Unit filename="C:/Users/iusup/CLionProjects/TP/Army/src/Unit.cpp">
 			<Option target="armyfactory"/>
 		</Unit>
-		<Unit filename="C:/Users/iusup/CLionProjects/TP/Army/src/Warrior.h">
+		<Unit filename="C:/Users/iusup/CLionProjects/TP/Army/src/Unit.h">
 			<Option target="armyfactory"/>
 			<Option target="army_tests"/>
 		</Unit>

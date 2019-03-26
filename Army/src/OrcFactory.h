@@ -9,13 +9,13 @@
 
 class OrcFactory final : public WarriorFactory {
 public:
-    OrcFactory() {};
+    OrcFactory() = default;
 
-    std::shared_ptr<Warrior> CreateInfantry(const Point &) const override;
+    std::shared_ptr<Unit> CreateInfantry(const Point &) const override;
 
-    std::shared_ptr<Warrior> CreateCatapult(const Point &) const override;
+    std::shared_ptr<Unit> CreateHorseman(const Point &) const override;
 
-    std::shared_ptr<Warrior> CreateMage(const Point &) const override;
+    std::shared_ptr<Unit> CreateMage(const Point &) const override;
 };
 
 

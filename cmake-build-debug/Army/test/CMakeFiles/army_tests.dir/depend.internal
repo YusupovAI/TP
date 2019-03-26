@@ -49,6 +49,6 @@ Army/test/CMakeFiles/army_tests.dir/test.cpp.obj
  ../Army/test/../src/HumanFactory.h
  ../Army/test/../src/OrcFactory.h
  ../Army/test/../src/Point.h
- ../Army/test/../src/Warrior.h
+ ../Army/test/../src/Unit.h
  ../Army/test/../src/WarriorFactory.h
  C:/Users/iusup/CLionProjects/TP/Army/test/test.cpp

@@ -107,11 +107,11 @@ googletest-master/googlemock/preinstall: googletest-master/googlemock/gtest/prei
 # Target rules for target googletest-master/googlemock/CMakeFiles/gmock_main.dir
 
 # All Build rule for target.
-googletest-master/googlemock/CMakeFiles/gmock_main.dir/all: googletest-master/googlemock/CMakeFiles/gmock.dir/all
 googletest-master/googlemock/CMakeFiles/gmock_main.dir/all: googletest-master/googlemock/gtest/CMakeFiles/gtest.dir/all
+googletest-master/googlemock/CMakeFiles/gmock_main.dir/all: googletest-master/googlemock/CMakeFiles/gmock.dir/all
 	$(MAKE) -f googletest-master\googlemock\CMakeFiles\gmock_main.dir\build.make googletest-master/googlemock/CMakeFiles/gmock_main.dir/depend
 	$(MAKE) -f googletest-master\googlemock\CMakeFiles\gmock_main.dir\build.make googletest-master/googlemock/CMakeFiles/gmock_main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\iusup\CLionProjects\TP\cmake-build-debug\CMakeFiles --progress-num=17,18 "Built target gmock_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\iusup\CLionProjects\TP\cmake-build-debug\CMakeFiles --progress-num=18,19 "Built target gmock_main"
 .PHONY : googletest-master/googlemock/CMakeFiles/gmock_main.dir/all
 
 # Include target in all.
@@ -148,7 +148,7 @@ clean: googletest-master/googlemock/CMakeFiles/gmock_main.dir/clean
 googletest-master/googlemock/CMakeFiles/gmock.dir/all: googletest-master/googlemock/gtest/CMakeFiles/gtest.dir/all
 	$(MAKE) -f googletest-master\googlemock\CMakeFiles\gmock.dir\build.make googletest-master/googlemock/CMakeFiles/gmock.dir/depend
 	$(MAKE) -f googletest-master\googlemock\CMakeFiles\gmock.dir\build.make googletest-master/googlemock/CMakeFiles/gmock.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\iusup\CLionProjects\TP\cmake-build-debug\CMakeFiles --progress-num=15,16 "Built target gmock"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\iusup\CLionProjects\TP\cmake-build-debug\CMakeFiles --progress-num=16,17 "Built target gmock"
 .PHONY : googletest-master/googlemock/CMakeFiles/gmock.dir/all
 
 # Include target in all.
@@ -205,7 +205,7 @@ googletest-master/googlemock/gtest/preinstall:
 googletest-master/googlemock/gtest/CMakeFiles/gtest.dir/all:
 	$(MAKE) -f googletest-master\googlemock\gtest\CMakeFiles\gtest.dir\build.make googletest-master/googlemock/gtest/CMakeFiles/gtest.dir/depend
 	$(MAKE) -f googletest-master\googlemock\gtest\CMakeFiles\gtest.dir\build.make googletest-master/googlemock/gtest/CMakeFiles/gtest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\iusup\CLionProjects\TP\cmake-build-debug\CMakeFiles --progress-num=19,20 "Built target gtest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\iusup\CLionProjects\TP\cmake-build-debug\CMakeFiles --progress-num=20,21 "Built target gtest"
 .PHONY : googletest-master/googlemock/gtest/CMakeFiles/gtest.dir/all
 
 # Include target in all.
@@ -242,7 +242,7 @@ clean: googletest-master/googlemock/gtest/CMakeFiles/gtest.dir/clean
 googletest-master/googlemock/gtest/CMakeFiles/gtest_main.dir/all: googletest-master/googlemock/gtest/CMakeFiles/gtest.dir/all
 	$(MAKE) -f googletest-master\googlemock\gtest\CMakeFiles\gtest_main.dir\build.make googletest-master/googlemock/gtest/CMakeFiles/gtest_main.dir/depend
 	$(MAKE) -f googletest-master\googlemock\gtest\CMakeFiles\gtest_main.dir\build.make googletest-master/googlemock/gtest/CMakeFiles/gtest_main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\iusup\CLionProjects\TP\cmake-build-debug\CMakeFiles --progress-num=21,22 "Built target gtest_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\iusup\CLionProjects\TP\cmake-build-debug\CMakeFiles --progress-num=22,23 "Built target gtest_main"
 .PHONY : googletest-master/googlemock/gtest/CMakeFiles/gtest_main.dir/all
 
 # Include target in all.
@@ -318,7 +318,7 @@ Army/src/preinstall:
 Army/src/CMakeFiles/armyfactory.dir/all:
 	$(MAKE) -f Army\src\CMakeFiles\armyfactory.dir\build.make Army/src/CMakeFiles/armyfactory.dir/depend
 	$(MAKE) -f Army\src\CMakeFiles\armyfactory.dir\build.make Army/src/CMakeFiles/armyfactory.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\iusup\CLionProjects\TP\cmake-build-debug\CMakeFiles --progress-num=4,5,6,7,8,9,10,11,12,13,14 "Built target armyfactory"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\iusup\CLionProjects\TP\cmake-build-debug\CMakeFiles --progress-num=4,5,6,7,8,9,10,11,12,13,14,15 "Built target armyfactory"
 .PHONY : Army/src/CMakeFiles/armyfactory.dir/all
 
 # Include target in all.
@@ -328,7 +328,7 @@ all: Army/src/CMakeFiles/armyfactory.dir/all
 
 # Build rule for subdir invocation for target.
 Army/src/CMakeFiles/armyfactory.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\iusup\CLionProjects\TP\cmake-build-debug\CMakeFiles 11
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\iusup\CLionProjects\TP\cmake-build-debug\CMakeFiles 12
 	$(MAKE) -f CMakeFiles\Makefile2 Army/src/CMakeFiles/armyfactory.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\iusup\CLionProjects\TP\cmake-build-debug\CMakeFiles 0
 .PHONY : Army/src/CMakeFiles/armyfactory.dir/rule
@@ -370,9 +370,9 @@ Army/test/preinstall:
 # Target rules for target Army/test/CMakeFiles/army_tests.dir
 
 # All Build rule for target.
-Army/test/CMakeFiles/army_tests.dir/all: Army/src/CMakeFiles/armyfactory.dir/all
 Army/test/CMakeFiles/army_tests.dir/all: googletest-master/googlemock/gtest/CMakeFiles/gtest.dir/all
 Army/test/CMakeFiles/army_tests.dir/all: googletest-master/googlemock/gtest/CMakeFiles/gtest_main.dir/all
+Army/test/CMakeFiles/army_tests.dir/all: Army/src/CMakeFiles/armyfactory.dir/all
 	$(MAKE) -f Army\test\CMakeFiles\army_tests.dir\build.make Army/test/CMakeFiles/army_tests.dir/depend
 	$(MAKE) -f Army\test\CMakeFiles\army_tests.dir\build.make Army/test/CMakeFiles/army_tests.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\iusup\CLionProjects\TP\cmake-build-debug\CMakeFiles --progress-num=1,2,3 "Built target army_tests"
@@ -385,7 +385,7 @@ all: Army/test/CMakeFiles/army_tests.dir/all
 
 # Build rule for subdir invocation for target.
 Army/test/CMakeFiles/army_tests.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\iusup\CLionProjects\TP\cmake-build-debug\CMakeFiles 18
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\iusup\CLionProjects\TP\cmake-build-debug\CMakeFiles 19
 	$(MAKE) -f CMakeFiles\Makefile2 Army/test/CMakeFiles/army_tests.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\iusup\CLionProjects\TP\cmake-build-debug\CMakeFiles 0
 .PHONY : Army/test/CMakeFiles/army_tests.dir/rule

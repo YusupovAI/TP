@@ -84,94 +84,108 @@ Army/src/CMakeFiles/armyfactory.dir/OrcFactory.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/armyfactory.dir/OrcFactory.cpp.s"
 	cd /d C:\Users\iusup\CLionProjects\TP\cmake-build-debug\Army\src && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\iusup\CLionProjects\TP\Army\src\OrcFactory.cpp -o CMakeFiles\armyfactory.dir\OrcFactory.cpp.s
 
-Army/src/CMakeFiles/armyfactory.dir/OrcMage.cpp.obj: Army/src/CMakeFiles/armyfactory.dir/flags.make
-Army/src/CMakeFiles/armyfactory.dir/OrcMage.cpp.obj: Army/src/CMakeFiles/armyfactory.dir/includes_CXX.rsp
-Army/src/CMakeFiles/armyfactory.dir/OrcMage.cpp.obj: ../Army/src/OrcMage.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\iusup\CLionProjects\TP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object Army/src/CMakeFiles/armyfactory.dir/OrcMage.cpp.obj"
-	cd /d C:\Users\iusup\CLionProjects\TP\cmake-build-debug\Army\src && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\armyfactory.dir\OrcMage.cpp.obj -c C:\Users\iusup\CLionProjects\TP\Army\src\OrcMage.cpp
+Army/src/CMakeFiles/armyfactory.dir/Mage/OrcMage.cpp.obj: Army/src/CMakeFiles/armyfactory.dir/flags.make
+Army/src/CMakeFiles/armyfactory.dir/Mage/OrcMage.cpp.obj: Army/src/CMakeFiles/armyfactory.dir/includes_CXX.rsp
+Army/src/CMakeFiles/armyfactory.dir/Mage/OrcMage.cpp.obj: ../Army/src/Mage/OrcMage.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\iusup\CLionProjects\TP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object Army/src/CMakeFiles/armyfactory.dir/Mage/OrcMage.cpp.obj"
+	cd /d C:\Users\iusup\CLionProjects\TP\cmake-build-debug\Army\src && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\armyfactory.dir\Mage\OrcMage.cpp.obj -c C:\Users\iusup\CLionProjects\TP\Army\src\Mage\OrcMage.cpp
 
-Army/src/CMakeFiles/armyfactory.dir/OrcMage.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/armyfactory.dir/OrcMage.cpp.i"
-	cd /d C:\Users\iusup\CLionProjects\TP\cmake-build-debug\Army\src && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\iusup\CLionProjects\TP\Army\src\OrcMage.cpp > CMakeFiles\armyfactory.dir\OrcMage.cpp.i
+Army/src/CMakeFiles/armyfactory.dir/Mage/OrcMage.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/armyfactory.dir/Mage/OrcMage.cpp.i"
+	cd /d C:\Users\iusup\CLionProjects\TP\cmake-build-debug\Army\src && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\iusup\CLionProjects\TP\Army\src\Mage\OrcMage.cpp > CMakeFiles\armyfactory.dir\Mage\OrcMage.cpp.i
 
-Army/src/CMakeFiles/armyfactory.dir/OrcMage.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/armyfactory.dir/OrcMage.cpp.s"
-	cd /d C:\Users\iusup\CLionProjects\TP\cmake-build-debug\Army\src && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\iusup\CLionProjects\TP\Army\src\OrcMage.cpp -o CMakeFiles\armyfactory.dir\OrcMage.cpp.s
+Army/src/CMakeFiles/armyfactory.dir/Mage/OrcMage.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/armyfactory.dir/Mage/OrcMage.cpp.s"
+	cd /d C:\Users\iusup\CLionProjects\TP\cmake-build-debug\Army\src && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\iusup\CLionProjects\TP\Army\src\Mage\OrcMage.cpp -o CMakeFiles\armyfactory.dir\Mage\OrcMage.cpp.s
 
-Army/src/CMakeFiles/armyfactory.dir/OrcInfantry.cpp.obj: Army/src/CMakeFiles/armyfactory.dir/flags.make
-Army/src/CMakeFiles/armyfactory.dir/OrcInfantry.cpp.obj: Army/src/CMakeFiles/armyfactory.dir/includes_CXX.rsp
-Army/src/CMakeFiles/armyfactory.dir/OrcInfantry.cpp.obj: ../Army/src/OrcInfantry.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\iusup\CLionProjects\TP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object Army/src/CMakeFiles/armyfactory.dir/OrcInfantry.cpp.obj"
-	cd /d C:\Users\iusup\CLionProjects\TP\cmake-build-debug\Army\src && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\armyfactory.dir\OrcInfantry.cpp.obj -c C:\Users\iusup\CLionProjects\TP\Army\src\OrcInfantry.cpp
+Army/src/CMakeFiles/armyfactory.dir/Infantry/OrcInfantry.cpp.obj: Army/src/CMakeFiles/armyfactory.dir/flags.make
+Army/src/CMakeFiles/armyfactory.dir/Infantry/OrcInfantry.cpp.obj: Army/src/CMakeFiles/armyfactory.dir/includes_CXX.rsp
+Army/src/CMakeFiles/armyfactory.dir/Infantry/OrcInfantry.cpp.obj: ../Army/src/Infantry/OrcInfantry.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\iusup\CLionProjects\TP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object Army/src/CMakeFiles/armyfactory.dir/Infantry/OrcInfantry.cpp.obj"
+	cd /d C:\Users\iusup\CLionProjects\TP\cmake-build-debug\Army\src && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\armyfactory.dir\Infantry\OrcInfantry.cpp.obj -c C:\Users\iusup\CLionProjects\TP\Army\src\Infantry\OrcInfantry.cpp
 
-Army/src/CMakeFiles/armyfactory.dir/OrcInfantry.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/armyfactory.dir/OrcInfantry.cpp.i"
-	cd /d C:\Users\iusup\CLionProjects\TP\cmake-build-debug\Army\src && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\iusup\CLionProjects\TP\Army\src\OrcInfantry.cpp > CMakeFiles\armyfactory.dir\OrcInfantry.cpp.i
+Army/src/CMakeFiles/armyfactory.dir/Infantry/OrcInfantry.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/armyfactory.dir/Infantry/OrcInfantry.cpp.i"
+	cd /d C:\Users\iusup\CLionProjects\TP\cmake-build-debug\Army\src && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\iusup\CLionProjects\TP\Army\src\Infantry\OrcInfantry.cpp > CMakeFiles\armyfactory.dir\Infantry\OrcInfantry.cpp.i
 
-Army/src/CMakeFiles/armyfactory.dir/OrcInfantry.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/armyfactory.dir/OrcInfantry.cpp.s"
-	cd /d C:\Users\iusup\CLionProjects\TP\cmake-build-debug\Army\src && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\iusup\CLionProjects\TP\Army\src\OrcInfantry.cpp -o CMakeFiles\armyfactory.dir\OrcInfantry.cpp.s
+Army/src/CMakeFiles/armyfactory.dir/Infantry/OrcInfantry.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/armyfactory.dir/Infantry/OrcInfantry.cpp.s"
+	cd /d C:\Users\iusup\CLionProjects\TP\cmake-build-debug\Army\src && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\iusup\CLionProjects\TP\Army\src\Infantry\OrcInfantry.cpp -o CMakeFiles\armyfactory.dir\Infantry\OrcInfantry.cpp.s
 
-Army/src/CMakeFiles/armyfactory.dir/OrcCatapult.cpp.obj: Army/src/CMakeFiles/armyfactory.dir/flags.make
-Army/src/CMakeFiles/armyfactory.dir/OrcCatapult.cpp.obj: Army/src/CMakeFiles/armyfactory.dir/includes_CXX.rsp
-Army/src/CMakeFiles/armyfactory.dir/OrcCatapult.cpp.obj: ../Army/src/OrcCatapult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\iusup\CLionProjects\TP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object Army/src/CMakeFiles/armyfactory.dir/OrcCatapult.cpp.obj"
-	cd /d C:\Users\iusup\CLionProjects\TP\cmake-build-debug\Army\src && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\armyfactory.dir\OrcCatapult.cpp.obj -c C:\Users\iusup\CLionProjects\TP\Army\src\OrcCatapult.cpp
+Army/src/CMakeFiles/armyfactory.dir/Mage/HumanMage.cpp.obj: Army/src/CMakeFiles/armyfactory.dir/flags.make
+Army/src/CMakeFiles/armyfactory.dir/Mage/HumanMage.cpp.obj: Army/src/CMakeFiles/armyfactory.dir/includes_CXX.rsp
+Army/src/CMakeFiles/armyfactory.dir/Mage/HumanMage.cpp.obj: ../Army/src/Mage/HumanMage.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\iusup\CLionProjects\TP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object Army/src/CMakeFiles/armyfactory.dir/Mage/HumanMage.cpp.obj"
+	cd /d C:\Users\iusup\CLionProjects\TP\cmake-build-debug\Army\src && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\armyfactory.dir\Mage\HumanMage.cpp.obj -c C:\Users\iusup\CLionProjects\TP\Army\src\Mage\HumanMage.cpp
 
-Army/src/CMakeFiles/armyfactory.dir/OrcCatapult.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/armyfactory.dir/OrcCatapult.cpp.i"
-	cd /d C:\Users\iusup\CLionProjects\TP\cmake-build-debug\Army\src && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\iusup\CLionProjects\TP\Army\src\OrcCatapult.cpp > CMakeFiles\armyfactory.dir\OrcCatapult.cpp.i
+Army/src/CMakeFiles/armyfactory.dir/Mage/HumanMage.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/armyfactory.dir/Mage/HumanMage.cpp.i"
+	cd /d C:\Users\iusup\CLionProjects\TP\cmake-build-debug\Army\src && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\iusup\CLionProjects\TP\Army\src\Mage\HumanMage.cpp > CMakeFiles\armyfactory.dir\Mage\HumanMage.cpp.i
 
-Army/src/CMakeFiles/armyfactory.dir/OrcCatapult.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/armyfactory.dir/OrcCatapult.cpp.s"
-	cd /d C:\Users\iusup\CLionProjects\TP\cmake-build-debug\Army\src && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\iusup\CLionProjects\TP\Army\src\OrcCatapult.cpp -o CMakeFiles\armyfactory.dir\OrcCatapult.cpp.s
+Army/src/CMakeFiles/armyfactory.dir/Mage/HumanMage.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/armyfactory.dir/Mage/HumanMage.cpp.s"
+	cd /d C:\Users\iusup\CLionProjects\TP\cmake-build-debug\Army\src && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\iusup\CLionProjects\TP\Army\src\Mage\HumanMage.cpp -o CMakeFiles\armyfactory.dir\Mage\HumanMage.cpp.s
 
-Army/src/CMakeFiles/armyfactory.dir/HumanMage.cpp.obj: Army/src/CMakeFiles/armyfactory.dir/flags.make
-Army/src/CMakeFiles/armyfactory.dir/HumanMage.cpp.obj: Army/src/CMakeFiles/armyfactory.dir/includes_CXX.rsp
-Army/src/CMakeFiles/armyfactory.dir/HumanMage.cpp.obj: ../Army/src/HumanMage.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\iusup\CLionProjects\TP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object Army/src/CMakeFiles/armyfactory.dir/HumanMage.cpp.obj"
-	cd /d C:\Users\iusup\CLionProjects\TP\cmake-build-debug\Army\src && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\armyfactory.dir\HumanMage.cpp.obj -c C:\Users\iusup\CLionProjects\TP\Army\src\HumanMage.cpp
+Army/src/CMakeFiles/armyfactory.dir/Infantry/HumanInfantry.cpp.obj: Army/src/CMakeFiles/armyfactory.dir/flags.make
+Army/src/CMakeFiles/armyfactory.dir/Infantry/HumanInfantry.cpp.obj: Army/src/CMakeFiles/armyfactory.dir/includes_CXX.rsp
+Army/src/CMakeFiles/armyfactory.dir/Infantry/HumanInfantry.cpp.obj: ../Army/src/Infantry/HumanInfantry.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\iusup\CLionProjects\TP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object Army/src/CMakeFiles/armyfactory.dir/Infantry/HumanInfantry.cpp.obj"
+	cd /d C:\Users\iusup\CLionProjects\TP\cmake-build-debug\Army\src && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\armyfactory.dir\Infantry\HumanInfantry.cpp.obj -c C:\Users\iusup\CLionProjects\TP\Army\src\Infantry\HumanInfantry.cpp
 
-Army/src/CMakeFiles/armyfactory.dir/HumanMage.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/armyfactory.dir/HumanMage.cpp.i"
-	cd /d C:\Users\iusup\CLionProjects\TP\cmake-build-debug\Army\src && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\iusup\CLionProjects\TP\Army\src\HumanMage.cpp > CMakeFiles\armyfactory.dir\HumanMage.cpp.i
+Army/src/CMakeFiles/armyfactory.dir/Infantry/HumanInfantry.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/armyfactory.dir/Infantry/HumanInfantry.cpp.i"
+	cd /d C:\Users\iusup\CLionProjects\TP\cmake-build-debug\Army\src && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\iusup\CLionProjects\TP\Army\src\Infantry\HumanInfantry.cpp > CMakeFiles\armyfactory.dir\Infantry\HumanInfantry.cpp.i
 
-Army/src/CMakeFiles/armyfactory.dir/HumanMage.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/armyfactory.dir/HumanMage.cpp.s"
-	cd /d C:\Users\iusup\CLionProjects\TP\cmake-build-debug\Army\src && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\iusup\CLionProjects\TP\Army\src\HumanMage.cpp -o CMakeFiles\armyfactory.dir\HumanMage.cpp.s
+Army/src/CMakeFiles/armyfactory.dir/Infantry/HumanInfantry.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/armyfactory.dir/Infantry/HumanInfantry.cpp.s"
+	cd /d C:\Users\iusup\CLionProjects\TP\cmake-build-debug\Army\src && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\iusup\CLionProjects\TP\Army\src\Infantry\HumanInfantry.cpp -o CMakeFiles\armyfactory.dir\Infantry\HumanInfantry.cpp.s
 
-Army/src/CMakeFiles/armyfactory.dir/HumanInfantry.cpp.obj: Army/src/CMakeFiles/armyfactory.dir/flags.make
-Army/src/CMakeFiles/armyfactory.dir/HumanInfantry.cpp.obj: Army/src/CMakeFiles/armyfactory.dir/includes_CXX.rsp
-Army/src/CMakeFiles/armyfactory.dir/HumanInfantry.cpp.obj: ../Army/src/HumanInfantry.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\iusup\CLionProjects\TP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object Army/src/CMakeFiles/armyfactory.dir/HumanInfantry.cpp.obj"
-	cd /d C:\Users\iusup\CLionProjects\TP\cmake-build-debug\Army\src && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\armyfactory.dir\HumanInfantry.cpp.obj -c C:\Users\iusup\CLionProjects\TP\Army\src\HumanInfantry.cpp
+Army/src/CMakeFiles/armyfactory.dir/Horseman/HumanHorseman.cpp.obj: Army/src/CMakeFiles/armyfactory.dir/flags.make
+Army/src/CMakeFiles/armyfactory.dir/Horseman/HumanHorseman.cpp.obj: Army/src/CMakeFiles/armyfactory.dir/includes_CXX.rsp
+Army/src/CMakeFiles/armyfactory.dir/Horseman/HumanHorseman.cpp.obj: ../Army/src/Horseman/HumanHorseman.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\iusup\CLionProjects\TP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object Army/src/CMakeFiles/armyfactory.dir/Horseman/HumanHorseman.cpp.obj"
+	cd /d C:\Users\iusup\CLionProjects\TP\cmake-build-debug\Army\src && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\armyfactory.dir\Horseman\HumanHorseman.cpp.obj -c C:\Users\iusup\CLionProjects\TP\Army\src\Horseman\HumanHorseman.cpp
 
-Army/src/CMakeFiles/armyfactory.dir/HumanInfantry.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/armyfactory.dir/HumanInfantry.cpp.i"
-	cd /d C:\Users\iusup\CLionProjects\TP\cmake-build-debug\Army\src && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\iusup\CLionProjects\TP\Army\src\HumanInfantry.cpp > CMakeFiles\armyfactory.dir\HumanInfantry.cpp.i
+Army/src/CMakeFiles/armyfactory.dir/Horseman/HumanHorseman.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/armyfactory.dir/Horseman/HumanHorseman.cpp.i"
+	cd /d C:\Users\iusup\CLionProjects\TP\cmake-build-debug\Army\src && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\iusup\CLionProjects\TP\Army\src\Horseman\HumanHorseman.cpp > CMakeFiles\armyfactory.dir\Horseman\HumanHorseman.cpp.i
 
-Army/src/CMakeFiles/armyfactory.dir/HumanInfantry.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/armyfactory.dir/HumanInfantry.cpp.s"
-	cd /d C:\Users\iusup\CLionProjects\TP\cmake-build-debug\Army\src && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\iusup\CLionProjects\TP\Army\src\HumanInfantry.cpp -o CMakeFiles\armyfactory.dir\HumanInfantry.cpp.s
+Army/src/CMakeFiles/armyfactory.dir/Horseman/HumanHorseman.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/armyfactory.dir/Horseman/HumanHorseman.cpp.s"
+	cd /d C:\Users\iusup\CLionProjects\TP\cmake-build-debug\Army\src && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\iusup\CLionProjects\TP\Army\src\Horseman\HumanHorseman.cpp -o CMakeFiles\armyfactory.dir\Horseman\HumanHorseman.cpp.s
 
-Army/src/CMakeFiles/armyfactory.dir/HumanCatapult.cpp.obj: Army/src/CMakeFiles/armyfactory.dir/flags.make
-Army/src/CMakeFiles/armyfactory.dir/HumanCatapult.cpp.obj: Army/src/CMakeFiles/armyfactory.dir/includes_CXX.rsp
-Army/src/CMakeFiles/armyfactory.dir/HumanCatapult.cpp.obj: ../Army/src/HumanCatapult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\iusup\CLionProjects\TP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object Army/src/CMakeFiles/armyfactory.dir/HumanCatapult.cpp.obj"
-	cd /d C:\Users\iusup\CLionProjects\TP\cmake-build-debug\Army\src && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\armyfactory.dir\HumanCatapult.cpp.obj -c C:\Users\iusup\CLionProjects\TP\Army\src\HumanCatapult.cpp
+Army/src/CMakeFiles/armyfactory.dir/Horseman/OrcHorseman.cpp.obj: Army/src/CMakeFiles/armyfactory.dir/flags.make
+Army/src/CMakeFiles/armyfactory.dir/Horseman/OrcHorseman.cpp.obj: Army/src/CMakeFiles/armyfactory.dir/includes_CXX.rsp
+Army/src/CMakeFiles/armyfactory.dir/Horseman/OrcHorseman.cpp.obj: ../Army/src/Horseman/OrcHorseman.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\iusup\CLionProjects\TP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object Army/src/CMakeFiles/armyfactory.dir/Horseman/OrcHorseman.cpp.obj"
+	cd /d C:\Users\iusup\CLionProjects\TP\cmake-build-debug\Army\src && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\armyfactory.dir\Horseman\OrcHorseman.cpp.obj -c C:\Users\iusup\CLionProjects\TP\Army\src\Horseman\OrcHorseman.cpp
 
-Army/src/CMakeFiles/armyfactory.dir/HumanCatapult.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/armyfactory.dir/HumanCatapult.cpp.i"
-	cd /d C:\Users\iusup\CLionProjects\TP\cmake-build-debug\Army\src && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\iusup\CLionProjects\TP\Army\src\HumanCatapult.cpp > CMakeFiles\armyfactory.dir\HumanCatapult.cpp.i
+Army/src/CMakeFiles/armyfactory.dir/Horseman/OrcHorseman.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/armyfactory.dir/Horseman/OrcHorseman.cpp.i"
+	cd /d C:\Users\iusup\CLionProjects\TP\cmake-build-debug\Army\src && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\iusup\CLionProjects\TP\Army\src\Horseman\OrcHorseman.cpp > CMakeFiles\armyfactory.dir\Horseman\OrcHorseman.cpp.i
 
-Army/src/CMakeFiles/armyfactory.dir/HumanCatapult.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/armyfactory.dir/HumanCatapult.cpp.s"
-	cd /d C:\Users\iusup\CLionProjects\TP\cmake-build-debug\Army\src && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\iusup\CLionProjects\TP\Army\src\HumanCatapult.cpp -o CMakeFiles\armyfactory.dir\HumanCatapult.cpp.s
+Army/src/CMakeFiles/armyfactory.dir/Horseman/OrcHorseman.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/armyfactory.dir/Horseman/OrcHorseman.cpp.s"
+	cd /d C:\Users\iusup\CLionProjects\TP\cmake-build-debug\Army\src && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\iusup\CLionProjects\TP\Army\src\Horseman\OrcHorseman.cpp -o CMakeFiles\armyfactory.dir\Horseman\OrcHorseman.cpp.s
+
+Army/src/CMakeFiles/armyfactory.dir/Horseman/Horseman.cpp.obj: Army/src/CMakeFiles/armyfactory.dir/flags.make
+Army/src/CMakeFiles/armyfactory.dir/Horseman/Horseman.cpp.obj: Army/src/CMakeFiles/armyfactory.dir/includes_CXX.rsp
+Army/src/CMakeFiles/armyfactory.dir/Horseman/Horseman.cpp.obj: ../Army/src/Horseman/Horseman.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\iusup\CLionProjects\TP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object Army/src/CMakeFiles/armyfactory.dir/Horseman/Horseman.cpp.obj"
+	cd /d C:\Users\iusup\CLionProjects\TP\cmake-build-debug\Army\src && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\armyfactory.dir\Horseman\Horseman.cpp.obj -c C:\Users\iusup\CLionProjects\TP\Army\src\Horseman\Horseman.cpp
+
+Army/src/CMakeFiles/armyfactory.dir/Horseman/Horseman.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/armyfactory.dir/Horseman/Horseman.cpp.i"
+	cd /d C:\Users\iusup\CLionProjects\TP\cmake-build-debug\Army\src && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\iusup\CLionProjects\TP\Army\src\Horseman\Horseman.cpp > CMakeFiles\armyfactory.dir\Horseman\Horseman.cpp.i
+
+Army/src/CMakeFiles/armyfactory.dir/Horseman/Horseman.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/armyfactory.dir/Horseman/Horseman.cpp.s"
+	cd /d C:\Users\iusup\CLionProjects\TP\cmake-build-debug\Army\src && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\iusup\CLionProjects\TP\Army\src\Horseman\Horseman.cpp -o CMakeFiles\armyfactory.dir\Horseman\Horseman.cpp.s
 
 Army/src/CMakeFiles/armyfactory.dir/Point.cpp.obj: Army/src/CMakeFiles/armyfactory.dir/flags.make
 Army/src/CMakeFiles/armyfactory.dir/Point.cpp.obj: Army/src/CMakeFiles/armyfactory.dir/includes_CXX.rsp
 Army/src/CMakeFiles/armyfactory.dir/Point.cpp.obj: ../Army/src/Point.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\iusup\CLionProjects\TP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object Army/src/CMakeFiles/armyfactory.dir/Point.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\iusup\CLionProjects\TP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object Army/src/CMakeFiles/armyfactory.dir/Point.cpp.obj"
 	cd /d C:\Users\iusup\CLionProjects\TP\cmake-build-debug\Army\src && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\armyfactory.dir\Point.cpp.obj -c C:\Users\iusup\CLionProjects\TP\Army\src\Point.cpp
 
 Army/src/CMakeFiles/armyfactory.dir/Point.cpp.i: cmake_force
@@ -182,49 +196,51 @@ Army/src/CMakeFiles/armyfactory.dir/Point.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/armyfactory.dir/Point.cpp.s"
 	cd /d C:\Users\iusup\CLionProjects\TP\cmake-build-debug\Army\src && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\iusup\CLionProjects\TP\Army\src\Point.cpp -o CMakeFiles\armyfactory.dir\Point.cpp.s
 
-Army/src/CMakeFiles/armyfactory.dir/Warrior.cpp.obj: Army/src/CMakeFiles/armyfactory.dir/flags.make
-Army/src/CMakeFiles/armyfactory.dir/Warrior.cpp.obj: Army/src/CMakeFiles/armyfactory.dir/includes_CXX.rsp
-Army/src/CMakeFiles/armyfactory.dir/Warrior.cpp.obj: ../Army/src/Warrior.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\iusup\CLionProjects\TP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object Army/src/CMakeFiles/armyfactory.dir/Warrior.cpp.obj"
-	cd /d C:\Users\iusup\CLionProjects\TP\cmake-build-debug\Army\src && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\armyfactory.dir\Warrior.cpp.obj -c C:\Users\iusup\CLionProjects\TP\Army\src\Warrior.cpp
+Army/src/CMakeFiles/armyfactory.dir/Unit.cpp.obj: Army/src/CMakeFiles/armyfactory.dir/flags.make
+Army/src/CMakeFiles/armyfactory.dir/Unit.cpp.obj: Army/src/CMakeFiles/armyfactory.dir/includes_CXX.rsp
+Army/src/CMakeFiles/armyfactory.dir/Unit.cpp.obj: ../Army/src/Unit.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\iusup\CLionProjects\TP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object Army/src/CMakeFiles/armyfactory.dir/Unit.cpp.obj"
+	cd /d C:\Users\iusup\CLionProjects\TP\cmake-build-debug\Army\src && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\armyfactory.dir\Unit.cpp.obj -c C:\Users\iusup\CLionProjects\TP\Army\src\Unit.cpp
 
-Army/src/CMakeFiles/armyfactory.dir/Warrior.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/armyfactory.dir/Warrior.cpp.i"
-	cd /d C:\Users\iusup\CLionProjects\TP\cmake-build-debug\Army\src && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\iusup\CLionProjects\TP\Army\src\Warrior.cpp > CMakeFiles\armyfactory.dir\Warrior.cpp.i
+Army/src/CMakeFiles/armyfactory.dir/Unit.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/armyfactory.dir/Unit.cpp.i"
+	cd /d C:\Users\iusup\CLionProjects\TP\cmake-build-debug\Army\src && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\iusup\CLionProjects\TP\Army\src\Unit.cpp > CMakeFiles\armyfactory.dir\Unit.cpp.i
 
-Army/src/CMakeFiles/armyfactory.dir/Warrior.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/armyfactory.dir/Warrior.cpp.s"
-	cd /d C:\Users\iusup\CLionProjects\TP\cmake-build-debug\Army\src && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\iusup\CLionProjects\TP\Army\src\Warrior.cpp -o CMakeFiles\armyfactory.dir\Warrior.cpp.s
+Army/src/CMakeFiles/armyfactory.dir/Unit.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/armyfactory.dir/Unit.cpp.s"
+	cd /d C:\Users\iusup\CLionProjects\TP\cmake-build-debug\Army\src && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\iusup\CLionProjects\TP\Army\src\Unit.cpp -o CMakeFiles\armyfactory.dir\Unit.cpp.s
 
 # Object files for target armyfactory
 armyfactory_OBJECTS = \
 "CMakeFiles/armyfactory.dir/HumanFactory.cpp.obj" \
 "CMakeFiles/armyfactory.dir/OrcFactory.cpp.obj" \
-"CMakeFiles/armyfactory.dir/OrcMage.cpp.obj" \
-"CMakeFiles/armyfactory.dir/OrcInfantry.cpp.obj" \
-"CMakeFiles/armyfactory.dir/OrcCatapult.cpp.obj" \
-"CMakeFiles/armyfactory.dir/HumanMage.cpp.obj" \
-"CMakeFiles/armyfactory.dir/HumanInfantry.cpp.obj" \
-"CMakeFiles/armyfactory.dir/HumanCatapult.cpp.obj" \
+"CMakeFiles/armyfactory.dir/Mage/OrcMage.cpp.obj" \
+"CMakeFiles/armyfactory.dir/Infantry/OrcInfantry.cpp.obj" \
+"CMakeFiles/armyfactory.dir/Mage/HumanMage.cpp.obj" \
+"CMakeFiles/armyfactory.dir/Infantry/HumanInfantry.cpp.obj" \
+"CMakeFiles/armyfactory.dir/Horseman/HumanHorseman.cpp.obj" \
+"CMakeFiles/armyfactory.dir/Horseman/OrcHorseman.cpp.obj" \
+"CMakeFiles/armyfactory.dir/Horseman/Horseman.cpp.obj" \
 "CMakeFiles/armyfactory.dir/Point.cpp.obj" \
-"CMakeFiles/armyfactory.dir/Warrior.cpp.obj"
+"CMakeFiles/armyfactory.dir/Unit.cpp.obj"
 
 # External object files for target armyfactory
 armyfactory_EXTERNAL_OBJECTS =
 
 lib/libarmyfactory.a: Army/src/CMakeFiles/armyfactory.dir/HumanFactory.cpp.obj
 lib/libarmyfactory.a: Army/src/CMakeFiles/armyfactory.dir/OrcFactory.cpp.obj
-lib/libarmyfactory.a: Army/src/CMakeFiles/armyfactory.dir/OrcMage.cpp.obj
-lib/libarmyfactory.a: Army/src/CMakeFiles/armyfactory.dir/OrcInfantry.cpp.obj
-lib/libarmyfactory.a: Army/src/CMakeFiles/armyfactory.dir/OrcCatapult.cpp.obj
-lib/libarmyfactory.a: Army/src/CMakeFiles/armyfactory.dir/HumanMage.cpp.obj
-lib/libarmyfactory.a: Army/src/CMakeFiles/armyfactory.dir/HumanInfantry.cpp.obj
-lib/libarmyfactory.a: Army/src/CMakeFiles/armyfactory.dir/HumanCatapult.cpp.obj
+lib/libarmyfactory.a: Army/src/CMakeFiles/armyfactory.dir/Mage/OrcMage.cpp.obj
+lib/libarmyfactory.a: Army/src/CMakeFiles/armyfactory.dir/Infantry/OrcInfantry.cpp.obj
+lib/libarmyfactory.a: Army/src/CMakeFiles/armyfactory.dir/Mage/HumanMage.cpp.obj
+lib/libarmyfactory.a: Army/src/CMakeFiles/armyfactory.dir/Infantry/HumanInfantry.cpp.obj
+lib/libarmyfactory.a: Army/src/CMakeFiles/armyfactory.dir/Horseman/HumanHorseman.cpp.obj
+lib/libarmyfactory.a: Army/src/CMakeFiles/armyfactory.dir/Horseman/OrcHorseman.cpp.obj
+lib/libarmyfactory.a: Army/src/CMakeFiles/armyfactory.dir/Horseman/Horseman.cpp.obj
 lib/libarmyfactory.a: Army/src/CMakeFiles/armyfactory.dir/Point.cpp.obj
-lib/libarmyfactory.a: Army/src/CMakeFiles/armyfactory.dir/Warrior.cpp.obj
+lib/libarmyfactory.a: Army/src/CMakeFiles/armyfactory.dir/Unit.cpp.obj
 lib/libarmyfactory.a: Army/src/CMakeFiles/armyfactory.dir/build.make
 lib/libarmyfactory.a: Army/src/CMakeFiles/armyfactory.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\iusup\CLionProjects\TP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX static library ..\..\lib\libarmyfactory.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\iusup\CLionProjects\TP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX static library ..\..\lib\libarmyfactory.a"
 	cd /d C:\Users\iusup\CLionProjects\TP\cmake-build-debug\Army\src && $(CMAKE_COMMAND) -P CMakeFiles\armyfactory.dir\cmake_clean_target.cmake
 	cd /d C:\Users\iusup\CLionProjects\TP\cmake-build-debug\Army\src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\armyfactory.dir\link.txt --verbose=$(VERBOSE)
 

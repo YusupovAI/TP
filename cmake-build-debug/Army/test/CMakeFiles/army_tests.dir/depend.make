@@ -48,7 +48,7 @@ Army/test/CMakeFiles/army_tests.dir/test.cpp.obj: ../Army/test/../../googletest-
 Army/test/CMakeFiles/army_tests.dir/test.cpp.obj: ../Army/test/../src/HumanFactory.h
 Army/test/CMakeFiles/army_tests.dir/test.cpp.obj: ../Army/test/../src/OrcFactory.h
 Army/test/CMakeFiles/army_tests.dir/test.cpp.obj: ../Army/test/../src/Point.h
-Army/test/CMakeFiles/army_tests.dir/test.cpp.obj: ../Army/test/../src/Warrior.h
+Army/test/CMakeFiles/army_tests.dir/test.cpp.obj: ../Army/test/../src/Unit.h
 Army/test/CMakeFiles/army_tests.dir/test.cpp.obj: ../Army/test/../src/WarriorFactory.h
 Army/test/CMakeFiles/army_tests.dir/test.cpp.obj: ../Army/test/test.cpp
 

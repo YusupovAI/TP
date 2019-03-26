@@ -6,9 +6,23 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/iusup/CLionProjects/TP/Army/src/Point.cpp
-Point.h
-C:/Users/iusup/CLionProjects/TP/Army/src/Point.h
+../Army/src/Point.h
 
-C:/Users/iusup/CLionProjects/TP/Army/src/Point.h
+../Army/src/Unit.h
+Point.h
+../Army/src/Point.h
+memory
+-
+
+C:/Users/iusup/CLionProjects/TP/Army/src/Horseman/Horseman.h
+Unit.h
+C:/Users/iusup/CLionProjects/TP/Army/src/Horseman/Unit.h
+
+C:/Users/iusup/CLionProjects/TP/Army/src/Horseman/OrcHorseman.cpp
+OrcHorseman.h
+C:/Users/iusup/CLionProjects/TP/Army/src/Horseman/OrcHorseman.h
+
+C:/Users/iusup/CLionProjects/TP/Army/src/Horseman/OrcHorseman.h
+Horseman.h
+C:/Users/iusup/CLionProjects/TP/Army/src/Horseman/Horseman.h
 

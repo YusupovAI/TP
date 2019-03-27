@@ -167,100 +167,19 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-Army/src/CMakeFiles/armyfactory.dir/rule:
-	cd /d C:\Users\iusup\CLionProjects\TP\cmake-build-debug && $(MAKE) -f CMakeFiles\Makefile2 Army/src/CMakeFiles/armyfactory.dir/rule
-.PHONY : Army/src/CMakeFiles/armyfactory.dir/rule
+Army/src/CMakeFiles/army.dir/rule:
+	cd /d C:\Users\iusup\CLionProjects\TP\cmake-build-debug && $(MAKE) -f CMakeFiles\Makefile2 Army/src/CMakeFiles/army.dir/rule
+.PHONY : Army/src/CMakeFiles/army.dir/rule
 
 # Convenience name for target.
-armyfactory: Army/src/CMakeFiles/armyfactory.dir/rule
+army: Army/src/CMakeFiles/army.dir/rule
 
-.PHONY : armyfactory
+.PHONY : army
 
 # fast build rule for target.
-armyfactory/fast:
-	cd /d C:\Users\iusup\CLionProjects\TP\cmake-build-debug && $(MAKE) -f Army\src\CMakeFiles\armyfactory.dir\build.make Army/src/CMakeFiles/armyfactory.dir/build
-.PHONY : armyfactory/fast
-
-Horseman/Horseman.obj: Horseman/Horseman.cpp.obj
-
-.PHONY : Horseman/Horseman.obj
-
-# target to build an object file
-Horseman/Horseman.cpp.obj:
-	cd /d C:\Users\iusup\CLionProjects\TP\cmake-build-debug && $(MAKE) -f Army\src\CMakeFiles\armyfactory.dir\build.make Army/src/CMakeFiles/armyfactory.dir/Horseman/Horseman.cpp.obj
-.PHONY : Horseman/Horseman.cpp.obj
-
-Horseman/Horseman.i: Horseman/Horseman.cpp.i
-
-.PHONY : Horseman/Horseman.i
-
-# target to preprocess a source file
-Horseman/Horseman.cpp.i:
-	cd /d C:\Users\iusup\CLionProjects\TP\cmake-build-debug && $(MAKE) -f Army\src\CMakeFiles\armyfactory.dir\build.make Army/src/CMakeFiles/armyfactory.dir/Horseman/Horseman.cpp.i
-.PHONY : Horseman/Horseman.cpp.i
-
-Horseman/Horseman.s: Horseman/Horseman.cpp.s
-
-.PHONY : Horseman/Horseman.s
-
-# target to generate assembly for a file
-Horseman/Horseman.cpp.s:
-	cd /d C:\Users\iusup\CLionProjects\TP\cmake-build-debug && $(MAKE) -f Army\src\CMakeFiles\armyfactory.dir\build.make Army/src/CMakeFiles/armyfactory.dir/Horseman/Horseman.cpp.s
-.PHONY : Horseman/Horseman.cpp.s
-
-Horseman/HumanHorseman.obj: Horseman/HumanHorseman.cpp.obj
-
-.PHONY : Horseman/HumanHorseman.obj
-
-# target to build an object file
-Horseman/HumanHorseman.cpp.obj:
-	cd /d C:\Users\iusup\CLionProjects\TP\cmake-build-debug && $(MAKE) -f Army\src\CMakeFiles\armyfactory.dir\build.make Army/src/CMakeFiles/armyfactory.dir/Horseman/HumanHorseman.cpp.obj
-.PHONY : Horseman/HumanHorseman.cpp.obj
-
-Horseman/HumanHorseman.i: Horseman/HumanHorseman.cpp.i
-
-.PHONY : Horseman/HumanHorseman.i
-
-# target to preprocess a source file
-Horseman/HumanHorseman.cpp.i:
-	cd /d C:\Users\iusup\CLionProjects\TP\cmake-build-debug && $(MAKE) -f Army\src\CMakeFiles\armyfactory.dir\build.make Army/src/CMakeFiles/armyfactory.dir/Horseman/HumanHorseman.cpp.i
-.PHONY : Horseman/HumanHorseman.cpp.i
-
-Horseman/HumanHorseman.s: Horseman/HumanHorseman.cpp.s
-
-.PHONY : Horseman/HumanHorseman.s
-
-# target to generate assembly for a file
-Horseman/HumanHorseman.cpp.s:
-	cd /d C:\Users\iusup\CLionProjects\TP\cmake-build-debug && $(MAKE) -f Army\src\CMakeFiles\armyfactory.dir\build.make Army/src/CMakeFiles/armyfactory.dir/Horseman/HumanHorseman.cpp.s
-.PHONY : Horseman/HumanHorseman.cpp.s
-
-Horseman/OrcHorseman.obj: Horseman/OrcHorseman.cpp.obj
-
-.PHONY : Horseman/OrcHorseman.obj
-
-# target to build an object file
-Horseman/OrcHorseman.cpp.obj:
-	cd /d C:\Users\iusup\CLionProjects\TP\cmake-build-debug && $(MAKE) -f Army\src\CMakeFiles\armyfactory.dir\build.make Army/src/CMakeFiles/armyfactory.dir/Horseman/OrcHorseman.cpp.obj
-.PHONY : Horseman/OrcHorseman.cpp.obj
-
-Horseman/OrcHorseman.i: Horseman/OrcHorseman.cpp.i
-
-.PHONY : Horseman/OrcHorseman.i
-
-# target to preprocess a source file
-Horseman/OrcHorseman.cpp.i:
-	cd /d C:\Users\iusup\CLionProjects\TP\cmake-build-debug && $(MAKE) -f Army\src\CMakeFiles\armyfactory.dir\build.make Army/src/CMakeFiles/armyfactory.dir/Horseman/OrcHorseman.cpp.i
-.PHONY : Horseman/OrcHorseman.cpp.i
-
-Horseman/OrcHorseman.s: Horseman/OrcHorseman.cpp.s
-
-.PHONY : Horseman/OrcHorseman.s
-
-# target to generate assembly for a file
-Horseman/OrcHorseman.cpp.s:
-	cd /d C:\Users\iusup\CLionProjects\TP\cmake-build-debug && $(MAKE) -f Army\src\CMakeFiles\armyfactory.dir\build.make Army/src/CMakeFiles/armyfactory.dir/Horseman/OrcHorseman.cpp.s
-.PHONY : Horseman/OrcHorseman.cpp.s
+army/fast:
+	cd /d C:\Users\iusup\CLionProjects\TP\cmake-build-debug && $(MAKE) -f Army\src\CMakeFiles\army.dir\build.make Army/src/CMakeFiles/army.dir/build
+.PHONY : army/fast
 
 HumanFactory.obj: HumanFactory.cpp.obj
 
@@ -268,7 +187,7 @@ HumanFactory.obj: HumanFactory.cpp.obj
 
 # target to build an object file
 HumanFactory.cpp.obj:
-	cd /d C:\Users\iusup\CLionProjects\TP\cmake-build-debug && $(MAKE) -f Army\src\CMakeFiles\armyfactory.dir\build.make Army/src/CMakeFiles/armyfactory.dir/HumanFactory.cpp.obj
+	cd /d C:\Users\iusup\CLionProjects\TP\cmake-build-debug && $(MAKE) -f Army\src\CMakeFiles\army.dir\build.make Army/src/CMakeFiles/army.dir/HumanFactory.cpp.obj
 .PHONY : HumanFactory.cpp.obj
 
 HumanFactory.i: HumanFactory.cpp.i
@@ -277,7 +196,7 @@ HumanFactory.i: HumanFactory.cpp.i
 
 # target to preprocess a source file
 HumanFactory.cpp.i:
-	cd /d C:\Users\iusup\CLionProjects\TP\cmake-build-debug && $(MAKE) -f Army\src\CMakeFiles\armyfactory.dir\build.make Army/src/CMakeFiles/armyfactory.dir/HumanFactory.cpp.i
+	cd /d C:\Users\iusup\CLionProjects\TP\cmake-build-debug && $(MAKE) -f Army\src\CMakeFiles\army.dir\build.make Army/src/CMakeFiles/army.dir/HumanFactory.cpp.i
 .PHONY : HumanFactory.cpp.i
 
 HumanFactory.s: HumanFactory.cpp.s
@@ -286,116 +205,8 @@ HumanFactory.s: HumanFactory.cpp.s
 
 # target to generate assembly for a file
 HumanFactory.cpp.s:
-	cd /d C:\Users\iusup\CLionProjects\TP\cmake-build-debug && $(MAKE) -f Army\src\CMakeFiles\armyfactory.dir\build.make Army/src/CMakeFiles/armyfactory.dir/HumanFactory.cpp.s
+	cd /d C:\Users\iusup\CLionProjects\TP\cmake-build-debug && $(MAKE) -f Army\src\CMakeFiles\army.dir\build.make Army/src/CMakeFiles/army.dir/HumanFactory.cpp.s
 .PHONY : HumanFactory.cpp.s
-
-Infantry/HumanInfantry.obj: Infantry/HumanInfantry.cpp.obj
-
-.PHONY : Infantry/HumanInfantry.obj
-
-# target to build an object file
-Infantry/HumanInfantry.cpp.obj:
-	cd /d C:\Users\iusup\CLionProjects\TP\cmake-build-debug && $(MAKE) -f Army\src\CMakeFiles\armyfactory.dir\build.make Army/src/CMakeFiles/armyfactory.dir/Infantry/HumanInfantry.cpp.obj
-.PHONY : Infantry/HumanInfantry.cpp.obj
-
-Infantry/HumanInfantry.i: Infantry/HumanInfantry.cpp.i
-
-.PHONY : Infantry/HumanInfantry.i
-
-# target to preprocess a source file
-Infantry/HumanInfantry.cpp.i:
-	cd /d C:\Users\iusup\CLionProjects\TP\cmake-build-debug && $(MAKE) -f Army\src\CMakeFiles\armyfactory.dir\build.make Army/src/CMakeFiles/armyfactory.dir/Infantry/HumanInfantry.cpp.i
-.PHONY : Infantry/HumanInfantry.cpp.i
-
-Infantry/HumanInfantry.s: Infantry/HumanInfantry.cpp.s
-
-.PHONY : Infantry/HumanInfantry.s
-
-# target to generate assembly for a file
-Infantry/HumanInfantry.cpp.s:
-	cd /d C:\Users\iusup\CLionProjects\TP\cmake-build-debug && $(MAKE) -f Army\src\CMakeFiles\armyfactory.dir\build.make Army/src/CMakeFiles/armyfactory.dir/Infantry/HumanInfantry.cpp.s
-.PHONY : Infantry/HumanInfantry.cpp.s
-
-Infantry/OrcInfantry.obj: Infantry/OrcInfantry.cpp.obj
-
-.PHONY : Infantry/OrcInfantry.obj
-
-# target to build an object file
-Infantry/OrcInfantry.cpp.obj:
-	cd /d C:\Users\iusup\CLionProjects\TP\cmake-build-debug && $(MAKE) -f Army\src\CMakeFiles\armyfactory.dir\build.make Army/src/CMakeFiles/armyfactory.dir/Infantry/OrcInfantry.cpp.obj
-.PHONY : Infantry/OrcInfantry.cpp.obj
-
-Infantry/OrcInfantry.i: Infantry/OrcInfantry.cpp.i
-
-.PHONY : Infantry/OrcInfantry.i
-
-# target to preprocess a source file
-Infantry/OrcInfantry.cpp.i:
-	cd /d C:\Users\iusup\CLionProjects\TP\cmake-build-debug && $(MAKE) -f Army\src\CMakeFiles\armyfactory.dir\build.make Army/src/CMakeFiles/armyfactory.dir/Infantry/OrcInfantry.cpp.i
-.PHONY : Infantry/OrcInfantry.cpp.i
-
-Infantry/OrcInfantry.s: Infantry/OrcInfantry.cpp.s
-
-.PHONY : Infantry/OrcInfantry.s
-
-# target to generate assembly for a file
-Infantry/OrcInfantry.cpp.s:
-	cd /d C:\Users\iusup\CLionProjects\TP\cmake-build-debug && $(MAKE) -f Army\src\CMakeFiles\armyfactory.dir\build.make Army/src/CMakeFiles/armyfactory.dir/Infantry/OrcInfantry.cpp.s
-.PHONY : Infantry/OrcInfantry.cpp.s
-
-Mage/HumanMage.obj: Mage/HumanMage.cpp.obj
-
-.PHONY : Mage/HumanMage.obj
-
-# target to build an object file
-Mage/HumanMage.cpp.obj:
-	cd /d C:\Users\iusup\CLionProjects\TP\cmake-build-debug && $(MAKE) -f Army\src\CMakeFiles\armyfactory.dir\build.make Army/src/CMakeFiles/armyfactory.dir/Mage/HumanMage.cpp.obj
-.PHONY : Mage/HumanMage.cpp.obj
-
-Mage/HumanMage.i: Mage/HumanMage.cpp.i
-
-.PHONY : Mage/HumanMage.i
-
-# target to preprocess a source file
-Mage/HumanMage.cpp.i:
-	cd /d C:\Users\iusup\CLionProjects\TP\cmake-build-debug && $(MAKE) -f Army\src\CMakeFiles\armyfactory.dir\build.make Army/src/CMakeFiles/armyfactory.dir/Mage/HumanMage.cpp.i
-.PHONY : Mage/HumanMage.cpp.i
-
-Mage/HumanMage.s: Mage/HumanMage.cpp.s
-
-.PHONY : Mage/HumanMage.s
-
-# target to generate assembly for a file
-Mage/HumanMage.cpp.s:
-	cd /d C:\Users\iusup\CLionProjects\TP\cmake-build-debug && $(MAKE) -f Army\src\CMakeFiles\armyfactory.dir\build.make Army/src/CMakeFiles/armyfactory.dir/Mage/HumanMage.cpp.s
-.PHONY : Mage/HumanMage.cpp.s
-
-Mage/OrcMage.obj: Mage/OrcMage.cpp.obj
-
-.PHONY : Mage/OrcMage.obj
-
-# target to build an object file
-Mage/OrcMage.cpp.obj:
-	cd /d C:\Users\iusup\CLionProjects\TP\cmake-build-debug && $(MAKE) -f Army\src\CMakeFiles\armyfactory.dir\build.make Army/src/CMakeFiles/armyfactory.dir/Mage/OrcMage.cpp.obj
-.PHONY : Mage/OrcMage.cpp.obj
-
-Mage/OrcMage.i: Mage/OrcMage.cpp.i
-
-.PHONY : Mage/OrcMage.i
-
-# target to preprocess a source file
-Mage/OrcMage.cpp.i:
-	cd /d C:\Users\iusup\CLionProjects\TP\cmake-build-debug && $(MAKE) -f Army\src\CMakeFiles\armyfactory.dir\build.make Army/src/CMakeFiles/armyfactory.dir/Mage/OrcMage.cpp.i
-.PHONY : Mage/OrcMage.cpp.i
-
-Mage/OrcMage.s: Mage/OrcMage.cpp.s
-
-.PHONY : Mage/OrcMage.s
-
-# target to generate assembly for a file
-Mage/OrcMage.cpp.s:
-	cd /d C:\Users\iusup\CLionProjects\TP\cmake-build-debug && $(MAKE) -f Army\src\CMakeFiles\armyfactory.dir\build.make Army/src/CMakeFiles/armyfactory.dir/Mage/OrcMage.cpp.s
-.PHONY : Mage/OrcMage.cpp.s
 
 OrcFactory.obj: OrcFactory.cpp.obj
 
@@ -403,7 +214,7 @@ OrcFactory.obj: OrcFactory.cpp.obj
 
 # target to build an object file
 OrcFactory.cpp.obj:
-	cd /d C:\Users\iusup\CLionProjects\TP\cmake-build-debug && $(MAKE) -f Army\src\CMakeFiles\armyfactory.dir\build.make Army/src/CMakeFiles/armyfactory.dir/OrcFactory.cpp.obj
+	cd /d C:\Users\iusup\CLionProjects\TP\cmake-build-debug && $(MAKE) -f Army\src\CMakeFiles\army.dir\build.make Army/src/CMakeFiles/army.dir/OrcFactory.cpp.obj
 .PHONY : OrcFactory.cpp.obj
 
 OrcFactory.i: OrcFactory.cpp.i
@@ -412,7 +223,7 @@ OrcFactory.i: OrcFactory.cpp.i
 
 # target to preprocess a source file
 OrcFactory.cpp.i:
-	cd /d C:\Users\iusup\CLionProjects\TP\cmake-build-debug && $(MAKE) -f Army\src\CMakeFiles\armyfactory.dir\build.make Army/src/CMakeFiles/armyfactory.dir/OrcFactory.cpp.i
+	cd /d C:\Users\iusup\CLionProjects\TP\cmake-build-debug && $(MAKE) -f Army\src\CMakeFiles\army.dir\build.make Army/src/CMakeFiles/army.dir/OrcFactory.cpp.i
 .PHONY : OrcFactory.cpp.i
 
 OrcFactory.s: OrcFactory.cpp.s
@@ -421,7 +232,7 @@ OrcFactory.s: OrcFactory.cpp.s
 
 # target to generate assembly for a file
 OrcFactory.cpp.s:
-	cd /d C:\Users\iusup\CLionProjects\TP\cmake-build-debug && $(MAKE) -f Army\src\CMakeFiles\armyfactory.dir\build.make Army/src/CMakeFiles/armyfactory.dir/OrcFactory.cpp.s
+	cd /d C:\Users\iusup\CLionProjects\TP\cmake-build-debug && $(MAKE) -f Army\src\CMakeFiles\army.dir\build.make Army/src/CMakeFiles/army.dir/OrcFactory.cpp.s
 .PHONY : OrcFactory.cpp.s
 
 Point.obj: Point.cpp.obj
@@ -430,7 +241,7 @@ Point.obj: Point.cpp.obj
 
 # target to build an object file
 Point.cpp.obj:
-	cd /d C:\Users\iusup\CLionProjects\TP\cmake-build-debug && $(MAKE) -f Army\src\CMakeFiles\armyfactory.dir\build.make Army/src/CMakeFiles/armyfactory.dir/Point.cpp.obj
+	cd /d C:\Users\iusup\CLionProjects\TP\cmake-build-debug && $(MAKE) -f Army\src\CMakeFiles\army.dir\build.make Army/src/CMakeFiles/army.dir/Point.cpp.obj
 .PHONY : Point.cpp.obj
 
 Point.i: Point.cpp.i
@@ -439,7 +250,7 @@ Point.i: Point.cpp.i
 
 # target to preprocess a source file
 Point.cpp.i:
-	cd /d C:\Users\iusup\CLionProjects\TP\cmake-build-debug && $(MAKE) -f Army\src\CMakeFiles\armyfactory.dir\build.make Army/src/CMakeFiles/armyfactory.dir/Point.cpp.i
+	cd /d C:\Users\iusup\CLionProjects\TP\cmake-build-debug && $(MAKE) -f Army\src\CMakeFiles\army.dir\build.make Army/src/CMakeFiles/army.dir/Point.cpp.i
 .PHONY : Point.cpp.i
 
 Point.s: Point.cpp.s
@@ -448,7 +259,7 @@ Point.s: Point.cpp.s
 
 # target to generate assembly for a file
 Point.cpp.s:
-	cd /d C:\Users\iusup\CLionProjects\TP\cmake-build-debug && $(MAKE) -f Army\src\CMakeFiles\armyfactory.dir\build.make Army/src/CMakeFiles/armyfactory.dir/Point.cpp.s
+	cd /d C:\Users\iusup\CLionProjects\TP\cmake-build-debug && $(MAKE) -f Army\src\CMakeFiles\army.dir\build.make Army/src/CMakeFiles/army.dir/Point.cpp.s
 .PHONY : Point.cpp.s
 
 Unit.obj: Unit.cpp.obj
@@ -457,7 +268,7 @@ Unit.obj: Unit.cpp.obj
 
 # target to build an object file
 Unit.cpp.obj:
-	cd /d C:\Users\iusup\CLionProjects\TP\cmake-build-debug && $(MAKE) -f Army\src\CMakeFiles\armyfactory.dir\build.make Army/src/CMakeFiles/armyfactory.dir/Unit.cpp.obj
+	cd /d C:\Users\iusup\CLionProjects\TP\cmake-build-debug && $(MAKE) -f Army\src\CMakeFiles\army.dir\build.make Army/src/CMakeFiles/army.dir/Unit.cpp.obj
 .PHONY : Unit.cpp.obj
 
 Unit.i: Unit.cpp.i
@@ -466,7 +277,7 @@ Unit.i: Unit.cpp.i
 
 # target to preprocess a source file
 Unit.cpp.i:
-	cd /d C:\Users\iusup\CLionProjects\TP\cmake-build-debug && $(MAKE) -f Army\src\CMakeFiles\armyfactory.dir\build.make Army/src/CMakeFiles/armyfactory.dir/Unit.cpp.i
+	cd /d C:\Users\iusup\CLionProjects\TP\cmake-build-debug && $(MAKE) -f Army\src\CMakeFiles\army.dir\build.make Army/src/CMakeFiles/army.dir/Unit.cpp.i
 .PHONY : Unit.cpp.i
 
 Unit.s: Unit.cpp.s
@@ -475,7 +286,7 @@ Unit.s: Unit.cpp.s
 
 # target to generate assembly for a file
 Unit.cpp.s:
-	cd /d C:\Users\iusup\CLionProjects\TP\cmake-build-debug && $(MAKE) -f Army\src\CMakeFiles\armyfactory.dir\build.make Army/src/CMakeFiles/armyfactory.dir/Unit.cpp.s
+	cd /d C:\Users\iusup\CLionProjects\TP\cmake-build-debug && $(MAKE) -f Army\src\CMakeFiles\army.dir\build.make Army/src/CMakeFiles/army.dir/Unit.cpp.s
 .PHONY : Unit.cpp.s
 
 # Help Target
@@ -484,7 +295,7 @@ help:
 	@echo ... all (the default if no target is provided)
 	@echo ... clean
 	@echo ... depend
-	@echo ... armyfactory
+	@echo ... army
 	@echo ... rebuild_cache
 	@echo ... test
 	@echo ... install/local
@@ -492,30 +303,9 @@ help:
 	@echo ... edit_cache
 	@echo ... list_install_components
 	@echo ... install/strip
-	@echo ... Horseman/Horseman.obj
-	@echo ... Horseman/Horseman.i
-	@echo ... Horseman/Horseman.s
-	@echo ... Horseman/HumanHorseman.obj
-	@echo ... Horseman/HumanHorseman.i
-	@echo ... Horseman/HumanHorseman.s
-	@echo ... Horseman/OrcHorseman.obj
-	@echo ... Horseman/OrcHorseman.i
-	@echo ... Horseman/OrcHorseman.s
 	@echo ... HumanFactory.obj
 	@echo ... HumanFactory.i
 	@echo ... HumanFactory.s
-	@echo ... Infantry/HumanInfantry.obj
-	@echo ... Infantry/HumanInfantry.i
-	@echo ... Infantry/HumanInfantry.s
-	@echo ... Infantry/OrcInfantry.obj
-	@echo ... Infantry/OrcInfantry.i
-	@echo ... Infantry/OrcInfantry.s
-	@echo ... Mage/HumanMage.obj
-	@echo ... Mage/HumanMage.i
-	@echo ... Mage/HumanMage.s
-	@echo ... Mage/OrcMage.obj
-	@echo ... Mage/OrcMage.i
-	@echo ... Mage/OrcMage.s
 	@echo ... OrcFactory.obj
 	@echo ... OrcFactory.i
 	@echo ... OrcFactory.s

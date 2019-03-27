@@ -279,8 +279,8 @@
 					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/iusup/CLionProjects/TP/cmake-build-debug/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="armyfactory">
-				<Option output="C:/Users/iusup/CLionProjects/TP/cmake-build-debug/lib/libarmyfactory.a" prefix_auto="0" extension_auto="0"/>
+			<Target title="army">
+				<Option output="C:/Users/iusup/CLionProjects/TP/cmake-build-debug/lib/libarmy.a" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="C:/Users/iusup/CLionProjects/TP/cmake-build-debug/Army/src"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
@@ -295,14 +295,14 @@
 					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/iusup/CLionProjects/TP/cmake-build-debug/Army/src/Makefile&quot;  VERBOSE=1 armyfactory"/>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/iusup/CLionProjects/TP/cmake-build-debug/Army/src/Makefile&quot;  VERBOSE=1 army"/>
 					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/iusup/CLionProjects/TP/cmake-build-debug/Army/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/iusup/CLionProjects/TP/cmake-build-debug/Army/src/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/iusup/CLionProjects/TP/cmake-build-debug/Army/src/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="armyfactory/fast">
-				<Option output="C:/Users/iusup/CLionProjects/TP/cmake-build-debug/lib/libarmyfactory.a" prefix_auto="0" extension_auto="0"/>
+			<Target title="army/fast">
+				<Option output="C:/Users/iusup/CLionProjects/TP/cmake-build-debug/lib/libarmy.a" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="C:/Users/iusup/CLionProjects/TP/cmake-build-debug/Army/src"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
@@ -317,7 +317,7 @@
 					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/iusup/CLionProjects/TP/cmake-build-debug/Army/src/Makefile&quot;  VERBOSE=1 armyfactory/fast"/>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/iusup/CLionProjects/TP/cmake-build-debug/Army/src/Makefile&quot;  VERBOSE=1 army/fast"/>
 					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/iusup/CLionProjects/TP/cmake-build-debug/Army/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/iusup/CLionProjects/TP/cmake-build-debug/Army/src/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/iusup/CLionProjects/TP/cmake-build-debug/Army/src/Makefile&quot;  VERBOSE=1 clean"/>
@@ -333,6 +333,7 @@
 					<Add directory="C:/Users/iusup/CLionProjects/TP/Army/test/../src"/>
 					<Add directory="C:/Users/iusup/CLionProjects/TP/Army/test/../../googletest-master/googletest/include"/>
 					<Add directory="C:/Users/iusup/CLionProjects/TP/Army/test/../../googletest-master/googletest"/>
+					<Add directory="C:/Users/iusup/CLionProjects/TP/Army/test/../src/Hero"/>
 					<Add directory="C:/Users/iusup/CLionProjects/TP/Army/src"/>
 					<Add directory="C:/Users/iusup/CLionProjects/TP/googletest-master/googletest/include"/>
 					<Add directory="C:/Users/iusup/CLionProjects/TP/googletest-master/googletest"/>
@@ -360,6 +361,7 @@
 					<Add directory="C:/Users/iusup/CLionProjects/TP/Army/test/../src"/>
 					<Add directory="C:/Users/iusup/CLionProjects/TP/Army/test/../../googletest-master/googletest/include"/>
 					<Add directory="C:/Users/iusup/CLionProjects/TP/Army/test/../../googletest-master/googletest"/>
+					<Add directory="C:/Users/iusup/CLionProjects/TP/Army/test/../src/Hero"/>
 					<Add directory="C:/Users/iusup/CLionProjects/TP/Army/src"/>
 					<Add directory="C:/Users/iusup/CLionProjects/TP/googletest-master/googletest/include"/>
 					<Add directory="C:/Users/iusup/CLionProjects/TP/googletest-master/googletest"/>
@@ -378,93 +380,48 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/iusup/CLionProjects/TP/Army/src/Horseman/Horseman.cpp">
-			<Option target="armyfactory"/>
-		</Unit>
-		<Unit filename="C:/Users/iusup/CLionProjects/TP/Army/src/Horseman/Horseman.h">
-			<Option target="armyfactory"/>
-			<Option target="army_tests"/>
-		</Unit>
-		<Unit filename="C:/Users/iusup/CLionProjects/TP/Army/src/Horseman/HumanHorseman.cpp">
-			<Option target="armyfactory"/>
-		</Unit>
-		<Unit filename="C:/Users/iusup/CLionProjects/TP/Army/src/Horseman/HumanHorseman.h">
-			<Option target="armyfactory"/>
-			<Option target="army_tests"/>
-		</Unit>
-		<Unit filename="C:/Users/iusup/CLionProjects/TP/Army/src/Horseman/OrcHorseman.cpp">
-			<Option target="armyfactory"/>
-		</Unit>
-		<Unit filename="C:/Users/iusup/CLionProjects/TP/Army/src/Horseman/OrcHorseman.h">
-			<Option target="armyfactory"/>
+		<Unit filename="C:/Users/iusup/CLionProjects/TP/Army/src/Horseman.h">
+			<Option target="army"/>
 			<Option target="army_tests"/>
 		</Unit>
 		<Unit filename="C:/Users/iusup/CLionProjects/TP/Army/src/HumanFactory.cpp">
-			<Option target="armyfactory"/>
+			<Option target="army"/>
 		</Unit>
 		<Unit filename="C:/Users/iusup/CLionProjects/TP/Army/src/HumanFactory.h">
-			<Option target="armyfactory"/>
+			<Option target="army"/>
 			<Option target="army_tests"/>
 		</Unit>
-		<Unit filename="C:/Users/iusup/CLionProjects/TP/Army/src/Infantry/HumanInfantry.cpp">
-			<Option target="armyfactory"/>
-		</Unit>
-		<Unit filename="C:/Users/iusup/CLionProjects/TP/Army/src/Infantry/HumanInfantry.h">
-			<Option target="armyfactory"/>
+		<Unit filename="C:/Users/iusup/CLionProjects/TP/Army/src/Infantry.h">
+			<Option target="army"/>
 			<Option target="army_tests"/>
 		</Unit>
-		<Unit filename="C:/Users/iusup/CLionProjects/TP/Army/src/Infantry/Infantry.h">
-			<Option target="armyfactory"/>
-			<Option target="army_tests"/>
-		</Unit>
-		<Unit filename="C:/Users/iusup/CLionProjects/TP/Army/src/Infantry/OrcInfantry.cpp">
-			<Option target="armyfactory"/>
-		</Unit>
-		<Unit filename="C:/Users/iusup/CLionProjects/TP/Army/src/Infantry/OrcInfantry.h">
-			<Option target="armyfactory"/>
-			<Option target="army_tests"/>
-		</Unit>
-		<Unit filename="C:/Users/iusup/CLionProjects/TP/Army/src/Mage/HumanMage.cpp">
-			<Option target="armyfactory"/>
-		</Unit>
-		<Unit filename="C:/Users/iusup/CLionProjects/TP/Army/src/Mage/HumanMage.h">
-			<Option target="armyfactory"/>
-			<Option target="army_tests"/>
-		</Unit>
-		<Unit filename="C:/Users/iusup/CLionProjects/TP/Army/src/Mage/Mage.h">
-			<Option target="armyfactory"/>
-			<Option target="army_tests"/>
-		</Unit>
-		<Unit filename="C:/Users/iusup/CLionProjects/TP/Army/src/Mage/OrcMage.cpp">
-			<Option target="armyfactory"/>
-		</Unit>
-		<Unit filename="C:/Users/iusup/CLionProjects/TP/Army/src/Mage/OrcMage.h">
-			<Option target="armyfactory"/>
+		<Unit filename="C:/Users/iusup/CLionProjects/TP/Army/src/Mage.h">
+			<Option target="army"/>
 			<Option target="army_tests"/>
 		</Unit>
 		<Unit filename="C:/Users/iusup/CLionProjects/TP/Army/src/OrcFactory.cpp">
-			<Option target="armyfactory"/>
+			<Option target="army"/>
 		</Unit>
 		<Unit filename="C:/Users/iusup/CLionProjects/TP/Army/src/OrcFactory.h">
-			<Option target="armyfactory"/>
+			<Option target="army"/>
 			<Option target="army_tests"/>
 		</Unit>
 		<Unit filename="C:/Users/iusup/CLionProjects/TP/Army/src/Point.cpp">
-			<Option target="armyfactory"/>
+			<Option target="army"/>
 		</Unit>
 		<Unit filename="C:/Users/iusup/CLionProjects/TP/Army/src/Point.h">
-			<Option target="armyfactory"/>
+			<Option target="army"/>
 			<Option target="army_tests"/>
 		</Unit>
 		<Unit filename="C:/Users/iusup/CLionProjects/TP/Army/src/Unit.cpp">
-			<Option target="armyfactory"/>
+			<Option target="army"/>
 		</Unit>
 		<Unit filename="C:/Users/iusup/CLionProjects/TP/Army/src/Unit.h">
-			<Option target="armyfactory"/>
+			<Option target="army"/>
 			<Option target="army_tests"/>
 		</Unit>
 		<Unit filename="C:/Users/iusup/CLionProjects/TP/Army/src/WarriorFactory.h">
-			<Option target="armyfactory"/>
+			<Option target="army"/>
 			<Option target="army_tests"/>
 		</Unit>
 		<Unit filename="C:/Users/iusup/CLionProjects/TP/Army/test/main.cpp">

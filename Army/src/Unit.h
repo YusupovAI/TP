@@ -10,21 +10,33 @@
 
 class Unit {
 public:
-    explicit Unit(const Point&);
+    explicit Unit(const Point &);
 
-    virtual void Attack(const std::shared_ptr <Unit> &);
+    virtual void Attack(const std::shared_ptr<Unit> &);
 
     virtual void Move(const Point &);
 
-    int HP() const;
+    int GetHP() const;
 
-    int Points() const;
+    void SetHP(int hp_);
 
-    int Damage() const;
+    int GetCurTurnPoints() const;
 
-    Point Position() const;
+    int GetTurnPoints() const;
 
-    int Range() const;
+    void SetTurnPoints(int turn_points_);
+
+    int GetDamage() const;
+
+    void SetDamage(int damage_);
+
+    int GetAttackRange() const;
+
+    void SetAttackRange(int attack_range_);
+
+    const Point &GetPosition() const;
+
+    void SetPosition(const Point &position_);
 
     virtual ~Unit() = default;
 

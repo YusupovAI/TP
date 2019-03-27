@@ -95,7 +95,7 @@ army_tests_EXTERNAL_OBJECTS =
 bin/army_tests.exe: Army/test/CMakeFiles/army_tests.dir/main.cpp.obj
 bin/army_tests.exe: Army/test/CMakeFiles/army_tests.dir/test.cpp.obj
 bin/army_tests.exe: Army/test/CMakeFiles/army_tests.dir/build.make
-bin/army_tests.exe: lib/libarmyfactory.a
+bin/army_tests.exe: lib/libarmy.a
 bin/army_tests.exe: lib/libgtestd.a
 bin/army_tests.exe: lib/libgtest_maind.a
 bin/army_tests.exe: lib/libgtestd.a

@@ -17,13 +17,16 @@ target_include_directories(
             "${CMAKE_CURRENT_LIST_DIR}/../src"
             "${gtest_SOURCE_DIR}/include"
             "${gtest_SOURCE_DIR}"
+            "${CMAKE_CURRENT_LIST_DIR}/../src/Hero"
 )
 
 
 target_link_libraries(
         army_tests
-        armyfactory
+        army
         gtest
         gtest_main
 )
+
+
 

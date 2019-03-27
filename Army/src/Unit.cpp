@@ -8,24 +8,9 @@
 
 Unit::Unit(const Point &p) : position_(p) {}
 
-int Unit::Points() const {
-    return cur_turn_points_;
-}
-
-int Unit::Damage() const {
-    return damage_;
-}
-
-Point Unit::Position() const {
-    return position_;
-}
-
-int Unit::Range() const {
-    return attack_range_;
-}
 
 void Unit::Attack(const std::shared_ptr<Unit> &w) {
-    if(w == nullptr) {
+    if (w == nullptr) {
         throw std::logic_error(std::string("Nullptr exception"));
     }
     if (cur_turn_points_ > 0 && (w->position_ - position_).Length() < attack_range_) {
@@ -41,8 +26,49 @@ void Unit::Move(const Point &p) {
     }
 }
 
-int Unit::HP() const {
+
+int Unit::GetHP() const {
     return hp_;
+}
+
+void Unit::SetHP(int hp_) {
+    Unit::hp_ = hp_;
+}
+
+int Unit::GetCurTurnPoints() const {
+    return cur_turn_points_;
+}
+
+void Unit::SetTurnPoints(int turn_points_) {
+    Unit::cur_turn_points_ = Unit::turn_points_ = turn_points_;
+}
+
+int Unit::GetTurnPoints() const {
+    return turn_points_;
+}
+
+int Unit::GetDamage() const {
+    return damage_;
+}
+
+void Unit::SetDamage(int damage_) {
+    Unit::damage_ = damage_;
+}
+
+int Unit::GetAttackRange() const {
+    return attack_range_;
+}
+
+void Unit::SetAttackRange(int attack_range_) {
+    Unit::attack_range_ = attack_range_;
+}
+
+const Point &Unit::GetPosition() const {
+    return position_;
+}
+
+void Unit::SetPosition(const Point &position_) {
+    Unit::position_ = position_;
 }
 
 

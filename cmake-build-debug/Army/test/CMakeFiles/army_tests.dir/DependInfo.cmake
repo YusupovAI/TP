@@ -14,6 +14,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../Army/test/../src"
   "../Army/test/../../googletest-master/googletest/include"
   "../Army/test/../../googletest-master/googletest"
+  "../Army/test/../src/Hero"
   "../Army/src"
   "../googletest-master/googletest/include"
   "../googletest-master/googletest"
@@ -21,7 +22,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "C:/Users/iusup/CLionProjects/TP/cmake-build-debug/Army/src/CMakeFiles/armyfactory.dir/DependInfo.cmake"
+  "C:/Users/iusup/CLionProjects/TP/cmake-build-debug/Army/src/CMakeFiles/army.dir/DependInfo.cmake"
   "C:/Users/iusup/CLionProjects/TP/cmake-build-debug/googletest-master/googlemock/gtest/CMakeFiles/gtest.dir/DependInfo.cmake"
   "C:/Users/iusup/CLionProjects/TP/cmake-build-debug/googletest-master/googlemock/gtest/CMakeFiles/gtest_main.dir/DependInfo.cmake"
   )

@@ -6,13 +6,13 @@
 
 Point::Point(int x, int y) : x_(x), y_(y) {}
 
-Point& Point::operator+=(const Point &p) {
+Point &Point::operator+=(const Point &p) {
     x_ += p.x_;
     y_ += p.y_;
     return *this;
 }
 
-Point& Point::operator-=(const Point&p) {
+Point &Point::operator-=(const Point &p) {
     x_ -= p.x_;
     y_ -= p.y_;
     return *this;
@@ -31,7 +31,7 @@ Point Point::operator-(const Point &p) const {
 }
 
 int Point::Length() const {
-    return (x_ > 0 ? x_ : -x_) + (y_ > 0 ? y_ : - y_);
+    return (x_ > 0 ? x_ : -x_) + (y_ > 0 ? y_ : -y_);
 }
 
 unsigned int Point::abs(int x) {

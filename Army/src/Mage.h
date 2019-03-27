@@ -9,7 +9,8 @@
 
 class Mage : public Unit {
 public:
-    explicit Mage(const Point& p) : Unit(p) {};
+    explicit Mage(const Point &p) : Unit(p) {};
+
     ~Mage() override = default;
 };
 

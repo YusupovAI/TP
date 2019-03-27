@@ -9,7 +9,8 @@
 
 class Infantry : public Unit {
 public:
-    explicit Infantry(const Point& p) : Unit(p) {};
+    explicit Infantry(const Point &p) : Unit(p) {};
+
     ~Infantry() override = default;
 };
 

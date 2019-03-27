@@ -45,6 +45,12 @@ Army/test/CMakeFiles/army_tests.dir/test.cpp.obj: ../Army/test/../../googletest-
 Army/test/CMakeFiles/army_tests.dir/test.cpp.obj: ../Army/test/../../googletest-master/googletest/include/gtest/internal/gtest-port.h
 Army/test/CMakeFiles/army_tests.dir/test.cpp.obj: ../Army/test/../../googletest-master/googletest/include/gtest/internal/gtest-string.h
 Army/test/CMakeFiles/army_tests.dir/test.cpp.obj: ../Army/test/../../googletest-master/googletest/include/gtest/internal/gtest-type-util.h
+Army/test/CMakeFiles/army_tests.dir/test.cpp.obj: ../Army/test/../src/Hero/Hero.h
+Army/test/CMakeFiles/army_tests.dir/test.cpp.obj: ../Army/test/../src/Hero/HeroBuilder.h
+Army/test/CMakeFiles/army_tests.dir/test.cpp.obj: ../Army/test/../src/Hero/HumanKnightBuilder.h
+Army/test/CMakeFiles/army_tests.dir/test.cpp.obj: ../Army/test/../src/Hero/HumanWizardBuilder.h
+Army/test/CMakeFiles/army_tests.dir/test.cpp.obj: ../Army/test/../src/Hero/OrcBerserkBuilder.h
+Army/test/CMakeFiles/army_tests.dir/test.cpp.obj: ../Army/test/../src/Hero/OrcShamanBuilder.h
 Army/test/CMakeFiles/army_tests.dir/test.cpp.obj: ../Army/test/../src/HumanFactory.h
 Army/test/CMakeFiles/army_tests.dir/test.cpp.obj: ../Army/test/../src/OrcFactory.h
 Army/test/CMakeFiles/army_tests.dir/test.cpp.obj: ../Army/test/../src/Point.h

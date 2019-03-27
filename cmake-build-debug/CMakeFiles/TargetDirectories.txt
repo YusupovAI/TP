@@ -37,7 +37,7 @@ C:/Users/iusup/CLionProjects/TP/cmake-build-debug/Army/CMakeFiles/install.dir
 C:/Users/iusup/CLionProjects/TP/cmake-build-debug/Army/CMakeFiles/edit_cache.dir
 C:/Users/iusup/CLionProjects/TP/cmake-build-debug/Army/CMakeFiles/list_install_components.dir
 C:/Users/iusup/CLionProjects/TP/cmake-build-debug/Army/CMakeFiles/install/strip.dir
-C:/Users/iusup/CLionProjects/TP/cmake-build-debug/Army/src/CMakeFiles/armyfactory.dir
+C:/Users/iusup/CLionProjects/TP/cmake-build-debug/Army/src/CMakeFiles/army.dir
 C:/Users/iusup/CLionProjects/TP/cmake-build-debug/Army/src/CMakeFiles/rebuild_cache.dir
 C:/Users/iusup/CLionProjects/TP/cmake-build-debug/Army/src/CMakeFiles/test.dir
 C:/Users/iusup/CLionProjects/TP/cmake-build-debug/Army/src/CMakeFiles/install/local.dir

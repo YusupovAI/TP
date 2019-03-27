@@ -219,17 +219,17 @@ gtest_main/fast:
 .PHONY : gtest_main/fast
 
 #=============================================================================
-# Target rules for targets named armyfactory
+# Target rules for targets named army
 
 # Build rule for target.
-armyfactory: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 armyfactory
-.PHONY : armyfactory
+army: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 army
+.PHONY : army
 
 # fast build rule for target.
-armyfactory/fast:
-	$(MAKE) -f Army\src\CMakeFiles\armyfactory.dir\build.make Army/src/CMakeFiles/armyfactory.dir/build
-.PHONY : armyfactory/fast
+army/fast:
+	$(MAKE) -f Army\src\CMakeFiles\army.dir\build.make Army/src/CMakeFiles/army.dir/build
+.PHONY : army/fast
 
 #=============================================================================
 # Target rules for targets named army_tests
@@ -261,7 +261,7 @@ help:
 	@echo ... gmock
 	@echo ... gtest
 	@echo ... gtest_main
-	@echo ... armyfactory
+	@echo ... army
 	@echo ... army_tests
 .PHONY : help
 

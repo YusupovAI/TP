@@ -9,7 +9,8 @@
 
 class Horseman : public Unit {
 public:
-    explicit Horseman(const Point&);
+    explicit Horseman(const Point &p) : Unit(p) {};
+
     ~Horseman() override = default;
 };
 

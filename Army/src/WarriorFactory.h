@@ -16,7 +16,7 @@ public:
 
     virtual std::shared_ptr<Unit> CreateInfantry(const Point &) const = 0;
 
-    virtual std::shared_ptr<Unit> CreateHorseman(const Point&) const = 0;
+    virtual std::shared_ptr<Unit> CreateHorseman(const Point &) const = 0;
 
     virtual std::shared_ptr<Unit> CreateMage(const Point &) const = 0;
 

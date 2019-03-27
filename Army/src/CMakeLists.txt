@@ -19,21 +19,19 @@ target_sources(
             ${CMAKE_CURRENT_LIST_DIR}/Infantry.h
             ${CMAKE_CURRENT_LIST_DIR}/Mage.h
             ${CMAKE_CURRENT_LIST_DIR}/Point.h
-            #${CMAKE_CURRENT_LIST_DIR}/Hero/Hero.h
-            #${CMAKE_CURRENT_LIST_DIR}/Hero/HeroBuilder.h
-            #${CMAKE_CURRENT_LIST_DIR}/Hero/HumanKnightBuilder.h
-            #${CMAKE_CURRENT_LIST_DIR}/Hero/HumanWizardBuilder.h
-            #${CMAKE_CURRENT_LIST_DIR}/Hero/OrcBerserkBuilder.h
-            #${CMAKE_CURRENT_LIST_DIR}/Hero/OrcShamanBuilder.h
+            ${CMAKE_CURRENT_LIST_DIR}/Hero/Hero.h
+            ${CMAKE_CURRENT_LIST_DIR}/Hero/HeroBuilder.h
+            ${CMAKE_CURRENT_LIST_DIR}/Hero/HeroDirector.h
+            ${CMAKE_CURRENT_LIST_DIR}/Hero/HumanHeroBuilder.h
+            ${CMAKE_CURRENT_LIST_DIR}/Hero/OrcHeroBuilder.h
         PRIVATE
             ${CMAKE_CURRENT_LIST_DIR}/HumanFactory.cpp
             ${CMAKE_CURRENT_LIST_DIR}/OrcFactory.cpp
             ${CMAKE_CURRENT_LIST_DIR}/Point.cpp
             ${CMAKE_CURRENT_LIST_DIR}/Unit.cpp
-            #${CMAKE_CURRENT_LIST_DIR}/Hero/Hero.cpp
-            #${CMAKE_CURRENT_LIST_DIR}/Hero/HeroBuilder.cpp
-            #${CMAKE_CURRENT_LIST_DIR}/Hero/HumanKnightBuilder.cpp
-            #${CMAKE_CURRENT_LIST_DIR}/Hero/HumanWizardBuilder.cpp
-            #${CMAKE_CURRENT_LIST_DIR}/Hero/OrcBerserkBuilder.cpp
-            #${CMAKE_CURRENT_LIST_DIR}/Hero/OrcShamanBuilder.cpp
+            ${CMAKE_CURRENT_LIST_DIR}/Hero/Hero.cpp
+            ${CMAKE_CURRENT_LIST_DIR}/Hero/HeroBuilder.cpp
+            ${CMAKE_CURRENT_LIST_DIR}/Hero/HeroDirector.cpp
+            ${CMAKE_CURRENT_LIST_DIR}/Hero/HumanHeroBuilder.cpp
+            ${CMAKE_CURRENT_LIST_DIR}/Hero/OrcHeroBuilder.cpp
 )

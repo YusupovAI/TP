@@ -181,6 +181,141 @@ army/fast:
 	cd /d C:\Users\iusup\CLionProjects\TP\cmake-build-debug && $(MAKE) -f Army\src\CMakeFiles\army.dir\build.make Army/src/CMakeFiles/army.dir/build
 .PHONY : army/fast
 
+Hero/Hero.obj: Hero/Hero.cpp.obj
+
+.PHONY : Hero/Hero.obj
+
+# target to build an object file
+Hero/Hero.cpp.obj:
+	cd /d C:\Users\iusup\CLionProjects\TP\cmake-build-debug && $(MAKE) -f Army\src\CMakeFiles\army.dir\build.make Army/src/CMakeFiles/army.dir/Hero/Hero.cpp.obj
+.PHONY : Hero/Hero.cpp.obj
+
+Hero/Hero.i: Hero/Hero.cpp.i
+
+.PHONY : Hero/Hero.i
+
+# target to preprocess a source file
+Hero/Hero.cpp.i:
+	cd /d C:\Users\iusup\CLionProjects\TP\cmake-build-debug && $(MAKE) -f Army\src\CMakeFiles\army.dir\build.make Army/src/CMakeFiles/army.dir/Hero/Hero.cpp.i
+.PHONY : Hero/Hero.cpp.i
+
+Hero/Hero.s: Hero/Hero.cpp.s
+
+.PHONY : Hero/Hero.s
+
+# target to generate assembly for a file
+Hero/Hero.cpp.s:
+	cd /d C:\Users\iusup\CLionProjects\TP\cmake-build-debug && $(MAKE) -f Army\src\CMakeFiles\army.dir\build.make Army/src/CMakeFiles/army.dir/Hero/Hero.cpp.s
+.PHONY : Hero/Hero.cpp.s
+
+Hero/HeroBuilder.obj: Hero/HeroBuilder.cpp.obj
+
+.PHONY : Hero/HeroBuilder.obj
+
+# target to build an object file
+Hero/HeroBuilder.cpp.obj:
+	cd /d C:\Users\iusup\CLionProjects\TP\cmake-build-debug && $(MAKE) -f Army\src\CMakeFiles\army.dir\build.make Army/src/CMakeFiles/army.dir/Hero/HeroBuilder.cpp.obj
+.PHONY : Hero/HeroBuilder.cpp.obj
+
+Hero/HeroBuilder.i: Hero/HeroBuilder.cpp.i
+
+.PHONY : Hero/HeroBuilder.i
+
+# target to preprocess a source file
+Hero/HeroBuilder.cpp.i:
+	cd /d C:\Users\iusup\CLionProjects\TP\cmake-build-debug && $(MAKE) -f Army\src\CMakeFiles\army.dir\build.make Army/src/CMakeFiles/army.dir/Hero/HeroBuilder.cpp.i
+.PHONY : Hero/HeroBuilder.cpp.i
+
+Hero/HeroBuilder.s: Hero/HeroBuilder.cpp.s
+
+.PHONY : Hero/HeroBuilder.s
+
+# target to generate assembly for a file
+Hero/HeroBuilder.cpp.s:
+	cd /d C:\Users\iusup\CLionProjects\TP\cmake-build-debug && $(MAKE) -f Army\src\CMakeFiles\army.dir\build.make Army/src/CMakeFiles/army.dir/Hero/HeroBuilder.cpp.s
+.PHONY : Hero/HeroBuilder.cpp.s
+
+Hero/HeroDirector.obj: Hero/HeroDirector.cpp.obj
+
+.PHONY : Hero/HeroDirector.obj
+
+# target to build an object file
+Hero/HeroDirector.cpp.obj:
+	cd /d C:\Users\iusup\CLionProjects\TP\cmake-build-debug && $(MAKE) -f Army\src\CMakeFiles\army.dir\build.make Army/src/CMakeFiles/army.dir/Hero/HeroDirector.cpp.obj
+.PHONY : Hero/HeroDirector.cpp.obj
+
+Hero/HeroDirector.i: Hero/HeroDirector.cpp.i
+
+.PHONY : Hero/HeroDirector.i
+
+# target to preprocess a source file
+Hero/HeroDirector.cpp.i:
+	cd /d C:\Users\iusup\CLionProjects\TP\cmake-build-debug && $(MAKE) -f Army\src\CMakeFiles\army.dir\build.make Army/src/CMakeFiles/army.dir/Hero/HeroDirector.cpp.i
+.PHONY : Hero/HeroDirector.cpp.i
+
+Hero/HeroDirector.s: Hero/HeroDirector.cpp.s
+
+.PHONY : Hero/HeroDirector.s
+
+# target to generate assembly for a file
+Hero/HeroDirector.cpp.s:
+	cd /d C:\Users\iusup\CLionProjects\TP\cmake-build-debug && $(MAKE) -f Army\src\CMakeFiles\army.dir\build.make Army/src/CMakeFiles/army.dir/Hero/HeroDirector.cpp.s
+.PHONY : Hero/HeroDirector.cpp.s
+
+Hero/HumanHeroBuilder.obj: Hero/HumanHeroBuilder.cpp.obj
+
+.PHONY : Hero/HumanHeroBuilder.obj
+
+# target to build an object file
+Hero/HumanHeroBuilder.cpp.obj:
+	cd /d C:\Users\iusup\CLionProjects\TP\cmake-build-debug && $(MAKE) -f Army\src\CMakeFiles\army.dir\build.make Army/src/CMakeFiles/army.dir/Hero/HumanHeroBuilder.cpp.obj
+.PHONY : Hero/HumanHeroBuilder.cpp.obj
+
+Hero/HumanHeroBuilder.i: Hero/HumanHeroBuilder.cpp.i
+
+.PHONY : Hero/HumanHeroBuilder.i
+
+# target to preprocess a source file
+Hero/HumanHeroBuilder.cpp.i:
+	cd /d C:\Users\iusup\CLionProjects\TP\cmake-build-debug && $(MAKE) -f Army\src\CMakeFiles\army.dir\build.make Army/src/CMakeFiles/army.dir/Hero/HumanHeroBuilder.cpp.i
+.PHONY : Hero/HumanHeroBuilder.cpp.i
+
+Hero/HumanHeroBuilder.s: Hero/HumanHeroBuilder.cpp.s
+
+.PHONY : Hero/HumanHeroBuilder.s
+
+# target to generate assembly for a file
+Hero/HumanHeroBuilder.cpp.s:
+	cd /d C:\Users\iusup\CLionProjects\TP\cmake-build-debug && $(MAKE) -f Army\src\CMakeFiles\army.dir\build.make Army/src/CMakeFiles/army.dir/Hero/HumanHeroBuilder.cpp.s
+.PHONY : Hero/HumanHeroBuilder.cpp.s
+
+Hero/OrcHeroBuilder.obj: Hero/OrcHeroBuilder.cpp.obj
+
+.PHONY : Hero/OrcHeroBuilder.obj
+
+# target to build an object file
+Hero/OrcHeroBuilder.cpp.obj:
+	cd /d C:\Users\iusup\CLionProjects\TP\cmake-build-debug && $(MAKE) -f Army\src\CMakeFiles\army.dir\build.make Army/src/CMakeFiles/army.dir/Hero/OrcHeroBuilder.cpp.obj
+.PHONY : Hero/OrcHeroBuilder.cpp.obj
+
+Hero/OrcHeroBuilder.i: Hero/OrcHeroBuilder.cpp.i
+
+.PHONY : Hero/OrcHeroBuilder.i
+
+# target to preprocess a source file
+Hero/OrcHeroBuilder.cpp.i:
+	cd /d C:\Users\iusup\CLionProjects\TP\cmake-build-debug && $(MAKE) -f Army\src\CMakeFiles\army.dir\build.make Army/src/CMakeFiles/army.dir/Hero/OrcHeroBuilder.cpp.i
+.PHONY : Hero/OrcHeroBuilder.cpp.i
+
+Hero/OrcHeroBuilder.s: Hero/OrcHeroBuilder.cpp.s
+
+.PHONY : Hero/OrcHeroBuilder.s
+
+# target to generate assembly for a file
+Hero/OrcHeroBuilder.cpp.s:
+	cd /d C:\Users\iusup\CLionProjects\TP\cmake-build-debug && $(MAKE) -f Army\src\CMakeFiles\army.dir\build.make Army/src/CMakeFiles/army.dir/Hero/OrcHeroBuilder.cpp.s
+.PHONY : Hero/OrcHeroBuilder.cpp.s
+
 HumanFactory.obj: HumanFactory.cpp.obj
 
 .PHONY : HumanFactory.obj
@@ -303,6 +438,21 @@ help:
 	@echo ... edit_cache
 	@echo ... list_install_components
 	@echo ... install/strip
+	@echo ... Hero/Hero.obj
+	@echo ... Hero/Hero.i
+	@echo ... Hero/Hero.s
+	@echo ... Hero/HeroBuilder.obj
+	@echo ... Hero/HeroBuilder.i
+	@echo ... Hero/HeroBuilder.s
+	@echo ... Hero/HeroDirector.obj
+	@echo ... Hero/HeroDirector.i
+	@echo ... Hero/HeroDirector.s
+	@echo ... Hero/HumanHeroBuilder.obj
+	@echo ... Hero/HumanHeroBuilder.i
+	@echo ... Hero/HumanHeroBuilder.s
+	@echo ... Hero/OrcHeroBuilder.obj
+	@echo ... Hero/OrcHeroBuilder.i
+	@echo ... Hero/OrcHeroBuilder.s
 	@echo ... HumanFactory.obj
 	@echo ... HumanFactory.i
 	@echo ... HumanFactory.s

@@ -1,13 +1,19 @@
 //
-// Created by iusup on 26.03.2019.
+// Created by iusup on 27.03.2019.
 //
 
 #include "HeroBuilder.h"
+#include <memory>
 
-std::shared_ptr<Hero> HeroBuilder::GetHero() {
-    return hero_;
+
+void HeroBuilder::Reset() {
+    result_ = std::make_shared<Hero>();
 }
 
-void HeroBuilder::CreateHero(const Point &p) {
-    hero_.reset(new Hero(p));
+std::shared_ptr<Hero> HeroBuilder::GetResult() {
+    return result_;
+}
+
+void HeroBuilder::BuildPosition(const Point &p) {
+    result_->SetPosition(p);
 }

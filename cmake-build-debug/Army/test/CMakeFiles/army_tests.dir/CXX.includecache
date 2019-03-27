@@ -315,22 +315,22 @@ Hero.h
 ../Army/test/../src/Hero/Hero.h
 memory
 -
-Point.h
-../Army/test/../src/Hero/Point.h
 
-../Army/test/../src/Hero/HumanKnightBuilder.h
+../Army/test/../src/Hero/HeroDirector.h
+HeroBuilder.h
+../Army/test/../src/Hero/HeroBuilder.h
+HumanHeroBuilder.h
+../Army/test/../src/Hero/HumanHeroBuilder.h
+OrcHeroBuilder.h
+../Army/test/../src/Hero/OrcHeroBuilder.h
+memory
+-
+
+../Army/test/../src/Hero/HumanHeroBuilder.h
 HeroBuilder.h
 ../Army/test/../src/Hero/HeroBuilder.h
 
-../Army/test/../src/Hero/HumanWizardBuilder.h
-HeroBuilder.h
-../Army/test/../src/Hero/HeroBuilder.h
-
-../Army/test/../src/Hero/OrcBerserkBuilder.h
-HeroBuilder.h
-../Army/test/../src/Hero/HeroBuilder.h
-
-../Army/test/../src/Hero/OrcShamanBuilder.h
+../Army/test/../src/Hero/OrcHeroBuilder.h
 HeroBuilder.h
 ../Army/test/../src/Hero/HeroBuilder.h
 
@@ -371,12 +371,12 @@ Unit.h
 C:/Users/iusup/CLionProjects/TP/Army/test/Unit.h
 Hero.h
 C:/Users/iusup/CLionProjects/TP/Army/test/Hero.h
-HumanWizardBuilder.h
-C:/Users/iusup/CLionProjects/TP/Army/test/HumanWizardBuilder.h
-HumanKnightBuilder.h
-C:/Users/iusup/CLionProjects/TP/Army/test/HumanKnightBuilder.h
-OrcBerserkBuilder.h
-C:/Users/iusup/CLionProjects/TP/Army/test/OrcBerserkBuilder.h
-OrcShamanBuilder.h
-C:/Users/iusup/CLionProjects/TP/Army/test/OrcShamanBuilder.h
+Hero/HeroBuilder.h
+C:/Users/iusup/CLionProjects/TP/Army/test/Hero/HeroBuilder.h
+Hero/HumanHeroBuilder.h
+C:/Users/iusup/CLionProjects/TP/Army/test/Hero/HumanHeroBuilder.h
+Hero/OrcHeroBuilder.h
+C:/Users/iusup/CLionProjects/TP/Army/test/Hero/OrcHeroBuilder.h
+Hero/HeroDirector.h
+C:/Users/iusup/CLionProjects/TP/Army/test/Hero/HeroDirector.h
 

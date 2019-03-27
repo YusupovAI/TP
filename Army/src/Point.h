@@ -10,6 +10,8 @@ class Point final {
 public:
     Point(int x, int y);
 
+    Point() = default;
+
     Point(const Point &) = default;
 
     Point &operator+=(const Point &);

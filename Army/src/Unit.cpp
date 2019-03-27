@@ -31,44 +31,48 @@ int Unit::GetHP() const {
     return hp_;
 }
 
-void Unit::SetHP(int hp_) {
-    Unit::hp_ = hp_;
+void Unit::SetHP(int hp) {
+    hp_ = hp;
 }
 
-int Unit::GetCurTurnPoints() const {
+unsigned int Unit::GetCurTurnPoints() const {
     return cur_turn_points_;
 }
 
-void Unit::SetTurnPoints(int turn_points_) {
-    Unit::cur_turn_points_ = Unit::turn_points_ = turn_points_;
+void Unit::SetTurnPoints(unsigned int turn_points) {
+    turn_points_ = turn_points;
 }
 
-int Unit::GetTurnPoints() const {
+unsigned int Unit::GetTurnPoints() const {
     return turn_points_;
 }
 
-int Unit::GetDamage() const {
+unsigned int Unit::GetDamage() const {
     return damage_;
 }
 
-void Unit::SetDamage(int damage_) {
-    Unit::damage_ = damage_;
+void Unit::SetDamage(unsigned int damage) {
+    damage_ = damage;
 }
 
-int Unit::GetAttackRange() const {
+unsigned int Unit::GetAttackRange() const {
     return attack_range_;
 }
 
-void Unit::SetAttackRange(int attack_range_) {
-    Unit::attack_range_ = attack_range_;
+void Unit::SetAttackRange(unsigned int attack_range) {
+    attack_range_ = attack_range;
 }
 
-const Point &Unit::GetPosition() const {
+Point Unit::GetPosition() const {
     return position_;
 }
 
-void Unit::SetPosition(const Point &position_) {
-    Unit::position_ = position_;
+void Unit::SetPosition(const Point &position) {
+    position_ = position;
+}
+
+void Unit::SetCurTurnPoints(unsigned int cur_turn_points) {
+    cur_turn_points_ = cur_turn_points;
 }
 
 

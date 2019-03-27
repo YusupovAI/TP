@@ -7,7 +7,7 @@
 
 #include "Unit.h"
 
-class Horseman : public Unit {
+class Horseman final : public Unit {
 public:
     explicit Horseman(const Point &p) : Unit(p) {};
 

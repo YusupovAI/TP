@@ -7,10 +7,10 @@
 #include "gtest/gtest.h"
 #include "Unit.h"
 #include "Hero.h"
-//#include "HumanWizardBuilder.h"
-//#include "HumanKnightBuilder.h"
-//#include "OrcBerserkBuilder.h"
-//#include "OrcShamanBuilder.h"
+#include "Hero/HeroBuilder.h"
+#include "Hero/HumanHeroBuilder.h"
+#include "Hero/OrcHeroBuilder.h"
+#include "Hero/HeroDirector.h"
 
 TEST(HumanFactory, Infantry) {
     HumanFactory h;
@@ -19,7 +19,7 @@ TEST(HumanFactory, Infantry) {
     EXPECT_EQ(w->GetPosition(), Point(0, 0));
     EXPECT_EQ(w->GetDamage(), 15);
     EXPECT_EQ(w->GetAttackRange(), 1);
-    EXPECT_EQ(w->GetCurTurnPoints(), 4);
+    EXPECT_EQ(w->GetTurnPoints(), 4);
 }
 
 
@@ -30,7 +30,7 @@ TEST(HumanFactory, Mage) {
     EXPECT_EQ(w->GetPosition(), Point(0, 0));
     EXPECT_EQ(w->GetDamage(), 12);
     EXPECT_EQ(w->GetAttackRange(), 3);
-    EXPECT_EQ(w->GetCurTurnPoints(), 3);
+    EXPECT_EQ(w->GetTurnPoints(), 3);
 }
 
 
@@ -41,7 +41,7 @@ TEST(HumanFactory, Horseman) {
     EXPECT_EQ(w->GetPosition(), Point(0, 0));
     EXPECT_EQ(w->GetDamage(), 12);
     EXPECT_EQ(w->GetAttackRange(), 1);
-    EXPECT_EQ(w->GetCurTurnPoints(), 4);
+    EXPECT_EQ(w->GetTurnPoints(), 4);
 }
 
 
@@ -52,7 +52,7 @@ TEST(OrcFactory, Infantry) {
     EXPECT_EQ(w->GetPosition(), Point(0, 0));
     EXPECT_EQ(w->GetDamage(), 15);
     EXPECT_EQ(w->GetAttackRange(), 1);
-    EXPECT_EQ(w->GetCurTurnPoints(), 4);
+    EXPECT_EQ(w->GetTurnPoints(), 4);
 }
 
 
@@ -63,7 +63,7 @@ TEST(OrcFactory, Mage) {
     EXPECT_EQ(w->GetPosition(), Point(0, 0));
     EXPECT_EQ(w->GetDamage(), 12);
     EXPECT_EQ(w->GetAttackRange(), 3);
-    EXPECT_EQ(w->GetCurTurnPoints(), 3);
+    EXPECT_EQ(w->GetTurnPoints(), 3);
 }
 
 
@@ -74,12 +74,22 @@ TEST(OrcFactory, Horseman) {
     EXPECT_EQ(w->GetPosition(), Point(0, 0));
     EXPECT_EQ(w->GetDamage(), 12);
     EXPECT_EQ(w->GetAttackRange(), 1);
-    EXPECT_EQ(w->GetCurTurnPoints(), 4);
+    EXPECT_EQ(w->GetTurnPoints(), 4);
 }
 
 
-TEST(HeroBuilder, HumanWizardBuilder) {
-
+TEST(HeroBuilder, HumanMightyBuilder) {
+    std::shared_ptr<HeroBuilder> builder = std::make_shared<HumanHeroBuilder>();
+    HeroDirector director(builder);
+    auto hero = director.Create(HeroDirector::EHeroTypes::WiseHero, Point(0, 0));
+    EXPECT_EQ(hero->GetHP(), 300);
+    EXPECT_EQ(hero->GetMana(), 150);
+    EXPECT_EQ(hero->GetWeapon(), Hero::EWeaponType::weapon_none);
+    EXPECT_TRUE(hero->GetHorse());
+    EXPECT_FALSE(hero->GetShield());
+    EXPECT_EQ(hero->GetDamage(), 20);
+    EXPECT_EQ(hero->GetAttackRange(), 5);
+    EXPECT_EQ(hero->GetTurnPoints(), 4);
 }
 
 

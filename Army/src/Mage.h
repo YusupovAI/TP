@@ -7,7 +7,7 @@
 
 #include "Unit.h"
 
-class Mage : public Unit {
+class Mage final: public Unit {
 public:
     explicit Mage(const Point &p) : Unit(p) {};
 

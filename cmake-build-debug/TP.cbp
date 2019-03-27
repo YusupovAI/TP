@@ -380,6 +380,41 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/iusup/CLionProjects/TP/Army/src/Hero/Hero.cpp">
+			<Option target="army"/>
+		</Unit>
+		<Unit filename="C:/Users/iusup/CLionProjects/TP/Army/src/Hero/Hero.h">
+			<Option target="army"/>
+			<Option target="army_tests"/>
+		</Unit>
+		<Unit filename="C:/Users/iusup/CLionProjects/TP/Army/src/Hero/HeroBuilder.cpp">
+			<Option target="army"/>
+		</Unit>
+		<Unit filename="C:/Users/iusup/CLionProjects/TP/Army/src/Hero/HeroBuilder.h">
+			<Option target="army"/>
+			<Option target="army_tests"/>
+		</Unit>
+		<Unit filename="C:/Users/iusup/CLionProjects/TP/Army/src/Hero/HeroDirector.cpp">
+			<Option target="army"/>
+		</Unit>
+		<Unit filename="C:/Users/iusup/CLionProjects/TP/Army/src/Hero/HeroDirector.h">
+			<Option target="army"/>
+			<Option target="army_tests"/>
+		</Unit>
+		<Unit filename="C:/Users/iusup/CLionProjects/TP/Army/src/Hero/HumanHeroBuilder.cpp">
+			<Option target="army"/>
+		</Unit>
+		<Unit filename="C:/Users/iusup/CLionProjects/TP/Army/src/Hero/HumanHeroBuilder.h">
+			<Option target="army"/>
+			<Option target="army_tests"/>
+		</Unit>
+		<Unit filename="C:/Users/iusup/CLionProjects/TP/Army/src/Hero/OrcHeroBuilder.cpp">
+			<Option target="army"/>
+		</Unit>
+		<Unit filename="C:/Users/iusup/CLionProjects/TP/Army/src/Hero/OrcHeroBuilder.h">
+			<Option target="army"/>
+			<Option target="army_tests"/>
+		</Unit>
 		<Unit filename="C:/Users/iusup/CLionProjects/TP/Army/src/Horseman.h">
 			<Option target="army"/>
 			<Option target="army_tests"/>

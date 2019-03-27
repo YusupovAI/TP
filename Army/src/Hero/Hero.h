@@ -11,27 +11,52 @@
 
 class Hero : public Unit {
 public:
+    Hero();
+
+    Hero(const Hero &) = default;
+
     explicit Hero(const Point &);
 
     enum EAbilityType {
         fireball, lightning,
-        heal, fighting_spirit
+        heal, fighting_spirit,
+        ability_none
     };
 
-    void SetHP(unsigned int);
+    enum EWeaponType {
+        sword, stick,
+        drums, mythical_thing,
+        weapon_none
+    };
 
-    void SetTurnPoints(unsigned int);
+    void SetMana(unsigned int mana);
 
-    void SetAbility(EAbilityType);
+    unsigned int GetMana() const;
 
-    void SetAttackRange(unsigned int);
+    void SetAbility(EAbilityType ability);
 
-    void SetDamage(unsigned int);
+    EAbilityType GetAbility() const;
+
+    void SetHorse(bool horse);
+
+    bool GetHorse() const;
+
+    void SetShield(bool shield);
+
+    bool GetShield() const;
+
+    void SetWeapon(EWeaponType weapon);
+
+    EWeaponType GetWeapon() const;
 
     void Cast(std::shared_ptr<Unit>);
 
 private:
     EAbilityType ability_;
+    EWeaponType weapon_;
+    bool horse_;
+    bool shield_;
+    unsigned int mana_;
 };
 
 

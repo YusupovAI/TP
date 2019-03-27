@@ -8,7 +8,7 @@
 #include "Infantry.h"
 
 std::shared_ptr<Unit> HumanFactory::CreateHorseman(const Point &p) const {
-    auto res =  std::shared_ptr<Unit>(new Horseman(p));
+    auto res =  std::make_shared<Horseman>(p);
     res->SetHP(100);
     res->SetTurnPoints(4);
     res->SetDamage(12);
@@ -17,7 +17,7 @@ std::shared_ptr<Unit> HumanFactory::CreateHorseman(const Point &p) const {
 }
 
 std::shared_ptr<Unit> HumanFactory::CreateInfantry(const Point &p) const {
-    auto res = std::shared_ptr<Unit>(new Infantry(p));
+    auto res = std::make_shared<Infantry>(p);
     res->SetHP(100);
     res->SetAttackRange(1);
     res->SetDamage(15);
@@ -26,7 +26,7 @@ std::shared_ptr<Unit> HumanFactory::CreateInfantry(const Point &p) const {
 }
 
 std::shared_ptr<Unit> HumanFactory::CreateMage(const Point &p) const {
-    auto res = std::shared_ptr<Unit>(new Mage(p));
+    auto res = std::make_shared<Mage>(p);
     res->SetHP(80);
     res->SetTurnPoints(3);
     res->SetDamage(12);

@@ -6,16 +6,26 @@
 #define TP_HERODIRECTOR_H
 
 #include "HeroBuilder.h"
+#include "HumanHeroBuilder.h"
+#include "OrcHeroBuilder.h"
+#include <memory>
 
-class HeroDirector {
+class HeroDirector final {
 public:
-    void ConstructShaman(HeroBuilder &);
+    enum EHeroTypes {
+        MightyHero, WiseHero
+    };
 
-    void ConstructWizard(HeroBuilder &);
+    HeroDirector() = default;
 
-    void ConstructKnight(HeroBuilder &);
+    explicit HeroDirector(const std::shared_ptr<HeroBuilder>&);
 
-    void ConstructBerserk(HeroBuilder &);
+    void ChangeBuilder(const std::shared_ptr<HeroBuilder>&);
+
+    std::shared_ptr<Hero> Create(EHeroTypes, const Point &);
+
+private:
+    std::shared_ptr<HeroBuilder> builder_;
 };
 
 

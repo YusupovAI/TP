@@ -7,7 +7,7 @@
 
 #include "Unit.h"
 
-class Infantry : public Unit {
+class Infantry final : public Unit {
 public:
     explicit Infantry(const Point &p) : Unit(p) {};
 

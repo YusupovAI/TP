@@ -18,7 +18,11 @@ public:
 
     virtual void BuildCharacteristics() = 0;
 
-    void BuildPosition(const Point&);
+    virtual void BuildHorse() = 0;
+
+    virtual void BuildShield() = 0;
+
+    void BuildPosition(const Point &);
 
     std::shared_ptr<Hero> GetResult();
 

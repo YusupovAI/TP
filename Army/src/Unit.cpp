@@ -13,9 +13,14 @@ void Unit::Attack(const std::shared_ptr<Unit> &w) {
     if (w == nullptr) {
         throw std::logic_error(std::string("Nullptr exception"));
     }
-    if (cur_turn_points_ > 0 && (w->position_ - position_).Length() < attack_range_) {
-        w->hp_ -= damage_;
-        cur_turn_points_ = 0;
+    w->Attacked(damage_);
+}
+
+void Unit::Attacked(unsigned int damage) {
+    if (hp_ < damage) {
+
+    } else {
+        hp_ -= damage;
     }
 }
 

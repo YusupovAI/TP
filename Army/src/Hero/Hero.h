@@ -49,7 +49,13 @@ public:
 
     EWeaponType GetWeapon() const;
 
+    void SetArmor(unsigned int armor);
+
+    unsigned int GetArmor() const;
+
     void Cast(std::shared_ptr<Unit>);
+
+    void Attacked(unsigned int damage) override;
 
 private:
     EAbilityType ability_;
@@ -57,6 +63,7 @@ private:
     bool horse_;
     bool shield_;
     unsigned int mana_;
+    unsigned int armor_;
 };
 
 

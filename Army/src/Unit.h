@@ -44,6 +44,8 @@ public:
 
     void SetPosition(const Point &position);
 
+    virtual void Attacked(unsigned int damage);
+
     virtual ~Unit() = default;
 
 protected:

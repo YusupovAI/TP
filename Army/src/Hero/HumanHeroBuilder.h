@@ -17,6 +17,10 @@ public:
     void BuildAbility() override;
 
     void BuildWeapon() override;
+
+    void BuildHorse() override;
+
+    void BuildShield() override;
 };
 
 

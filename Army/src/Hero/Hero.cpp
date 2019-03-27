@@ -4,9 +4,12 @@
 
 #include "Hero.h"
 
-Hero::Hero() : Unit(), ability_(EAbilityType::ability_none), horse_(false), weapon_(EWeaponType::weapon_none), shield_(false), mana_(0) {}
+Hero::Hero()
+        : Unit(), ability_(EAbilityType::ability_none), horse_(false), weapon_(EWeaponType::weapon_none),
+          shield_(false), mana_(0), armor_(0) {}
 
-Hero::Hero(const Point &p) : Unit(p), ability_(EAbilityType::ability_none), horse_(false), weapon_(EWeaponType::weapon_none), shield_(false), mana_(0) {}
+Hero::Hero(const Point &p) : Unit(p), ability_(EAbilityType::ability_none), horse_(false),
+                             weapon_(EWeaponType::weapon_none), shield_(false), mana_(0), armor_(0) {}
 
 void Hero::Cast(std::shared_ptr<Unit> w) {}
 
@@ -49,6 +52,24 @@ void Hero::SetShield(bool shield) {
 
 void Hero::SetAbility(Hero::EAbilityType ability) {
     ability_ = ability;
+}
+
+void Hero::SetArmor(unsigned int armor) {
+    armor_ = armor;
+}
+
+unsigned int Hero::GetArmor() const {
+    return armor_;
+}
+
+void Hero::Attacked(unsigned int damage) {
+    if (damage < armor_) { return; }
+    damage -= armor_;
+    if (damage > hp_) {
+
+    } else {
+        hp_ -= damage;
+    }
 }
 
 

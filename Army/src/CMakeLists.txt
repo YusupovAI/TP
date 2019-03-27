@@ -10,20 +10,6 @@ target_include_directories(
 
 target_sources(
         army
-        PUBLIC
-            ${CMAKE_CURRENT_LIST_DIR}/HumanFactory.h
-            ${CMAKE_CURRENT_LIST_DIR}/OrcFactory.h
-            ${CMAKE_CURRENT_LIST_DIR}/WarriorFactory.h
-            ${CMAKE_CURRENT_LIST_DIR}/Unit.h
-            ${CMAKE_CURRENT_LIST_DIR}/Horseman.h
-            ${CMAKE_CURRENT_LIST_DIR}/Infantry.h
-            ${CMAKE_CURRENT_LIST_DIR}/Mage.h
-            ${CMAKE_CURRENT_LIST_DIR}/Point.h
-            ${CMAKE_CURRENT_LIST_DIR}/Hero/Hero.h
-            ${CMAKE_CURRENT_LIST_DIR}/Hero/HeroBuilder.h
-            ${CMAKE_CURRENT_LIST_DIR}/Hero/HeroDirector.h
-            ${CMAKE_CURRENT_LIST_DIR}/Hero/HumanHeroBuilder.h
-            ${CMAKE_CURRENT_LIST_DIR}/Hero/OrcHeroBuilder.h
         PRIVATE
             ${CMAKE_CURRENT_LIST_DIR}/HumanFactory.cpp
             ${CMAKE_CURRENT_LIST_DIR}/OrcFactory.cpp

@@ -107,8 +107,8 @@ googletest-master/googlemock/preinstall: googletest-master/googlemock/gtest/prei
 # Target rules for target googletest-master/googlemock/CMakeFiles/gmock_main.dir
 
 # All Build rule for target.
-googletest-master/googlemock/CMakeFiles/gmock_main.dir/all: googletest-master/googlemock/gtest/CMakeFiles/gtest.dir/all
 googletest-master/googlemock/CMakeFiles/gmock_main.dir/all: googletest-master/googlemock/CMakeFiles/gmock.dir/all
+googletest-master/googlemock/CMakeFiles/gmock_main.dir/all: googletest-master/googlemock/gtest/CMakeFiles/gtest.dir/all
 	$(MAKE) -f googletest-master\googlemock\CMakeFiles\gmock_main.dir\build.make googletest-master/googlemock/CMakeFiles/gmock_main.dir/depend
 	$(MAKE) -f googletest-master\googlemock\CMakeFiles\gmock_main.dir\build.make googletest-master/googlemock/CMakeFiles/gmock_main.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\iusup\CLionProjects\TP\cmake-build-debug\CMakeFiles --progress-num=16,17 "Built target gmock_main"
@@ -370,8 +370,8 @@ Army/test/preinstall:
 # Target rules for target Army/test/CMakeFiles/army_tests.dir
 
 # All Build rule for target.
-Army/test/CMakeFiles/army_tests.dir/all: googletest-master/googlemock/gtest/CMakeFiles/gtest_main.dir/all
 Army/test/CMakeFiles/army_tests.dir/all: googletest-master/googlemock/gtest/CMakeFiles/gtest.dir/all
+Army/test/CMakeFiles/army_tests.dir/all: googletest-master/googlemock/gtest/CMakeFiles/gtest_main.dir/all
 Army/test/CMakeFiles/army_tests.dir/all: Army/src/CMakeFiles/army.dir/all
 	$(MAKE) -f Army\test\CMakeFiles\army_tests.dir\build.make Army/test/CMakeFiles/army_tests.dir/depend
 	$(MAKE) -f Army\test\CMakeFiles\army_tests.dir\build.make Army/test/CMakeFiles/army_tests.dir/build

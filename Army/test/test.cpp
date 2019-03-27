@@ -78,31 +78,73 @@ TEST(OrcFactory, Horseman) {
 }
 
 
-TEST(HeroBuilder, HumanMightyBuilder) {
+TEST(HeroBuilder, HumanWiseHero) {
     std::shared_ptr<HeroBuilder> builder = std::make_shared<HumanHeroBuilder>();
     HeroDirector director(builder);
     auto hero = director.Create(HeroDirector::EHeroTypes::WiseHero, Point(0, 0));
-    EXPECT_EQ(hero->GetHP(), 300);
-    EXPECT_EQ(hero->GetMana(), 150);
+    EXPECT_EQ(hero->GetHP(), 250);
+    EXPECT_EQ(hero->GetMana(), 100);
     EXPECT_EQ(hero->GetWeapon(), Hero::EWeaponType::weapon_none);
     EXPECT_TRUE(hero->GetHorse());
     EXPECT_FALSE(hero->GetShield());
+    EXPECT_EQ(hero->GetArmor(), 0);
     EXPECT_EQ(hero->GetDamage(), 20);
     EXPECT_EQ(hero->GetAttackRange(), 5);
-    EXPECT_EQ(hero->GetTurnPoints(), 4);
+    EXPECT_EQ(hero->GetTurnPoints(), 5);
+    EXPECT_EQ(hero->GetAbility(), Hero::EAbilityType::heal);
+    EXPECT_EQ(hero->GetPosition(), Point(0, 0));
 }
 
 
-TEST(HeroBuilder, HumanKnightBuilder) {
-
+TEST(HeroBuilder, HumanMightyHero) {
+    std::shared_ptr<HeroBuilder> builder = std::make_shared<HumanHeroBuilder>();
+    HeroDirector director(builder);
+    auto hero = director.Create(HeroDirector::EHeroTypes::MightyHero, Point(1, 1));
+    EXPECT_EQ(hero->GetHP(), 250);
+    EXPECT_EQ(hero->GetMana(), 0);
+    EXPECT_EQ(hero->GetWeapon(), Hero::EWeaponType::sword);
+    EXPECT_TRUE(hero->GetHorse());
+    EXPECT_TRUE(hero->GetShield());
+    EXPECT_EQ(hero->GetArmor(), 4);
+    EXPECT_EQ(hero->GetDamage(), 30);
+    EXPECT_EQ(hero->GetAbility(), Hero::EAbilityType::ability_none);
+    EXPECT_EQ(hero->GetAttackRange(), 1);
+    EXPECT_EQ(hero->GetPosition(), Point(1, 1));
+    EXPECT_EQ(hero->GetTurnPoints(), 5);
 }
 
 
-TEST(HeroBuilder, OrcShamanBuilder) {
-
+TEST(HeroBuilder, OrcWiseHero) {
+    std::shared_ptr<HeroBuilder> builder = std::make_shared<OrcHeroBuilder>();
+    HeroDirector director(builder);
+    auto hero = director.Create(HeroDirector::EHeroTypes::WiseHero, Point(0, 0));
+    EXPECT_EQ(hero->GetHP(), 300);
+    EXPECT_EQ(hero->GetMana(), 50);
+    EXPECT_EQ(hero->GetWeapon(), Hero::EWeaponType::weapon_none);
+    EXPECT_FALSE(hero->GetHorse());
+    EXPECT_FALSE(hero->GetShield());
+    EXPECT_EQ(hero->GetArmor(), 0);
+    EXPECT_EQ(hero->GetDamage(), 30);
+    EXPECT_EQ(hero->GetTurnPoints(), 3);
+    EXPECT_EQ(hero->GetAttackRange(), 3);
+    EXPECT_EQ(hero->GetAbility(), Hero::EAbilityType::lightning);
+    EXPECT_EQ(hero->GetPosition(), Point(0, 0));
 }
 
 
-TEST(HeroBuilder, OrcBerserkBuilder) {
-
+TEST(HeroBuilder, OrcMightyHero) {
+    std::shared_ptr<HeroBuilder> builder = std::make_shared<OrcHeroBuilder>();
+    HeroDirector director(builder);
+    auto hero = director.Create(HeroDirector::EHeroTypes::MightyHero, Point(0, 0));
+    EXPECT_EQ(hero->GetHP(), 300);
+    EXPECT_EQ(hero->GetMana(), 0);
+    EXPECT_EQ(hero->GetWeapon(), Hero::EWeaponType::stick);
+    EXPECT_FALSE(hero->GetHorse());
+    EXPECT_FALSE(hero->GetShield());
+    EXPECT_EQ(hero->GetArmor(), 0);
+    EXPECT_EQ(hero->GetDamage(), 35);
+    EXPECT_EQ(hero->GetTurnPoints(), 3);
+    EXPECT_EQ(hero->GetAttackRange(), 1);
+    EXPECT_EQ(hero->GetAbility(), Hero::EAbilityType::ability_none);
+    EXPECT_EQ(hero->GetPosition(), Point(0, 0));
 }

@@ -334,41 +334,41 @@ HeroBuilder.h
 HeroBuilder.h
 ../Army/test/../src/Hero/HeroBuilder.h
 
-../Army/test/../src/HumanFactory.h
+../Army/test/../src/headers/HumanFactory.h
 WarriorFactory.h
-../Army/test/../src/WarriorFactory.h
+../Army/test/../src/headers/WarriorFactory.h
 
-../Army/test/../src/OrcFactory.h
+../Army/test/../src/headers/OrcFactory.h
 WarriorFactory.h
-../Army/test/../src/WarriorFactory.h
+../Army/test/../src/headers/WarriorFactory.h
 
-../Army/test/../src/Point.h
+../Army/test/../src/headers/Point.h
 
-../Army/test/../src/Unit.h
+../Army/test/../src/headers/Unit.h
 Point.h
-../Army/test/../src/Point.h
+../Army/test/../src/headers/Point.h
 memory
 -
 
-../Army/test/../src/WarriorFactory.h
+../Army/test/../src/headers/WarriorFactory.h
 Unit.h
-../Army/test/../src/Unit.h
+../Army/test/../src/headers/Unit.h
 memory
 -
 Point.h
-../Army/test/../src/Point.h
+../Army/test/../src/headers/Point.h
 
 C:/Users/iusup/CLionProjects/TP/Army/test/test.cpp
-OrcFactory.h
-C:/Users/iusup/CLionProjects/TP/Army/test/OrcFactory.h
-HumanFactory.h
-C:/Users/iusup/CLionProjects/TP/Army/test/HumanFactory.h
-Unit.h
-C:/Users/iusup/CLionProjects/TP/Army/test/Unit.h
+headers/OrcFactory.h
+C:/Users/iusup/CLionProjects/TP/Army/test/headers/OrcFactory.h
+headers/HumanFactory.h
+C:/Users/iusup/CLionProjects/TP/Army/test/headers/HumanFactory.h
+headers/Unit.h
+C:/Users/iusup/CLionProjects/TP/Army/test/headers/Unit.h
 gtest/gtest.h
 C:/Users/iusup/CLionProjects/TP/Army/test/gtest/gtest.h
-Unit.h
-C:/Users/iusup/CLionProjects/TP/Army/test/Unit.h
+headers/Unit.h
+C:/Users/iusup/CLionProjects/TP/Army/test/headers/Unit.h
 Hero.h
 C:/Users/iusup/CLionProjects/TP/Army/test/Hero.h
 Hero/HeroBuilder.h

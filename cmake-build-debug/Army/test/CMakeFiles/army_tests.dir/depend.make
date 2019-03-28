@@ -50,10 +50,10 @@ Army/test/CMakeFiles/army_tests.dir/test.cpp.obj: ../Army/test/../src/Hero/HeroB
 Army/test/CMakeFiles/army_tests.dir/test.cpp.obj: ../Army/test/../src/Hero/HeroDirector.h
 Army/test/CMakeFiles/army_tests.dir/test.cpp.obj: ../Army/test/../src/Hero/HumanHeroBuilder.h
 Army/test/CMakeFiles/army_tests.dir/test.cpp.obj: ../Army/test/../src/Hero/OrcHeroBuilder.h
-Army/test/CMakeFiles/army_tests.dir/test.cpp.obj: ../Army/test/../src/HumanFactory.h
-Army/test/CMakeFiles/army_tests.dir/test.cpp.obj: ../Army/test/../src/OrcFactory.h
-Army/test/CMakeFiles/army_tests.dir/test.cpp.obj: ../Army/test/../src/Point.h
-Army/test/CMakeFiles/army_tests.dir/test.cpp.obj: ../Army/test/../src/Unit.h
-Army/test/CMakeFiles/army_tests.dir/test.cpp.obj: ../Army/test/../src/WarriorFactory.h
+Army/test/CMakeFiles/army_tests.dir/test.cpp.obj: ../Army/test/../src/headers/HumanFactory.h
+Army/test/CMakeFiles/army_tests.dir/test.cpp.obj: ../Army/test/../src/headers/OrcFactory.h
+Army/test/CMakeFiles/army_tests.dir/test.cpp.obj: ../Army/test/../src/headers/Point.h
+Army/test/CMakeFiles/army_tests.dir/test.cpp.obj: ../Army/test/../src/headers/Unit.h
+Army/test/CMakeFiles/army_tests.dir/test.cpp.obj: ../Army/test/../src/headers/WarriorFactory.h
 Army/test/CMakeFiles/army_tests.dir/test.cpp.obj: ../Army/test/test.cpp
 

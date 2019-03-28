@@ -318,13 +318,13 @@ TP_BINARY_DIR:STATIC=C:/Users/iusup/CLionProjects/TP/cmake-build-debug
 TP_SOURCE_DIR:STATIC=C:/Users/iusup/CLionProjects/TP
 
 //Value Computed by CMake
-gmock_BINARY_DIR:STATIC=C:/Users/iusup/CLionProjects/TP/cmake-build-debug/googletest-master/googlemock
+gmock_BINARY_DIR:STATIC=C:/Users/iusup/CLionProjects/TP/cmake-build-debug/lib/googletest-master/googlemock
 
 //Dependencies for the target
 gmock_LIB_DEPENDS:STATIC=general;gtest;
 
 //Value Computed by CMake
-gmock_SOURCE_DIR:STATIC=C:/Users/iusup/CLionProjects/TP/googletest-master/googlemock
+gmock_SOURCE_DIR:STATIC=C:/Users/iusup/CLionProjects/TP/lib/googletest-master/googlemock
 
 //Build all of Google Mock's own tests.
 gmock_build_tests:BOOL=OFF
@@ -333,16 +333,16 @@ gmock_build_tests:BOOL=OFF
 gmock_main_LIB_DEPENDS:STATIC=general;gmock;
 
 //Value Computed by CMake
-googletest-distribution_BINARY_DIR:STATIC=C:/Users/iusup/CLionProjects/TP/cmake-build-debug/googletest-master
+googletest-distribution_BINARY_DIR:STATIC=C:/Users/iusup/CLionProjects/TP/cmake-build-debug/lib/googletest-master
 
 //Value Computed by CMake
-googletest-distribution_SOURCE_DIR:STATIC=C:/Users/iusup/CLionProjects/TP/googletest-master
+googletest-distribution_SOURCE_DIR:STATIC=C:/Users/iusup/CLionProjects/TP/lib/googletest-master
 
 //Value Computed by CMake
-gtest_BINARY_DIR:STATIC=C:/Users/iusup/CLionProjects/TP/cmake-build-debug/googletest-master/googlemock/gtest
+gtest_BINARY_DIR:STATIC=C:/Users/iusup/CLionProjects/TP/cmake-build-debug/lib/googletest-master/googlemock/gtest
 
 //Value Computed by CMake
-gtest_SOURCE_DIR:STATIC=C:/Users/iusup/CLionProjects/TP/googletest-master/googletest
+gtest_SOURCE_DIR:STATIC=C:/Users/iusup/CLionProjects/TP/lib/googletest-master/googletest
 
 //Build gtest's sample programs.
 gtest_build_samples:BOOL=OFF
@@ -504,7 +504,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=7
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=9
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
@@ -564,7 +564,7 @@ FIND_PACKAGE_MESSAGE_DETAILS_PythonInterp:INTERNAL=[C:/Users/iusup/AppData/Local
 PYTHON_EXECUTABLE-ADVANCED:INTERNAL=1
 //CMAKE_INSTALL_PREFIX during last run
 _GNUInstallDirs_LAST_CMAKE_INSTALL_PREFIX:INTERNAL=C:/Program Files (x86)/TP
-generated_dir:INTERNAL=C:/Users/iusup/CLionProjects/TP/cmake-build-debug/googletest-master/googlemock/gtest/generated
+generated_dir:INTERNAL=C:/Users/iusup/CLionProjects/TP/cmake-build-debug/lib/googletest-master/googlemock/gtest/generated
 //ADVANCED property for variable: gmock_build_tests
 gmock_build_tests-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: gtest_build_samples

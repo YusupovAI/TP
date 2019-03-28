@@ -16,5 +16,5 @@ endif()
 
 
 enable_testing()
-add_subdirectory(googletest-master)
-add_subdirectory(Army)
+add_subdirectory(lib)
+add_subdirectory(code)

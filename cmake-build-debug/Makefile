@@ -176,7 +176,7 @@ gmock_main: cmake_check_build_system
 
 # fast build rule for target.
 gmock_main/fast:
-	$(MAKE) -f googletest-master\googlemock\CMakeFiles\gmock_main.dir\build.make googletest-master/googlemock/CMakeFiles/gmock_main.dir/build
+	$(MAKE) -f lib\googletest-master\googlemock\CMakeFiles\gmock_main.dir\build.make lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/build
 .PHONY : gmock_main/fast
 
 #=============================================================================
@@ -189,7 +189,7 @@ gmock: cmake_check_build_system
 
 # fast build rule for target.
 gmock/fast:
-	$(MAKE) -f googletest-master\googlemock\CMakeFiles\gmock.dir\build.make googletest-master/googlemock/CMakeFiles/gmock.dir/build
+	$(MAKE) -f lib\googletest-master\googlemock\CMakeFiles\gmock.dir\build.make lib/googletest-master/googlemock/CMakeFiles/gmock.dir/build
 .PHONY : gmock/fast
 
 #=============================================================================
@@ -202,7 +202,7 @@ gtest: cmake_check_build_system
 
 # fast build rule for target.
 gtest/fast:
-	$(MAKE) -f googletest-master\googlemock\gtest\CMakeFiles\gtest.dir\build.make googletest-master/googlemock/gtest/CMakeFiles/gtest.dir/build
+	$(MAKE) -f lib\googletest-master\googlemock\gtest\CMakeFiles\gtest.dir\build.make lib/googletest-master/googlemock/gtest/CMakeFiles/gtest.dir/build
 .PHONY : gtest/fast
 
 #=============================================================================
@@ -215,7 +215,7 @@ gtest_main: cmake_check_build_system
 
 # fast build rule for target.
 gtest_main/fast:
-	$(MAKE) -f googletest-master\googlemock\gtest\CMakeFiles\gtest_main.dir\build.make googletest-master/googlemock/gtest/CMakeFiles/gtest_main.dir/build
+	$(MAKE) -f lib\googletest-master\googlemock\gtest\CMakeFiles\gtest_main.dir\build.make lib/googletest-master/googlemock/gtest/CMakeFiles/gtest_main.dir/build
 .PHONY : gtest_main/fast
 
 #=============================================================================
@@ -228,7 +228,7 @@ army: cmake_check_build_system
 
 # fast build rule for target.
 army/fast:
-	$(MAKE) -f Army\src\CMakeFiles\army.dir\build.make Army/src/CMakeFiles/army.dir/build
+	$(MAKE) -f code\Army\src\CMakeFiles\army.dir\build.make code/Army/src/CMakeFiles/army.dir/build
 .PHONY : army/fast
 
 #=============================================================================
@@ -241,7 +241,7 @@ army_tests: cmake_check_build_system
 
 # fast build rule for target.
 army_tests/fast:
-	$(MAKE) -f Army\test\CMakeFiles\army_tests.dir\build.make Army/test/CMakeFiles/army_tests.dir/build
+	$(MAKE) -f code\Army\test\CMakeFiles\army_tests.dir\build.make code/Army/test/CMakeFiles/army_tests.dir/build
 .PHONY : army_tests/fast
 
 # Help Target

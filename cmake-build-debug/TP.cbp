@@ -280,7 +280,7 @@
 				</MakeCommands>
 			</Target>
 			<Target title="player">
-				<Option output="C:/Users/iusup/CLionProjects/TP/cmake-build-debug/lib/libplayer.a" prefix_auto="0" extension_auto="0"/>
+				<Option output="C:/Users/iusup/CLionProjects/TP/cmake-build-debug/code/libplayer.a" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="C:/Users/iusup/CLionProjects/TP/cmake-build-debug/code"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
@@ -307,7 +307,7 @@
 				</MakeCommands>
 			</Target>
 			<Target title="player/fast">
-				<Option output="C:/Users/iusup/CLionProjects/TP/cmake-build-debug/lib/libplayer.a" prefix_auto="0" extension_auto="0"/>
+				<Option output="C:/Users/iusup/CLionProjects/TP/cmake-build-debug/code/libplayer.a" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="C:/Users/iusup/CLionProjects/TP/cmake-build-debug/code"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
@@ -334,8 +334,8 @@
 				</MakeCommands>
 			</Target>
 			<Target title="army_tests">
-				<Option output="C:/Users/iusup/CLionProjects/TP/cmake-build-debug/bin/army_tests.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/iusup/CLionProjects/TP/cmake-build-debug/bin"/>
+				<Option output="C:/Users/iusup/CLionProjects/TP/cmake-build-debug/code/army_tests.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/iusup/CLionProjects/TP/cmake-build-debug/code"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -362,8 +362,8 @@
 				</MakeCommands>
 			</Target>
 			<Target title="army_tests/fast">
-				<Option output="C:/Users/iusup/CLionProjects/TP/cmake-build-debug/bin/army_tests.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/iusup/CLionProjects/TP/cmake-build-debug/bin"/>
+				<Option output="C:/Users/iusup/CLionProjects/TP/cmake-build-debug/code/army_tests.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/iusup/CLionProjects/TP/cmake-build-debug/code"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -390,7 +390,7 @@
 				</MakeCommands>
 			</Target>
 			<Target title="army">
-				<Option output="C:/Users/iusup/CLionProjects/TP/cmake-build-debug/lib/libarmy.a" prefix_auto="0" extension_auto="0"/>
+				<Option output="C:/Users/iusup/CLionProjects/TP/cmake-build-debug/code/Army/src/libarmy.a" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="C:/Users/iusup/CLionProjects/TP/cmake-build-debug/code/Army/src"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
@@ -414,7 +414,7 @@
 				</MakeCommands>
 			</Target>
 			<Target title="army/fast">
-				<Option output="C:/Users/iusup/CLionProjects/TP/cmake-build-debug/lib/libarmy.a" prefix_auto="0" extension_auto="0"/>
+				<Option output="C:/Users/iusup/CLionProjects/TP/cmake-build-debug/code/Army/src/libarmy.a" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="C:/Users/iusup/CLionProjects/TP/cmake-build-debug/code/Army/src"/>
 				<Option object_output="./"/>
 				<Option type="2"/>

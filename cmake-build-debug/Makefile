@@ -219,6 +219,19 @@ gtest_main/fast:
 .PHONY : gtest_main/fast
 
 #=============================================================================
+# Target rules for targets named player
+
+# Build rule for target.
+player: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 player
+.PHONY : player
+
+# fast build rule for target.
+player/fast:
+	$(MAKE) -f code\CMakeFiles\player.dir\build.make code/CMakeFiles/player.dir/build
+.PHONY : player/fast
+
+#=============================================================================
 # Target rules for targets named army_tests
 
 # Build rule for target.
@@ -261,6 +274,7 @@ help:
 	@echo ... gmock
 	@echo ... gtest
 	@echo ... gtest_main
+	@echo ... player
 	@echo ... army_tests
 	@echo ... army
 .PHONY : help

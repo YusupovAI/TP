@@ -279,6 +279,60 @@
 					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/iusup/CLionProjects/TP/cmake-build-debug/lib/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="player">
+				<Option output="C:/Users/iusup/CLionProjects/TP/cmake-build-debug/lib/libplayer.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/iusup/CLionProjects/TP/cmake-build-debug/code"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/iusup/CLionProjects/TP/code/Army/src/Headers"/>
+					<Add directory="C:/Users/iusup/CLionProjects/TP/code/Army/src/Headers/Hero"/>
+					<Add directory="C:/Users/iusup/CLionProjects/TP/code/Army/src/Headers/Factory"/>
+					<Add directory="C:/Users/iusup/CLionProjects/TP/code/Army/src/headers/Factory"/>
+					<Add directory="C:/Users/iusup/CLionProjects/TP/code/Army/src/headers/Hero"/>
+					<Add directory="C:/Users/iusup/CLionProjects/TP/code/Army/src/headers"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/iusup/CLionProjects/TP/cmake-build-debug/code/Makefile&quot;  VERBOSE=1 player"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/iusup/CLionProjects/TP/cmake-build-debug/code/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/iusup/CLionProjects/TP/cmake-build-debug/code/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/iusup/CLionProjects/TP/cmake-build-debug/code/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="player/fast">
+				<Option output="C:/Users/iusup/CLionProjects/TP/cmake-build-debug/lib/libplayer.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/iusup/CLionProjects/TP/cmake-build-debug/code"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/iusup/CLionProjects/TP/code/Army/src/Headers"/>
+					<Add directory="C:/Users/iusup/CLionProjects/TP/code/Army/src/Headers/Hero"/>
+					<Add directory="C:/Users/iusup/CLionProjects/TP/code/Army/src/Headers/Factory"/>
+					<Add directory="C:/Users/iusup/CLionProjects/TP/code/Army/src/headers/Factory"/>
+					<Add directory="C:/Users/iusup/CLionProjects/TP/code/Army/src/headers/Hero"/>
+					<Add directory="C:/Users/iusup/CLionProjects/TP/code/Army/src/headers"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/iusup/CLionProjects/TP/cmake-build-debug/code/Makefile&quot;  VERBOSE=1 player/fast"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/iusup/CLionProjects/TP/cmake-build-debug/code/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/iusup/CLionProjects/TP/cmake-build-debug/code/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/iusup/CLionProjects/TP/cmake-build-debug/code/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="army_tests">
 				<Option output="C:/Users/iusup/CLionProjects/TP/cmake-build-debug/bin/army_tests.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="C:/Users/iusup/CLionProjects/TP/cmake-build-debug/bin"/>
@@ -413,6 +467,12 @@
 		</Unit>
 		<Unit filename="C:/Users/iusup/CLionProjects/TP/code/Army/test/test.cpp">
 			<Option target="army_tests"/>
+		</Unit>
+		<Unit filename="C:/Users/iusup/CLionProjects/TP/code/Player.cpp">
+			<Option target="player"/>
+		</Unit>
+		<Unit filename="C:/Users/iusup/CLionProjects/TP/code/Player.h">
+			<Option target="player"/>
 		</Unit>
 		<Unit filename="C:/Users/iusup/CLionProjects/TP/code/main.cpp">
 			<Option target="army_tests"/>

@@ -363,6 +363,9 @@ gtest_hide_internal_symbols:BOOL=OFF
 //Dependencies for the target
 gtest_main_LIB_DEPENDS:STATIC=general;gtest;
 
+//Dependencies for the target
+player_LIB_DEPENDS:STATIC=general;army;
+
 
 ########################
 # INTERNAL cache entries

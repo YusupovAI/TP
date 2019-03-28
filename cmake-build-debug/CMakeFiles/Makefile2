@@ -294,12 +294,14 @@ clean: lib/googletest-master/googlemock/gtest/CMakeFiles/gtest_main.dir/clean
 # Directory level rules for directory code
 
 # Convenience name for "all" pass in the directory.
+code/all: code/CMakeFiles/player.dir/all
 code/all: code/CMakeFiles/army_tests.dir/all
 code/all: code/Army/all
 
 .PHONY : code/all
 
 # Convenience name for "clean" pass in the directory.
+code/clean: code/CMakeFiles/player.dir/clean
 code/clean: code/CMakeFiles/army_tests.dir/clean
 code/clean: code/Army/clean
 
@@ -309,6 +311,43 @@ code/clean: code/Army/clean
 code/preinstall: code/Army/preinstall
 
 .PHONY : code/preinstall
+
+#=============================================================================
+# Target rules for target code/CMakeFiles/player.dir
+
+# All Build rule for target.
+code/CMakeFiles/player.dir/all: code/Army/src/CMakeFiles/army.dir/all
+	$(MAKE) -f code\CMakeFiles\player.dir\build.make code/CMakeFiles/player.dir/depend
+	$(MAKE) -f code\CMakeFiles\player.dir\build.make code/CMakeFiles/player.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\iusup\CLionProjects\TP\cmake-build-debug\CMakeFiles --progress-num=22,23 "Built target player"
+.PHONY : code/CMakeFiles/player.dir/all
+
+# Include target in all.
+all: code/CMakeFiles/player.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+code/CMakeFiles/player.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\iusup\CLionProjects\TP\cmake-build-debug\CMakeFiles 12
+	$(MAKE) -f CMakeFiles\Makefile2 code/CMakeFiles/player.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\iusup\CLionProjects\TP\cmake-build-debug\CMakeFiles 0
+.PHONY : code/CMakeFiles/player.dir/rule
+
+# Convenience name for target.
+player: code/CMakeFiles/player.dir/rule
+
+.PHONY : player
+
+# clean rule for target.
+code/CMakeFiles/player.dir/clean:
+	$(MAKE) -f code\CMakeFiles\player.dir\build.make code/CMakeFiles/player.dir/clean
+.PHONY : code/CMakeFiles/player.dir/clean
+
+# clean rule for target.
+clean: code/CMakeFiles/player.dir/clean
+
+.PHONY : clean
 
 #=============================================================================
 # Target rules for target code/CMakeFiles/army_tests.dir

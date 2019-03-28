@@ -12,19 +12,19 @@ class HeroBuilder {
 public:
     void Reset();
 
-    virtual void BuildWeapon() = 0;
+    virtual void BuildWeapon(Hero::EWeaponType) = 0;
 
-    virtual void BuildAbility() = 0;
+    virtual void BuildAbility(Hero::EAbilityType) = 0;
 
     virtual void BuildCharacteristics() = 0;
 
-    virtual void BuildHorse() = 0;
+    virtual void BuildHorse(unsigned int turn_points) = 0;
 
-    virtual void BuildShield() = 0;
+    virtual void BuildShield(unsigned int armor) = 0;
 
     void BuildPosition(const Point &);
 
-    std::shared_ptr<Hero> GetResult();
+    std::shared_ptr<Hero> GetResult() const;
 
     virtual ~HeroBuilder() = default;
 

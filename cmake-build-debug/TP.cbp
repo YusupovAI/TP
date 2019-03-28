@@ -5,7 +5,7 @@
 		<Option title="TP"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\lib\;CMake Files\lib\googletest-master\;CMake Files\lib\googletest-master\googlemock\;CMake Files\lib\googletest-master\googlemock\cmake\;CMake Files\lib\googletest-master\googletest\;CMake Files\lib\googletest-master\googletest\cmake\;CMake Files\code\;CMake Files\code\Army\;CMake Files\code\Army\src\;CMake Files\code\Army\test\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\lib\;CMake Files\lib\googletest-master\;CMake Files\lib\googletest-master\googlemock\;CMake Files\lib\googletest-master\googlemock\cmake\;CMake Files\lib\googletest-master\googletest\;CMake Files\lib\googletest-master\googletest\cmake\;CMake Files\code\;CMake Files\code\Army\;CMake Files\code\Army\src\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="C:/Users/iusup/CLionProjects/TP/cmake-build-debug"/>
@@ -279,6 +279,62 @@
 					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/iusup/CLionProjects/TP/cmake-build-debug/lib/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="army_tests">
+				<Option output="C:/Users/iusup/CLionProjects/TP/cmake-build-debug/bin/army_tests.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/iusup/CLionProjects/TP/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/iusup/CLionProjects/TP/code/Army/src/headers"/>
+					<Add directory="C:/Users/iusup/CLionProjects/TP/code/../lib/googletest-master/googletest/include"/>
+					<Add directory="C:/Users/iusup/CLionProjects/TP/code/../lib/googletest-master/googletest"/>
+					<Add directory="C:/Users/iusup/CLionProjects/TP/code/Army/src/headers/Factory"/>
+					<Add directory="C:/Users/iusup/CLionProjects/TP/code/Army/src/headers/Hero"/>
+					<Add directory="C:/Users/iusup/CLionProjects/TP/lib/googletest-master/googletest/include"/>
+					<Add directory="C:/Users/iusup/CLionProjects/TP/lib/googletest-master/googletest"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/iusup/CLionProjects/TP/cmake-build-debug/code/Makefile&quot;  VERBOSE=1 army_tests"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/iusup/CLionProjects/TP/cmake-build-debug/code/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/iusup/CLionProjects/TP/cmake-build-debug/code/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/iusup/CLionProjects/TP/cmake-build-debug/code/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="army_tests/fast">
+				<Option output="C:/Users/iusup/CLionProjects/TP/cmake-build-debug/bin/army_tests.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/iusup/CLionProjects/TP/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/iusup/CLionProjects/TP/code/Army/src/headers"/>
+					<Add directory="C:/Users/iusup/CLionProjects/TP/code/../lib/googletest-master/googletest/include"/>
+					<Add directory="C:/Users/iusup/CLionProjects/TP/code/../lib/googletest-master/googletest"/>
+					<Add directory="C:/Users/iusup/CLionProjects/TP/code/Army/src/headers/Factory"/>
+					<Add directory="C:/Users/iusup/CLionProjects/TP/code/Army/src/headers/Hero"/>
+					<Add directory="C:/Users/iusup/CLionProjects/TP/lib/googletest-master/googletest/include"/>
+					<Add directory="C:/Users/iusup/CLionProjects/TP/lib/googletest-master/googletest"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/iusup/CLionProjects/TP/cmake-build-debug/code/Makefile&quot;  VERBOSE=1 army_tests/fast"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/iusup/CLionProjects/TP/cmake-build-debug/code/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/iusup/CLionProjects/TP/cmake-build-debug/code/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/iusup/CLionProjects/TP/cmake-build-debug/code/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="army">
 				<Option output="C:/Users/iusup/CLionProjects/TP/cmake-build-debug/lib/libarmy.a" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="C:/Users/iusup/CLionProjects/TP/cmake-build-debug/code/Army/src"/>
@@ -327,68 +383,6 @@
 					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/iusup/CLionProjects/TP/cmake-build-debug/code/Army/src/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="army_tests">
-				<Option output="C:/Users/iusup/CLionProjects/TP/cmake-build-debug/bin/army_tests.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/iusup/CLionProjects/TP/cmake-build-debug/bin"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="C:/Users/iusup/CLionProjects/TP/code/Army/test/../src/headers"/>
-					<Add directory="C:/Users/iusup/CLionProjects/TP/code/Army/test/../../../lib/googletest-master/googletest/include"/>
-					<Add directory="C:/Users/iusup/CLionProjects/TP/code/Army/test/../../../lib/googletest-master/googletest"/>
-					<Add directory="C:/Users/iusup/CLionProjects/TP/code/Army/test/../src/headers/Factory"/>
-					<Add directory="C:/Users/iusup/CLionProjects/TP/code/Army/test/../src/headers/Hero"/>
-					<Add directory="C:/Users/iusup/CLionProjects/TP/code/Army/src/headers/Factory"/>
-					<Add directory="C:/Users/iusup/CLionProjects/TP/code/Army/src/headers/Hero"/>
-					<Add directory="C:/Users/iusup/CLionProjects/TP/code/Army/src/headers"/>
-					<Add directory="C:/Users/iusup/CLionProjects/TP/lib/googletest-master/googletest/include"/>
-					<Add directory="C:/Users/iusup/CLionProjects/TP/lib/googletest-master/googletest"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/iusup/CLionProjects/TP/cmake-build-debug/code/Army/test/Makefile&quot;  VERBOSE=1 army_tests"/>
-					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/iusup/CLionProjects/TP/cmake-build-debug/code/Army/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/iusup/CLionProjects/TP/cmake-build-debug/code/Army/test/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/iusup/CLionProjects/TP/cmake-build-debug/code/Army/test/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="army_tests/fast">
-				<Option output="C:/Users/iusup/CLionProjects/TP/cmake-build-debug/bin/army_tests.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/iusup/CLionProjects/TP/cmake-build-debug/bin"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="C:/Users/iusup/CLionProjects/TP/code/Army/test/../src/headers"/>
-					<Add directory="C:/Users/iusup/CLionProjects/TP/code/Army/test/../../../lib/googletest-master/googletest/include"/>
-					<Add directory="C:/Users/iusup/CLionProjects/TP/code/Army/test/../../../lib/googletest-master/googletest"/>
-					<Add directory="C:/Users/iusup/CLionProjects/TP/code/Army/test/../src/headers/Factory"/>
-					<Add directory="C:/Users/iusup/CLionProjects/TP/code/Army/test/../src/headers/Hero"/>
-					<Add directory="C:/Users/iusup/CLionProjects/TP/code/Army/src/headers/Factory"/>
-					<Add directory="C:/Users/iusup/CLionProjects/TP/code/Army/src/headers/Hero"/>
-					<Add directory="C:/Users/iusup/CLionProjects/TP/code/Army/src/headers"/>
-					<Add directory="C:/Users/iusup/CLionProjects/TP/lib/googletest-master/googletest/include"/>
-					<Add directory="C:/Users/iusup/CLionProjects/TP/lib/googletest-master/googletest"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/iusup/CLionProjects/TP/cmake-build-debug/code/Army/test/Makefile&quot;  VERBOSE=1 army_tests/fast"/>
-					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/iusup/CLionProjects/TP/cmake-build-debug/code/Army/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/iusup/CLionProjects/TP/cmake-build-debug/code/Army/test/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/iusup/CLionProjects/TP/cmake-build-debug/code/Army/test/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
 		</Build>
 		<Unit filename="C:/Users/iusup/CLionProjects/TP/code/Army/src/Factory/HumanFactory.cpp">
 			<Option target="army"/>
@@ -417,10 +411,10 @@
 		<Unit filename="C:/Users/iusup/CLionProjects/TP/code/Army/src/Unit.cpp">
 			<Option target="army"/>
 		</Unit>
-		<Unit filename="C:/Users/iusup/CLionProjects/TP/code/Army/test/main.cpp">
+		<Unit filename="C:/Users/iusup/CLionProjects/TP/code/Army/test/test.cpp">
 			<Option target="army_tests"/>
 		</Unit>
-		<Unit filename="C:/Users/iusup/CLionProjects/TP/code/Army/test/test.cpp">
+		<Unit filename="C:/Users/iusup/CLionProjects/TP/code/main.cpp">
 			<Option target="army_tests"/>
 		</Unit>
 		<Unit filename="C:/Users/iusup/CLionProjects/TP/lib/googletest-master/googlemock/src/gmock-all.cc">
@@ -476,9 +470,6 @@
 		</Unit>
 		<Unit filename="C:/Users/iusup/CLionProjects/TP/code/Army/src/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\code\Army\src\"/>
-		</Unit>
-		<Unit filename="C:/Users/iusup/CLionProjects/TP/code/Army/test/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\code\Army\test\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>

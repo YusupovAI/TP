@@ -12,17 +12,16 @@
 
 class HeroDirector final {
 public:
-    enum EHeroTypes {
-        MightyHero, WiseHero
-    };
 
     HeroDirector() = default;
 
-    explicit HeroDirector(const std::shared_ptr<HeroBuilder>&);
+    explicit HeroDirector(const std::shared_ptr<HeroBuilder> &);
 
-    void ChangeBuilder(const std::shared_ptr<HeroBuilder>&);
+    void ChangeBuilder(const std::shared_ptr<HeroBuilder> &);
 
-    std::shared_ptr<Hero> Create(EHeroTypes, const Point &);
+    std::shared_ptr<Hero> CreateWiseHero(const Point &);
+
+    std::shared_ptr<Hero> CreateMightyHero(const Point &);
 
 private:
     std::shared_ptr<HeroBuilder> builder_;

@@ -125,8 +125,8 @@ lib/googletest-master/googlemock/preinstall: lib/googletest-master/googlemock/gt
 # Target rules for target lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir
 
 # All Build rule for target.
-lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/all: lib/googletest-master/googlemock/CMakeFiles/gmock.dir/all
 lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/all: lib/googletest-master/googlemock/gtest/CMakeFiles/gtest.dir/all
+lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/all: lib/googletest-master/googlemock/CMakeFiles/gmock.dir/all
 	$(MAKE) -f lib\googletest-master\googlemock\CMakeFiles\gmock_main.dir\build.make lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/depend
 	$(MAKE) -f lib\googletest-master\googlemock\CMakeFiles\gmock_main.dir\build.make lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\iusup\CLionProjects\TP\cmake-build-debug\CMakeFiles --progress-num=16,17 "Built target gmock_main"
@@ -294,11 +294,13 @@ clean: lib/googletest-master/googlemock/gtest/CMakeFiles/gtest_main.dir/clean
 # Directory level rules for directory code
 
 # Convenience name for "all" pass in the directory.
+code/all: code/CMakeFiles/army_tests.dir/all
 code/all: code/Army/all
 
 .PHONY : code/all
 
 # Convenience name for "clean" pass in the directory.
+code/clean: code/CMakeFiles/army_tests.dir/clean
 code/clean: code/Army/clean
 
 .PHONY : code/clean
@@ -309,23 +311,59 @@ code/preinstall: code/Army/preinstall
 .PHONY : code/preinstall
 
 #=============================================================================
+# Target rules for target code/CMakeFiles/army_tests.dir
+
+# All Build rule for target.
+code/CMakeFiles/army_tests.dir/all: lib/googletest-master/googlemock/gtest/CMakeFiles/gtest.dir/all
+code/CMakeFiles/army_tests.dir/all: lib/googletest-master/googlemock/gtest/CMakeFiles/gtest_main.dir/all
+code/CMakeFiles/army_tests.dir/all: code/Army/src/CMakeFiles/army.dir/all
+	$(MAKE) -f code\CMakeFiles\army_tests.dir\build.make code/CMakeFiles/army_tests.dir/depend
+	$(MAKE) -f code\CMakeFiles\army_tests.dir\build.make code/CMakeFiles/army_tests.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\iusup\CLionProjects\TP\cmake-build-debug\CMakeFiles --progress-num=11,12,13 "Built target army_tests"
+.PHONY : code/CMakeFiles/army_tests.dir/all
+
+# Include target in all.
+all: code/CMakeFiles/army_tests.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+code/CMakeFiles/army_tests.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\iusup\CLionProjects\TP\cmake-build-debug\CMakeFiles 17
+	$(MAKE) -f CMakeFiles\Makefile2 code/CMakeFiles/army_tests.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\iusup\CLionProjects\TP\cmake-build-debug\CMakeFiles 0
+.PHONY : code/CMakeFiles/army_tests.dir/rule
+
+# Convenience name for target.
+army_tests: code/CMakeFiles/army_tests.dir/rule
+
+.PHONY : army_tests
+
+# clean rule for target.
+code/CMakeFiles/army_tests.dir/clean:
+	$(MAKE) -f code\CMakeFiles\army_tests.dir\build.make code/CMakeFiles/army_tests.dir/clean
+.PHONY : code/CMakeFiles/army_tests.dir/clean
+
+# clean rule for target.
+clean: code/CMakeFiles/army_tests.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
 # Directory level rules for directory code/Army
 
 # Convenience name for "all" pass in the directory.
 code/Army/all: code/Army/src/all
-code/Army/all: code/Army/test/all
 
 .PHONY : code/Army/all
 
 # Convenience name for "clean" pass in the directory.
 code/Army/clean: code/Army/src/clean
-code/Army/clean: code/Army/test/clean
 
 .PHONY : code/Army/clean
 
 # Convenience name for "preinstall" pass in the directory.
 code/Army/preinstall: code/Army/src/preinstall
-code/Army/preinstall: code/Army/test/preinstall
 
 .PHONY : code/Army/preinstall
 
@@ -381,63 +419,6 @@ code/Army/src/CMakeFiles/army.dir/clean:
 
 # clean rule for target.
 clean: code/Army/src/CMakeFiles/army.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Directory level rules for directory code/Army/test
-
-# Convenience name for "all" pass in the directory.
-code/Army/test/all: code/Army/test/CMakeFiles/army_tests.dir/all
-
-.PHONY : code/Army/test/all
-
-# Convenience name for "clean" pass in the directory.
-code/Army/test/clean: code/Army/test/CMakeFiles/army_tests.dir/clean
-
-.PHONY : code/Army/test/clean
-
-# Convenience name for "preinstall" pass in the directory.
-code/Army/test/preinstall:
-
-.PHONY : code/Army/test/preinstall
-
-#=============================================================================
-# Target rules for target code/Army/test/CMakeFiles/army_tests.dir
-
-# All Build rule for target.
-code/Army/test/CMakeFiles/army_tests.dir/all: lib/googletest-master/googlemock/gtest/CMakeFiles/gtest_main.dir/all
-code/Army/test/CMakeFiles/army_tests.dir/all: lib/googletest-master/googlemock/gtest/CMakeFiles/gtest.dir/all
-code/Army/test/CMakeFiles/army_tests.dir/all: code/Army/src/CMakeFiles/army.dir/all
-	$(MAKE) -f code\Army\test\CMakeFiles\army_tests.dir\build.make code/Army/test/CMakeFiles/army_tests.dir/depend
-	$(MAKE) -f code\Army\test\CMakeFiles\army_tests.dir\build.make code/Army/test/CMakeFiles/army_tests.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\iusup\CLionProjects\TP\cmake-build-debug\CMakeFiles --progress-num=11,12,13 "Built target army_tests"
-.PHONY : code/Army/test/CMakeFiles/army_tests.dir/all
-
-# Include target in all.
-all: code/Army/test/CMakeFiles/army_tests.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-code/Army/test/CMakeFiles/army_tests.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\iusup\CLionProjects\TP\cmake-build-debug\CMakeFiles 17
-	$(MAKE) -f CMakeFiles\Makefile2 code/Army/test/CMakeFiles/army_tests.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\iusup\CLionProjects\TP\cmake-build-debug\CMakeFiles 0
-.PHONY : code/Army/test/CMakeFiles/army_tests.dir/rule
-
-# Convenience name for target.
-army_tests: code/Army/test/CMakeFiles/army_tests.dir/rule
-
-.PHONY : army_tests
-
-# clean rule for target.
-code/Army/test/CMakeFiles/army_tests.dir/clean:
-	$(MAKE) -f code\Army\test\CMakeFiles\army_tests.dir\build.make code/Army/test/CMakeFiles/army_tests.dir/clean
-.PHONY : code/Army/test/CMakeFiles/army_tests.dir/clean
-
-# clean rule for target.
-clean: code/Army/test/CMakeFiles/army_tests.dir/clean
 
 .PHONY : clean
 

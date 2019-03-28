@@ -14,13 +14,13 @@ public:
 
     void BuildCharacteristics() override;
 
-    void BuildAbility() override;
+    void BuildAbility(Hero::EAbilityType) override;
 
-    void BuildWeapon() override;
+    void BuildWeapon(Hero::EWeaponType) override;
 
-    void BuildHorse() override;
+    void BuildHorse(unsigned int turn_points) override;
 
-    void BuildShield() override;
+    void BuildShield(unsigned int armor) override;
 };
 
 

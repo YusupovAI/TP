@@ -46,7 +46,6 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.13.2/CMakeSystem.cmake"
   "../code/Army/CMakeLists.txt"
   "../code/Army/src/CMakeLists.txt"
-  "../code/Army/test/CMakeLists.txt"
   "../code/CMakeLists.txt"
   "../lib/CMakeLists.txt"
   "../lib/googletest-master/CMakeLists.txt"
@@ -76,7 +75,6 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "code/CMakeFiles/CMakeDirectoryInformation.cmake"
   "code/Army/CMakeFiles/CMakeDirectoryInformation.cmake"
   "code/Army/src/CMakeFiles/CMakeDirectoryInformation.cmake"
-  "code/Army/test/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -85,6 +83,6 @@ set(CMAKE_DEPEND_INFO_FILES
   "lib/googletest-master/googlemock/CMakeFiles/gmock.dir/DependInfo.cmake"
   "lib/googletest-master/googlemock/gtest/CMakeFiles/gtest.dir/DependInfo.cmake"
   "lib/googletest-master/googlemock/gtest/CMakeFiles/gtest_main.dir/DependInfo.cmake"
+  "code/CMakeFiles/army_tests.dir/DependInfo.cmake"
   "code/Army/src/CMakeFiles/army.dir/DependInfo.cmake"
-  "code/Army/test/CMakeFiles/army_tests.dir/DependInfo.cmake"
   )

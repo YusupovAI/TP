@@ -10,7 +10,7 @@ void HeroBuilder::Reset() {
     result_ = std::make_shared<Hero>();
 }
 
-std::shared_ptr<Hero> HeroBuilder::GetResult() {
+std::shared_ptr<Hero> HeroBuilder::GetResult() const {
     return result_;
 }
 

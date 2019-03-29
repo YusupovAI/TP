@@ -37,14 +37,13 @@ C:/Users/iusup/CLionProjects/TP/cmake-build-debug/lib/googletest-master/googlemo
 C:/Users/iusup/CLionProjects/TP/cmake-build-debug/lib/googletest-master/googlemock/gtest/CMakeFiles/install.dir
 C:/Users/iusup/CLionProjects/TP/cmake-build-debug/lib/googletest-master/googlemock/gtest/CMakeFiles/edit_cache.dir
 C:/Users/iusup/CLionProjects/TP/cmake-build-debug/lib/googletest-master/googlemock/gtest/CMakeFiles/install/strip.dir
-C:/Users/iusup/CLionProjects/TP/cmake-build-debug/code/CMakeFiles/player.dir
-C:/Users/iusup/CLionProjects/TP/cmake-build-debug/code/CMakeFiles/install/local.dir
-C:/Users/iusup/CLionProjects/TP/cmake-build-debug/code/CMakeFiles/install.dir
-C:/Users/iusup/CLionProjects/TP/cmake-build-debug/code/CMakeFiles/edit_cache.dir
 C:/Users/iusup/CLionProjects/TP/cmake-build-debug/code/CMakeFiles/list_install_components.dir
 C:/Users/iusup/CLionProjects/TP/cmake-build-debug/code/CMakeFiles/army_tests.dir
 C:/Users/iusup/CLionProjects/TP/cmake-build-debug/code/CMakeFiles/rebuild_cache.dir
 C:/Users/iusup/CLionProjects/TP/cmake-build-debug/code/CMakeFiles/test.dir
+C:/Users/iusup/CLionProjects/TP/cmake-build-debug/code/CMakeFiles/install/local.dir
+C:/Users/iusup/CLionProjects/TP/cmake-build-debug/code/CMakeFiles/install.dir
+C:/Users/iusup/CLionProjects/TP/cmake-build-debug/code/CMakeFiles/edit_cache.dir
 C:/Users/iusup/CLionProjects/TP/cmake-build-debug/code/CMakeFiles/install/strip.dir
 C:/Users/iusup/CLionProjects/TP/cmake-build-debug/code/Army/CMakeFiles/rebuild_cache.dir
 C:/Users/iusup/CLionProjects/TP/cmake-build-debug/code/Army/CMakeFiles/test.dir

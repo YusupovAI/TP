@@ -26,26 +26,3 @@ set("gtest_SOURCE_DIR" "../lib/googletest-master/googletest")
 #        army
 #)
 
-add_executable(
-        army_tests
-        main.cpp
-        ${CMAKE_CURRENT_LIST_DIR}/Army/test/test.cpp
-)
-
-target_include_directories(
-        army_tests
-        PUBLIC
-        "${CMAKE_CURRENT_LIST_DIR}/Army/src/headers"
-        "${gtest_SOURCE_DIR}/include"
-        "${gtest_SOURCE_DIR}"
-        "${CMAKE_CURRENT_LIST_DIR}/Army/src/headers/Factory"
-        "${CMAKE_CURRENT_LIST_DIR}/Army/src/headers/Hero"
-)
-
-
-target_link_libraries(
-        army_tests
-        army
-        gtest
-        gtest_main
-)

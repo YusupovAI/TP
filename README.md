@@ -8,4 +8,4 @@ mkdir build\
 cd build\
 cmake ../\
 make\
-./army_tests\
+./army_tests

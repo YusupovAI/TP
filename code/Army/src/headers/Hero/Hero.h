@@ -11,8 +11,6 @@
 
 class Hero : public Unit {
 public:
-    Hero();
-
     Hero(const Hero &) = default;
 
     explicit Hero(const Point &);

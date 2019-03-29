@@ -312,6 +312,12 @@ INSTALL_GTEST:BOOL=ON
 PYTHON_EXECUTABLE:FILEPATH=C:/Users/iusup/AppData/Local/Continuum/anaconda3/python.exe
 
 //Value Computed by CMake
+Project_BINARY_DIR:STATIC=C:/Users/iusup/CLionProjects/TP/cmake-build-debug
+
+//Value Computed by CMake
+Project_SOURCE_DIR:STATIC=C:/Users/iusup/CLionProjects/TP
+
+//Value Computed by CMake
 TP_BINARY_DIR:STATIC=C:/Users/iusup/CLionProjects/TP/cmake-build-debug
 
 //Value Computed by CMake

@@ -1,9 +1,10 @@
-cmake_minimum_required(VERSION 3.8)
+cmake_minimum_required(VERSION 2.9)
 project(Game)
 
+set(PROJECT_NAME Game)
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(${PROJECT_NAME} main.cpp)
+add_executable(${PROJECT_NAME} "${CMAKE_CURRENT_SOURCE_DIR}/code/main.cpp")
 
 set(SFML_PATH "${CMAKE_CURRENT_SOURCE_DIR}/lib/SFML")
 set(SFML_LIB "${SFML_PATH}/lib")
@@ -18,43 +19,56 @@ add_library(sfml-system STATIC IMPORTED)
 set_property(TARGET sfml-system PROPERTY IMPORTED_LOCATION "${SFML_LIB}/libsfml-system.a")
 
 
-target_link_libraries(${PROJECT_NAME}  sfml-graphics sfml-window sfml-system )
-
-
-
-
-if(CMAKE_CXX_COMPILER_ID MATCHES GNU)
-    set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -fprofile-arcs -ftest-coverage")
-endif()
 
 
 enable_testing()
 add_subdirectory(lib)
 add_subdirectory(code)
 
-add_executable(
-        army_tests
-        ${CMAKE_CURRENT_LIST_DIR}/main.cpp
-)
 
 target_include_directories(
-        ${PROJECT_NAME}
+        "${PROJECT_NAME}"
         PUBLIC
-        "${CMAKE_CURRENT_LIST_DIR}/code/Army/src/headers"
+	"${CMAKE_CURRENT_SOURCE_DIR}/code/Army/src/headers"
         "${gtest_SOURCE_DIR}/include"
         "${gtest_SOURCE_DIR}"
-        "${CMAKE_CURRENT_LIST_DIR}/code/Army/src/headers/Factory"
-        "${CMAKE_CURRENT_LIST_DIR}/code/Army/src/headers/Hero"
+	"${CMAKE_CURRENT_SOURCE_DIR}/code/Army/src/headers/Factory"
+	"${CMAKE_CURRENT_SOURCE_DIR}/code/Army/src/headers/Hero"
 	"${SFML_INCLUDE}"
 )
 
 
 target_link_libraries(
-        army_tests
+	"${PROJECT_NAME}"
         army
-        gtest
-        gtest_main
 	sfml-graphics 
 	sfml-window 
 	sfml-system
 )
+
+set(TEST_PROJECT test)
+add_executable(${TEST_PROJECT} "")
+target_sources(
+	${TEST_PROJECT}
+	PUBLIC
+	${CMAKE_CURRENT_SOURCE_DIR}/tests/army_test.cpp
+	${CMAKE_CURRENT_SOURCE_DIR}/tests/main.cpp
+	)
+target_include_directories(
+	"${TEST_PROJECT}"
+        PUBLIC
+	"${CMAKE_CURRENT_SOURCE_DIR}/code/Army/src/headers"
+        "${gtest_SOURCE_DIR}/include"
+        "${gtest_SOURCE_DIR}"
+	"${CMAKE_CURRENT_SOURCE_DIR}/code/Army/src/headers/Factory"
+	"${CMAKE_CURRENT_SOURCE_DIR}/code/Army/src/headers/Hero"
+	"${CMAKE_CURRENT_SOURCE_DIR}/code/Army"
+)
+target_link_libraries(
+	"${TEST_PROJECT}"
+        army
+        gtest
+        gtest_main
+	gmock_main
+)
+

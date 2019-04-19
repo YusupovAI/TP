@@ -2,7 +2,7 @@
 // Created by iusup on 27.03.2019.
 //
 
-#include "OrcHeroBuilder.h"
+#include "Hero/OrcHeroBuilder.h"
 #include <cstdlib>
 
 

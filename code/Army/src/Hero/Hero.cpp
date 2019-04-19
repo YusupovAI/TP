@@ -2,7 +2,7 @@
 // Created by iusup on 26.03.2019.
 //
 
-#include "Hero.h"
+#include "Hero/Hero.h"
 
 Hero::Hero()
         : Unit(), ability_(EAbilityType::ability_none), horse_(false), weapon_(EWeaponType::weapon_none),
@@ -62,15 +62,6 @@ unsigned int Hero::GetArmor() const {
     return armor_;
 }
 
-void Hero::Attacked(unsigned int damage) {
-    if (damage < armor_) { return; }
-    damage -= armor_;
-    if (damage > hp_) {
-
-    } else {
-        hp_ -= damage;
-    }
-}
 
 
 

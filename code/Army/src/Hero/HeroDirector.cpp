@@ -2,7 +2,7 @@
 // Created by iusup on 26.03.2019.
 //
 
-#include "HeroDirector.h"
+#include "Hero/HeroDirector.h"
 
 
 HeroDirector::HeroDirector(const std::shared_ptr<HeroBuilder>& builder) : builder_(builder) {}

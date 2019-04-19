@@ -2,7 +2,7 @@
 // Created by iusup on 27.03.2019.
 //
 
-#include "HumanHeroBuilder.h"
+#include "Hero/HumanHeroBuilder.h"
 
 
 void HumanHeroBuilder::BuildCharacteristics() {

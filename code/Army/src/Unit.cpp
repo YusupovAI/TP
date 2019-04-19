@@ -2,26 +2,21 @@
 // Created by iusup on 24.03.2019.
 //
 
-#include "Unit.h"
+#include "Unit/Unit.h"
 #include <stdexcept>
 #include <string>
 
 Unit::Unit(const Point &p) : position_(p) {}
 
 
-void Unit::Attack(const std::shared_ptr<Unit> &w) {
+void Unit::Offense(const std::shared_ptr<Unit> &w) {
     if (w == nullptr) {
         throw std::logic_error(std::string("Nullptr exception"));
     }
-    w->Attacked(damage_);
+    w->Attacked(attack_);
 }
 
-void Unit::Attacked(unsigned int damage) {
-    if (hp_ < damage) {
-
-    } else {
-        hp_ -= damage;
-    }
+void Unit::Attacked(const Attack& attack) {
 }
 
 void Unit::Move(const Point &p) {
@@ -32,7 +27,7 @@ void Unit::Move(const Point &p) {
 }
 
 
-int Unit::GetHP() const {
+unsigned int Unit::GetHP() const {
     return hp_;
 }
 
@@ -52,12 +47,9 @@ unsigned int Unit::GetTurnPoints() const {
     return turn_points_;
 }
 
-unsigned int Unit::GetDamage() const {
-    return damage_;
-}
 
-void Unit::SetDamage(unsigned int damage) {
-    damage_ = damage;
+void Unit::SetAttack(Attack attack) {
+    attack_ = attack;
 }
 
 unsigned int Unit::GetAttackRange() const {

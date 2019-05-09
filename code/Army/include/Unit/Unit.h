@@ -8,6 +8,7 @@
 #include "Point.h"
 #include <memory>
 #include "Attack.h"
+#include "SFML/Graphics.hpp"
 
 class Unit {
 public:
@@ -47,6 +48,10 @@ public:
 
     virtual void Attacked(const Attack& attack);
 
+    const std::shared_ptr<sf::CircleShape>& GetShape() const;
+
+    void SetShape(const sf::CircleShape&);
+
     virtual ~Unit() = default;
 
 protected:
@@ -57,6 +62,7 @@ protected:
     unsigned int attack_range_;
     Point position_;
     Attack attack_;
+    std::shared_ptr<sf::CircleShape> shape_;
 };
 
 

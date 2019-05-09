@@ -13,7 +13,7 @@ class Attack {
 	void SetType(AttackType);
 	void SetDamage(unsigned int damage);
 	AttackType GetType();
-	bool operator==(const Attack&);
+	bool operator==(const Attack&) const;
     protected:
 	unsigned int damage_;
 	AttackType attack_type_;

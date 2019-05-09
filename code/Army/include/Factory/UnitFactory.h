@@ -10,9 +10,9 @@
 #include <memory>
 #include "Point.h"
 
-class WarriorFactory {
+class UnitFactory {
 public:
-    WarriorFactory() = default;
+    UnitFactory() = default;
 
     virtual std::shared_ptr<Unit> CreateInfantry(const Point &) const = 0;
 
@@ -20,7 +20,7 @@ public:
 
     virtual std::shared_ptr<Unit> CreateMage(const Point &) const = 0;
 
-    virtual ~WarriorFactory() = default;
+    virtual ~UnitFactory() = default;
 };
 
 #endif //TP_FACTORY_H

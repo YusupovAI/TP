@@ -19,8 +19,7 @@ public:
 
     enum EAbilityType {
         fireball, lightning,
-        heal, fighting_spirit,
-        ability_none
+        heal, ability_none
     };
 
     enum EWeaponType {

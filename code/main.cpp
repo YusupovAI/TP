@@ -1,31 +1,18 @@
 #include "SFML/Graphics.hpp"
 #include "SFML/Window.hpp"
 #include <iostream>
+#include "Game.h"
+#include "Factory/HumanFactory.h"
+#include "Factory/OrcFactory.h"
+#include "Player.h"
+#include "Point.h"
 
 
 int main() {
-	sf::RenderWindow window(sf::VideoMode(1000, 800), "Strategy"); 
-	sf::RectangleShape shape(sf::Vector2f(40, 40));
-	shape.setFillColor(sf::Color(0, 128, 0));
-	while (window.isOpen()) {
-		sf::Event event;
-		while (window.pollEvent(event)) {
-			if (event.type == sf::Event::Closed) {window.close();}	
-		}
-		window.clear();
-		for (int i = 0; i < 25; ++i) {
-			for (int j = 0; j < 20; ++j) {
-				shape.setFillColor(sf::Color(0, ((i + j) % 2 == 0 ? 128 : 64), 0));
-				window.draw(shape);
-				shape.move(sf::Vector2f(0, 40));
-							}
-			shape.setPosition(sf::Vector2f(40 * i + 40,0)); 
-		}
-		shape.setFillColor(sf::Color(0, 128, 0));
-		window.draw(shape);
-		window.display();
-		shape.setPosition(sf::Vector2f(0, 0));
-	}
-
-	return 0;
+    Player player1(std::make_shared<OrcFactory>(OrcFactory())), player2(std::make_shared<HumanFactory>(HumanFactory()));
+    player1.CreateHorseman(Point(0, 0));
+    player2.CreateHorseman(Point(0, 14));
+    Game game(player1, player2);
+    game.Play();
+    return 0;
 }

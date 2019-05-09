@@ -48,7 +48,7 @@ TEST(HumanFactory, Horseman) {
 TEST(OrcFactory, Infantry) {
     OrcFactory h;
     std::shared_ptr<Unit> w = h.CreateInfantry(Point(0, 0));
-    EXPECT_EQ(w->GetHP(), OrcCharacterisitcs::infantry_hp);
+    EXPECT_EQ(w->GetHP(), OrcCharacteristics::infantry_hp);
     EXPECT_EQ(w->GetPosition(), Point(0, 0));
     EXPECT_EQ(w->GetAttack(), OrcCharacteristics::infantry_attack);
     EXPECT_EQ(w->GetAttackRange(), OrcCharacteristics::infantry_attack_range);
@@ -59,7 +59,7 @@ TEST(OrcFactory, Infantry) {
 TEST(OrcFactory, Mage) {
     OrcFactory h;
     std::shared_ptr<Unit> w = h.CreateMage(Point(0, 0));
-    EXPECT_EQ(w->GetHP(), OrcCharacteristics::mage_gp);
+    EXPECT_EQ(w->GetHP(), OrcCharacteristics::mage_hp);
     EXPECT_EQ(w->GetPosition(), Point(0, 0));
     EXPECT_EQ(w->GetAttack(), OrcCharacteristics::mage_attack);
     EXPECT_EQ(w->GetAttackRange(), OrcCharacteristics::mage_attack_range);
@@ -83,14 +83,14 @@ TEST(HeroBuilder, HumanWiseHero) {
     HeroDirector director(builder);
     auto hero = director.CreateWiseHero(Point(0, 0));
     EXPECT_EQ(hero->GetHP(), 250);
-    EXPECT_EQ(hero->GetMana(), 150);
+    EXPECT_EQ(hero->GetMana(), 100);
     EXPECT_EQ(hero->GetWeapon(), Hero::EWeaponType::weapon_none);
     EXPECT_FALSE(hero->GetHorse());
     EXPECT_TRUE(hero->GetShield());
     EXPECT_EQ(hero->GetArmor(), 2);
-    EXPECT_EQ(hero->GetDamage(), 15);
+    EXPECT_EQ(hero->GetAttack(), HumanCharacteristics::hero_attack);
     EXPECT_EQ(hero->GetAttackRange(), 4);
-    EXPECT_EQ(hero->GetTurnPoints(), 3);
+    EXPECT_EQ(hero->GetTurnPoints(), 5);
     EXPECT_EQ(hero->GetAbility(), Hero::EAbilityType::lightning);
     EXPECT_EQ(hero->GetPosition(), Point(0, 0));
 }
@@ -106,7 +106,7 @@ TEST(HeroBuilder, HumanMightyHero) {
     EXPECT_TRUE(hero->GetHorse());
     EXPECT_TRUE(hero->GetShield());
     EXPECT_EQ(hero->GetArmor(), 4);
-    EXPECT_EQ(hero->GetDamage(), 25);
+    EXPECT_EQ(hero->GetAttack(), HumanCharacteristics::hero_sword_attack);
     EXPECT_EQ(hero->GetAbility(), Hero::EAbilityType::ability_none);
     EXPECT_EQ(hero->GetAttackRange(), 1);
     EXPECT_EQ(hero->GetPosition(), Point(1, 1));
@@ -124,7 +124,7 @@ TEST(HeroBuilder, OrcWiseHero) {
     EXPECT_FALSE(hero->GetHorse());
     EXPECT_TRUE(hero->GetShield());
     EXPECT_EQ(hero->GetArmor(), 0);
-    EXPECT_EQ(hero->GetDamage(), 20);
+    EXPECT_EQ(hero->GetAttack(), OrcCharacteristics::hero_attack);
     EXPECT_EQ(hero->GetTurnPoints(), 3);
     EXPECT_EQ(hero->GetAttackRange(), 4);
     EXPECT_EQ(hero->GetAbility(), Hero::EAbilityType::lightning);
@@ -142,7 +142,7 @@ TEST(HeroBuilder, OrcMightyHero) {
     EXPECT_TRUE(hero->GetHorse());
     EXPECT_TRUE(hero->GetShield());
     EXPECT_EQ(hero->GetArmor(), 0);
-    EXPECT_EQ(hero->GetDamage(), 33);
+    EXPECT_EQ(hero->GetAttack(), OrcCharacteristics::hero_stick_attack);
     EXPECT_EQ(hero->GetTurnPoints(), 3);
     EXPECT_EQ(hero->GetAttackRange(), 1);
     EXPECT_EQ(hero->GetAbility(), Hero::EAbilityType::ability_none);

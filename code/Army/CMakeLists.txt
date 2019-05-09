@@ -1,18 +1,35 @@
+CMAKE_MINIMUM_REQUIRED(VERSION 2.9)
+
 add_library(army "")
+
+set(SFML_PATH "${CMAKE_CURRENT_SOURCE_DIR}/../../lib/SFML")
+set(SFML_INCLUDE "${SFML_PATH}/include")
+
+
 
 target_include_directories(
         army
         PUBLIC
 	${CMAKE_CURRENT_SOURCE_DIR}/include
 	${CMAKE_CURRENT_SOURCE_DIR}/..
+	${SFML_INCLUDE}
 )
+
+
 
 set(FACTORY_SOURCES_DIR ${CMAKE_CURRENT_SOURCE_DIR}/src/Factory)
 set(HERO_SOURCES_DIR ${CMAKE_CURRENT_SOURCE_DIR}/src/Hero)
 
+target_link_libraries(
+	army
+	sfml-graphics
+	sfml-window
+	sfml-system
+	)
+
 target_sources(
         army
-        PRIVATE
+	PUBLIC
         ${FACTORY_SOURCES_DIR}/HumanFactory.cpp
         ${FACTORY_SOURCES_DIR}/OrcFactory.cpp
 	${CMAKE_CURRENT_SOURCE_DIR}/src/Point.cpp
@@ -22,4 +39,5 @@ target_sources(
         ${HERO_SOURCES_DIR}/HeroDirector.cpp
         ${HERO_SOURCES_DIR}/HumanHeroBuilder.cpp
         ${HERO_SOURCES_DIR}/OrcHeroBuilder.cpp
+	${CMAKE_CURRENT_SOURCE_DIR}/src/Attack.cpp
 )

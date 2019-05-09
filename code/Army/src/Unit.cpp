@@ -6,7 +6,7 @@
 #include <stdexcept>
 #include <string>
 
-Unit::Unit(const Point &p) : position_(p) {}
+Unit::Unit(const Point &p) : position_(p), shape_(nullptr) {}
 
 
 void Unit::Offense(const std::shared_ptr<Unit> &w) {
@@ -56,6 +56,10 @@ unsigned int Unit::GetAttackRange() const {
     return attack_range_;
 }
 
+Attack Unit::GetAttack() const {
+    return attack_;
+}
+
 void Unit::SetAttackRange(unsigned int attack_range) {
     attack_range_ = attack_range;
 }
@@ -72,6 +76,11 @@ void Unit::SetCurTurnPoints(unsigned int cur_turn_points) {
     cur_turn_points_ = cur_turn_points;
 }
 
+const std::shared_ptr<sf::CircleShape>& Unit::GetShape() const {
+    return shape_;
+}
 
-
+void Unit::SetShape(const sf::CircleShape& shape) {
+    shape_ = std::make_shared<sf::CircleShape>(shape);
+}
 

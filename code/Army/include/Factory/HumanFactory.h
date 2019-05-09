@@ -7,7 +7,7 @@
 
 #include "UnitFactory.h"
 
-class HumanFactory final : public WarriorFactory {
+class HumanFactory final : public UnitFactory {
 public:
     HumanFactory() = default;
 

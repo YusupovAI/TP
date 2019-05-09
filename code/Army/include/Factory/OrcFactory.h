@@ -7,7 +7,7 @@
 
 #include "UnitFactory.h"
 
-class OrcFactory final : public WarriorFactory {
+class OrcFactory final : public UnitFactory {
 public:
     OrcFactory() = default;
 

@@ -424,32 +424,113 @@ __/Army/src/Point.cpp.s:
 	cd /d C:\Users\iusup\TP\build && $(MAKE) -f code\Player\CMakeFiles\player.dir\build.make code/Player/CMakeFiles/player.dir/__/Army/src/Point.cpp.s
 .PHONY : __/Army/src/Point.cpp.s
 
-__/Army/src/Unit.obj: __/Army/src/Unit.cpp.obj
+__/Army/src/Unit/BaseUnit.obj: __/Army/src/Unit/BaseUnit.cpp.obj
 
-.PHONY : __/Army/src/Unit.obj
+.PHONY : __/Army/src/Unit/BaseUnit.obj
 
 # target to build an object file
-__/Army/src/Unit.cpp.obj:
-	cd /d C:\Users\iusup\TP\build && $(MAKE) -f code\Player\CMakeFiles\player.dir\build.make code/Player/CMakeFiles/player.dir/__/Army/src/Unit.cpp.obj
-.PHONY : __/Army/src/Unit.cpp.obj
+__/Army/src/Unit/BaseUnit.cpp.obj:
+	cd /d C:\Users\iusup\TP\build && $(MAKE) -f code\Player\CMakeFiles\player.dir\build.make code/Player/CMakeFiles/player.dir/__/Army/src/Unit/BaseUnit.cpp.obj
+.PHONY : __/Army/src/Unit/BaseUnit.cpp.obj
 
-__/Army/src/Unit.i: __/Army/src/Unit.cpp.i
+__/Army/src/Unit/BaseUnit.i: __/Army/src/Unit/BaseUnit.cpp.i
 
-.PHONY : __/Army/src/Unit.i
+.PHONY : __/Army/src/Unit/BaseUnit.i
 
 # target to preprocess a source file
-__/Army/src/Unit.cpp.i:
-	cd /d C:\Users\iusup\TP\build && $(MAKE) -f code\Player\CMakeFiles\player.dir\build.make code/Player/CMakeFiles/player.dir/__/Army/src/Unit.cpp.i
-.PHONY : __/Army/src/Unit.cpp.i
+__/Army/src/Unit/BaseUnit.cpp.i:
+	cd /d C:\Users\iusup\TP\build && $(MAKE) -f code\Player\CMakeFiles\player.dir\build.make code/Player/CMakeFiles/player.dir/__/Army/src/Unit/BaseUnit.cpp.i
+.PHONY : __/Army/src/Unit/BaseUnit.cpp.i
 
-__/Army/src/Unit.s: __/Army/src/Unit.cpp.s
+__/Army/src/Unit/BaseUnit.s: __/Army/src/Unit/BaseUnit.cpp.s
 
-.PHONY : __/Army/src/Unit.s
+.PHONY : __/Army/src/Unit/BaseUnit.s
 
 # target to generate assembly for a file
-__/Army/src/Unit.cpp.s:
-	cd /d C:\Users\iusup\TP\build && $(MAKE) -f code\Player\CMakeFiles\player.dir\build.make code/Player/CMakeFiles/player.dir/__/Army/src/Unit.cpp.s
-.PHONY : __/Army/src/Unit.cpp.s
+__/Army/src/Unit/BaseUnit.cpp.s:
+	cd /d C:\Users\iusup\TP\build && $(MAKE) -f code\Player\CMakeFiles\player.dir\build.make code/Player/CMakeFiles/player.dir/__/Army/src/Unit/BaseUnit.cpp.s
+.PHONY : __/Army/src/Unit/BaseUnit.cpp.s
+
+__/Army/src/Unit/DoubleAttackUnit.obj: __/Army/src/Unit/DoubleAttackUnit.cpp.obj
+
+.PHONY : __/Army/src/Unit/DoubleAttackUnit.obj
+
+# target to build an object file
+__/Army/src/Unit/DoubleAttackUnit.cpp.obj:
+	cd /d C:\Users\iusup\TP\build && $(MAKE) -f code\Player\CMakeFiles\player.dir\build.make code/Player/CMakeFiles/player.dir/__/Army/src/Unit/DoubleAttackUnit.cpp.obj
+.PHONY : __/Army/src/Unit/DoubleAttackUnit.cpp.obj
+
+__/Army/src/Unit/DoubleAttackUnit.i: __/Army/src/Unit/DoubleAttackUnit.cpp.i
+
+.PHONY : __/Army/src/Unit/DoubleAttackUnit.i
+
+# target to preprocess a source file
+__/Army/src/Unit/DoubleAttackUnit.cpp.i:
+	cd /d C:\Users\iusup\TP\build && $(MAKE) -f code\Player\CMakeFiles\player.dir\build.make code/Player/CMakeFiles/player.dir/__/Army/src/Unit/DoubleAttackUnit.cpp.i
+.PHONY : __/Army/src/Unit/DoubleAttackUnit.cpp.i
+
+__/Army/src/Unit/DoubleAttackUnit.s: __/Army/src/Unit/DoubleAttackUnit.cpp.s
+
+.PHONY : __/Army/src/Unit/DoubleAttackUnit.s
+
+# target to generate assembly for a file
+__/Army/src/Unit/DoubleAttackUnit.cpp.s:
+	cd /d C:\Users\iusup\TP\build && $(MAKE) -f code\Player\CMakeFiles\player.dir\build.make code/Player/CMakeFiles/player.dir/__/Army/src/Unit/DoubleAttackUnit.cpp.s
+.PHONY : __/Army/src/Unit/DoubleAttackUnit.cpp.s
+
+__/Army/src/Unit/FireAttackUnit.obj: __/Army/src/Unit/FireAttackUnit.cpp.obj
+
+.PHONY : __/Army/src/Unit/FireAttackUnit.obj
+
+# target to build an object file
+__/Army/src/Unit/FireAttackUnit.cpp.obj:
+	cd /d C:\Users\iusup\TP\build && $(MAKE) -f code\Player\CMakeFiles\player.dir\build.make code/Player/CMakeFiles/player.dir/__/Army/src/Unit/FireAttackUnit.cpp.obj
+.PHONY : __/Army/src/Unit/FireAttackUnit.cpp.obj
+
+__/Army/src/Unit/FireAttackUnit.i: __/Army/src/Unit/FireAttackUnit.cpp.i
+
+.PHONY : __/Army/src/Unit/FireAttackUnit.i
+
+# target to preprocess a source file
+__/Army/src/Unit/FireAttackUnit.cpp.i:
+	cd /d C:\Users\iusup\TP\build && $(MAKE) -f code\Player\CMakeFiles\player.dir\build.make code/Player/CMakeFiles/player.dir/__/Army/src/Unit/FireAttackUnit.cpp.i
+.PHONY : __/Army/src/Unit/FireAttackUnit.cpp.i
+
+__/Army/src/Unit/FireAttackUnit.s: __/Army/src/Unit/FireAttackUnit.cpp.s
+
+.PHONY : __/Army/src/Unit/FireAttackUnit.s
+
+# target to generate assembly for a file
+__/Army/src/Unit/FireAttackUnit.cpp.s:
+	cd /d C:\Users\iusup\TP\build && $(MAKE) -f code\Player\CMakeFiles\player.dir\build.make code/Player/CMakeFiles/player.dir/__/Army/src/Unit/FireAttackUnit.cpp.s
+.PHONY : __/Army/src/Unit/FireAttackUnit.cpp.s
+
+__/Army/src/Unit/UnitDecorator.obj: __/Army/src/Unit/UnitDecorator.cpp.obj
+
+.PHONY : __/Army/src/Unit/UnitDecorator.obj
+
+# target to build an object file
+__/Army/src/Unit/UnitDecorator.cpp.obj:
+	cd /d C:\Users\iusup\TP\build && $(MAKE) -f code\Player\CMakeFiles\player.dir\build.make code/Player/CMakeFiles/player.dir/__/Army/src/Unit/UnitDecorator.cpp.obj
+.PHONY : __/Army/src/Unit/UnitDecorator.cpp.obj
+
+__/Army/src/Unit/UnitDecorator.i: __/Army/src/Unit/UnitDecorator.cpp.i
+
+.PHONY : __/Army/src/Unit/UnitDecorator.i
+
+# target to preprocess a source file
+__/Army/src/Unit/UnitDecorator.cpp.i:
+	cd /d C:\Users\iusup\TP\build && $(MAKE) -f code\Player\CMakeFiles\player.dir\build.make code/Player/CMakeFiles/player.dir/__/Army/src/Unit/UnitDecorator.cpp.i
+.PHONY : __/Army/src/Unit/UnitDecorator.cpp.i
+
+__/Army/src/Unit/UnitDecorator.s: __/Army/src/Unit/UnitDecorator.cpp.s
+
+.PHONY : __/Army/src/Unit/UnitDecorator.s
+
+# target to generate assembly for a file
+__/Army/src/Unit/UnitDecorator.cpp.s:
+	cd /d C:\Users\iusup\TP\build && $(MAKE) -f code\Player\CMakeFiles\player.dir\build.make code/Player/CMakeFiles/player.dir/__/Army/src/Unit/UnitDecorator.cpp.s
+.PHONY : __/Army/src/Unit/UnitDecorator.cpp.s
 
 src/Player.obj: src/Player.cpp.obj
 
@@ -519,9 +600,18 @@ help:
 	@echo ... __/Army/src/Point.obj
 	@echo ... __/Army/src/Point.i
 	@echo ... __/Army/src/Point.s
-	@echo ... __/Army/src/Unit.obj
-	@echo ... __/Army/src/Unit.i
-	@echo ... __/Army/src/Unit.s
+	@echo ... __/Army/src/Unit/BaseUnit.obj
+	@echo ... __/Army/src/Unit/BaseUnit.i
+	@echo ... __/Army/src/Unit/BaseUnit.s
+	@echo ... __/Army/src/Unit/DoubleAttackUnit.obj
+	@echo ... __/Army/src/Unit/DoubleAttackUnit.i
+	@echo ... __/Army/src/Unit/DoubleAttackUnit.s
+	@echo ... __/Army/src/Unit/FireAttackUnit.obj
+	@echo ... __/Army/src/Unit/FireAttackUnit.i
+	@echo ... __/Army/src/Unit/FireAttackUnit.s
+	@echo ... __/Army/src/Unit/UnitDecorator.obj
+	@echo ... __/Army/src/Unit/UnitDecorator.i
+	@echo ... __/Army/src/Unit/UnitDecorator.s
 	@echo ... src/Player.obj
 	@echo ... src/Player.i
 	@echo ... src/Player.s

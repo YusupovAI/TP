@@ -685,10 +685,26 @@ Attack.h
 ../code/Army/include/Factory/HumanFactory.h
 UnitFactory.h
 ../code/Army/include/Factory/UnitFactory.h
+SFML/Graphics.hpp
+../code/Army/include/Factory/SFML/Graphics.hpp
+memory
+-
+
+../code/Army/include/Factory/Humanfactory.h
+UnitFactory.h
+../code/Army/include/Factory/UnitFactory.h
+SFML/Graphics.hpp
+../code/Army/include/Factory/SFML/Graphics.hpp
+memory
+-
 
 ../code/Army/include/Factory/OrcFactory.h
 UnitFactory.h
 ../code/Army/include/Factory/UnitFactory.h
+SFML/Graphics.hpp
+../code/Army/include/Factory/SFML/Graphics.hpp
+memory
+-
 
 ../code/Army/include/Factory/UnitFactory.h
 Unit/Unit.h
@@ -699,8 +715,8 @@ Point.h
 ../code/Army/include/Factory/Point.h
 
 ../code/Army/include/Hero/Hero.h
-Unit/Unit.h
-../code/Army/include/Hero/Unit/Unit.h
+Unit/BaseUnit.h
+../code/Army/include/Hero/Unit/BaseUnit.h
 Point.h
 ../code/Army/include/Hero/Point.h
 memory
@@ -732,17 +748,37 @@ HeroBuilder.h
 
 ../code/Army/include/Point.h
 
-../code/Army/include/Unit/Horseman.h
+../code/Army/include/Unit/BaseUnit.h
+Unit.h
+../code/Army/include/Unit/Unit.h
+
+../code/Army/include/Unit/DoubleAttackUnit.h
+Unit/UnitDecorator.h
+../code/Army/include/Unit/Unit/UnitDecorator.h
+memory
+-
 Unit/Unit.h
 ../code/Army/include/Unit/Unit/Unit.h
+
+../code/Army/include/Unit/FireAttackUnit.h
+Unit/UnitDecorator.h
+../code/Army/include/Unit/Unit/UnitDecorator.h
+Unit/Unit.h
+../code/Army/include/Unit/Unit/Unit.h
+memory
+-
+
+../code/Army/include/Unit/Horseman.h
+Unit/BaseUnit.h
+../code/Army/include/Unit/Unit/BaseUnit.h
 
 ../code/Army/include/Unit/Infantry.h
-Unit/Unit.h
-../code/Army/include/Unit/Unit/Unit.h
+Unit/BaseUnit.h
+../code/Army/include/Unit/Unit/BaseUnit.h
 
 ../code/Army/include/Unit/Mage.h
-Unit/Unit.h
-../code/Army/include/Unit/Unit/Unit.h
+Unit/BaseUnit.h
+../code/Army/include/Unit/Unit/BaseUnit.h
 
 ../code/Army/include/Unit/Unit.h
 Point.h
@@ -751,6 +787,14 @@ memory
 -
 Attack.h
 ../code/Army/include/Unit/Attack.h
+SFML/Graphics.hpp
+../code/Army/include/Unit/SFML/Graphics.hpp
+
+../code/Army/include/Unit/UnitDecorator.h
+Unit/Unit.h
+../code/Army/include/Unit/Unit/Unit.h
+memory
+-
 SFML/Graphics.hpp
 ../code/Army/include/Unit/SFML/Graphics.hpp
 
@@ -1050,10 +1094,6 @@ cxxabi.h
 acxx_demangle.h
 -
 
-C:/Users/iusup/TP/code/Army/src/Attack.cpp
-Attack.h
-C:/Users/iusup/TP/code/Army/src/Attack.h
-
 C:/Users/iusup/TP/code/Army/src/Factory/HumanFactory.cpp
 Factory/HumanFactory.h
 C:/Users/iusup/TP/code/Army/src/Factory/Factory/HumanFactory.h
@@ -1084,49 +1124,7 @@ C:/Users/iusup/TP/code/Army/src/Factory/settings/characteristics.h
 SFML/Graphics.hpp
 C:/Users/iusup/TP/code/Army/src/Factory/SFML/Graphics.hpp
 
-C:/Users/iusup/TP/code/Army/src/Hero/Hero.cpp
-Hero/Hero.h
-C:/Users/iusup/TP/code/Army/src/Hero/Hero/Hero.h
-
-C:/Users/iusup/TP/code/Army/src/Hero/HeroBuilder.cpp
-Hero/HeroBuilder.h
-C:/Users/iusup/TP/code/Army/src/Hero/Hero/HeroBuilder.h
-memory
--
-
-C:/Users/iusup/TP/code/Army/src/Hero/HeroDirector.cpp
-Hero/HeroDirector.h
-C:/Users/iusup/TP/code/Army/src/Hero/Hero/HeroDirector.h
-
-C:/Users/iusup/TP/code/Army/src/Hero/HumanHeroBuilder.cpp
-Hero/HumanHeroBuilder.h
-C:/Users/iusup/TP/code/Army/src/Hero/Hero/HumanHeroBuilder.h
-Attack.h
-C:/Users/iusup/TP/code/Army/src/Hero/Attack.h
-settings/characteristics.h
-C:/Users/iusup/TP/code/Army/src/Hero/settings/characteristics.h
-
-C:/Users/iusup/TP/code/Army/src/Hero/OrcHeroBuilder.cpp
-Hero/OrcHeroBuilder.h
-C:/Users/iusup/TP/code/Army/src/Hero/Hero/OrcHeroBuilder.h
-cstdlib
--
-settings/characteristics.h
-C:/Users/iusup/TP/code/Army/src/Hero/settings/characteristics.h
-
-C:/Users/iusup/TP/code/Army/src/Point.cpp
-Point.h
-C:/Users/iusup/TP/code/Army/src/Point.h
-
-C:/Users/iusup/TP/code/Army/src/Unit.cpp
-Unit/Unit.h
-C:/Users/iusup/TP/code/Army/src/Unit/Unit.h
-stdexcept
--
-string
--
-
-C:/Users/iusup/TP/tests/army_test.cpp
+C:/Users/iusup/TP/tests/army_tests.cpp
 Factory/OrcFactory.h
 C:/Users/iusup/TP/tests/Factory/OrcFactory.h
 Factory/HumanFactory.h
@@ -1147,8 +1145,20 @@ Hero/HeroDirector.h
 C:/Users/iusup/TP/tests/Hero/HeroDirector.h
 settings/characteristics.h
 C:/Users/iusup/TP/tests/settings/characteristics.h
+Unit/DoubleAttackUnit.h
+C:/Users/iusup/TP/tests/Unit/DoubleAttackUnit.h
 
-C:/Users/iusup/TP/tests/main.cpp
+C:/Users/iusup/TP/tests/decorator_tests.cpp
+Unit/DoubleAttackUnit.h
+C:/Users/iusup/TP/tests/Unit/DoubleAttackUnit.h
 gtest/gtest.h
 C:/Users/iusup/TP/tests/gtest/gtest.h
+Factory/Humanfactory.h
+C:/Users/iusup/TP/tests/Factory/Humanfactory.h
+Factory/OrcFactory.h
+C:/Users/iusup/TP/tests/Factory/OrcFactory.h
+Point.h
+C:/Users/iusup/TP/tests/Point.h
+Unit/FireAttackUnit.h
+C:/Users/iusup/TP/tests/Unit/FireAttackUnit.h
 

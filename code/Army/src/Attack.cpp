@@ -2,11 +2,11 @@
 
 Attack::Attack(AttackType attack_type, unsigned int damage) : attack_type_(attack_type), damage_(damage) {};
 
-unsigned int Attack::GetDamage() {
+unsigned int Attack::GetDamage() const {
     return damage_;
 }
 
-Attack::AttackType Attack::GetType() {
+Attack::AttackType Attack::GetType() const {
     return attack_type_;
 }
 

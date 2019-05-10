@@ -6,6 +6,8 @@
 #define TP_ORCFACTORY_H
 
 #include "UnitFactory.h"
+#include "SFML/Graphics.hpp"
+#include <memory>
 
 class OrcFactory final : public UnitFactory {
 public:
@@ -16,6 +18,8 @@ public:
     std::shared_ptr<Unit> CreateHorseman(const Point &) const override;
 
     std::shared_ptr<Unit> CreateMage(const Point &) const override;
+
+
 };
 
 

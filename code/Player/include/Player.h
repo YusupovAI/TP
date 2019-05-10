@@ -26,7 +26,7 @@ public:
 
     void SetHero(const Hero &);
 
-    std::vector<std::shared_ptr<Unit> > GetArmy();
+    std::vector<std::shared_ptr<Unit> >& GetArmy();
 
 private:
     std::vector<std::shared_ptr<Unit> > army_;

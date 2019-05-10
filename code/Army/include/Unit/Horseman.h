@@ -5,11 +5,11 @@
 #ifndef TP_HORSEMAN_H
 #define TP_HORSEMAN_H
 
-#include "Unit/Unit.h"
+#include "Unit/BaseUnit.h"
 
-class Horseman final : public Unit {
+class Horseman final : public BaseUnit {
 public:
-    explicit Horseman(const Point &p) : Unit(p) {};
+    explicit Horseman(const Point &p) : BaseUnit(p) {};
 
     ~Horseman() override = default;
 };

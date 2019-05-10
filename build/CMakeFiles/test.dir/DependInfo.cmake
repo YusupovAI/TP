@@ -13,8 +13,12 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/iusup/TP/code/Army/src/Hero/HumanHeroBuilder.cpp" "C:/Users/iusup/TP/build/CMakeFiles/test.dir/code/Army/src/Hero/HumanHeroBuilder.cpp.obj"
   "C:/Users/iusup/TP/code/Army/src/Hero/OrcHeroBuilder.cpp" "C:/Users/iusup/TP/build/CMakeFiles/test.dir/code/Army/src/Hero/OrcHeroBuilder.cpp.obj"
   "C:/Users/iusup/TP/code/Army/src/Point.cpp" "C:/Users/iusup/TP/build/CMakeFiles/test.dir/code/Army/src/Point.cpp.obj"
-  "C:/Users/iusup/TP/code/Army/src/Unit.cpp" "C:/Users/iusup/TP/build/CMakeFiles/test.dir/code/Army/src/Unit.cpp.obj"
-  "C:/Users/iusup/TP/tests/army_test.cpp" "C:/Users/iusup/TP/build/CMakeFiles/test.dir/tests/army_test.cpp.obj"
+  "C:/Users/iusup/TP/code/Army/src/Unit/BaseUnit.cpp" "C:/Users/iusup/TP/build/CMakeFiles/test.dir/code/Army/src/Unit/BaseUnit.cpp.obj"
+  "C:/Users/iusup/TP/code/Army/src/Unit/DoubleAttackUnit.cpp" "C:/Users/iusup/TP/build/CMakeFiles/test.dir/code/Army/src/Unit/DoubleAttackUnit.cpp.obj"
+  "C:/Users/iusup/TP/code/Army/src/Unit/FireAttackUnit.cpp" "C:/Users/iusup/TP/build/CMakeFiles/test.dir/code/Army/src/Unit/FireAttackUnit.cpp.obj"
+  "C:/Users/iusup/TP/code/Army/src/Unit/UnitDecorator.cpp" "C:/Users/iusup/TP/build/CMakeFiles/test.dir/code/Army/src/Unit/UnitDecorator.cpp.obj"
+  "C:/Users/iusup/TP/tests/army_tests.cpp" "C:/Users/iusup/TP/build/CMakeFiles/test.dir/tests/army_tests.cpp.obj"
+  "C:/Users/iusup/TP/tests/decorator_tests.cpp" "C:/Users/iusup/TP/build/CMakeFiles/test.dir/tests/decorator_tests.cpp.obj"
   "C:/Users/iusup/TP/tests/main.cpp" "C:/Users/iusup/TP/build/CMakeFiles/test.dir/tests/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

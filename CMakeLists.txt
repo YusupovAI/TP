@@ -42,6 +42,7 @@ target_include_directories(
 )
 
 
+
 target_link_libraries(
 	"${PROJECT_NAME}"
         army
@@ -57,7 +58,8 @@ add_executable(${TEST_PROJECT} "")
 target_sources(
 	${TEST_PROJECT}
 	PUBLIC
-	${CMAKE_CURRENT_SOURCE_DIR}/tests/army_test.cpp
+	${CMAKE_CURRENT_SOURCE_DIR}/tests/decorator_tests.cpp
+	${CMAKE_CURRENT_SOURCE_DIR}/tests/army_tests.cpp
 	${CMAKE_CURRENT_SOURCE_DIR}/tests/main.cpp
 	)
 

@@ -13,7 +13,10 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/iusup/TP/code/Army/src/Hero/HumanHeroBuilder.cpp" "C:/Users/iusup/TP/build/code/Game/CMakeFiles/game.dir/__/Army/src/Hero/HumanHeroBuilder.cpp.obj"
   "C:/Users/iusup/TP/code/Army/src/Hero/OrcHeroBuilder.cpp" "C:/Users/iusup/TP/build/code/Game/CMakeFiles/game.dir/__/Army/src/Hero/OrcHeroBuilder.cpp.obj"
   "C:/Users/iusup/TP/code/Army/src/Point.cpp" "C:/Users/iusup/TP/build/code/Game/CMakeFiles/game.dir/__/Army/src/Point.cpp.obj"
-  "C:/Users/iusup/TP/code/Army/src/Unit.cpp" "C:/Users/iusup/TP/build/code/Game/CMakeFiles/game.dir/__/Army/src/Unit.cpp.obj"
+  "C:/Users/iusup/TP/code/Army/src/Unit/BaseUnit.cpp" "C:/Users/iusup/TP/build/code/Game/CMakeFiles/game.dir/__/Army/src/Unit/BaseUnit.cpp.obj"
+  "C:/Users/iusup/TP/code/Army/src/Unit/DoubleAttackUnit.cpp" "C:/Users/iusup/TP/build/code/Game/CMakeFiles/game.dir/__/Army/src/Unit/DoubleAttackUnit.cpp.obj"
+  "C:/Users/iusup/TP/code/Army/src/Unit/FireAttackUnit.cpp" "C:/Users/iusup/TP/build/code/Game/CMakeFiles/game.dir/__/Army/src/Unit/FireAttackUnit.cpp.obj"
+  "C:/Users/iusup/TP/code/Army/src/Unit/UnitDecorator.cpp" "C:/Users/iusup/TP/build/code/Game/CMakeFiles/game.dir/__/Army/src/Unit/UnitDecorator.cpp.obj"
   "C:/Users/iusup/TP/code/Player/src/Player.cpp" "C:/Users/iusup/TP/build/code/Game/CMakeFiles/game.dir/__/Player/src/Player.cpp.obj"
   "C:/Users/iusup/TP/code/Game/src/Game.cpp" "C:/Users/iusup/TP/build/code/Game/CMakeFiles/game.dir/src/Game.cpp.obj"
   )

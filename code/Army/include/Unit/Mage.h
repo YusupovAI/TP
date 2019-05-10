@@ -5,11 +5,11 @@
 #ifndef TP_MAGE_H
 #define TP_MAGE_H
 
-#include "Unit/Unit.h"
+#include "Unit/BaseUnit.h"
 
-class Mage final: public Unit {
+class Mage final: public BaseUnit {
 public:
-    explicit Mage(const Point &p) : Unit(p) {};
+    explicit Mage(const Point &p) : BaseUnit(p) {};
 
     ~Mage() override = default;
 };

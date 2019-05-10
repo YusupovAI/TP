@@ -9,10 +9,10 @@ class Attack {
 	};
 	explicit Attack(AttackType attack_type, unsigned int damage);
 	Attack() = default;
-	unsigned int GetDamage();
+	unsigned int GetDamage() const;
 	void SetType(AttackType);
 	void SetDamage(unsigned int damage);
-	AttackType GetType();
+	AttackType GetType() const;
 	bool operator==(const Attack&) const;
     protected:
 	unsigned int damage_;

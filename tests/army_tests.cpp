@@ -11,6 +11,7 @@
 #include "Hero/OrcHeroBuilder.h"
 #include "Hero/HeroDirector.h"
 #include "settings/characteristics.h"
+#include "Unit/DoubleAttackUnit.h"
 
 TEST(HumanFactory, Infantry) {
     HumanFactory h;

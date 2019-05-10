@@ -1,4 +1,5 @@
 #include "Game.h"
+#include "SFML/Graphics.hpp"
 
 Game::Game(const Player& player1, const Player& player2) : player1_(player1), player2_(player2), turn_(0), 
 	cur_turn_(Game::PlayerTurns::F_PLAYER_TURN), 
@@ -38,9 +39,13 @@ void Game::DrawField() {
 
 void Game::DrawUnits() {
     for (auto& unit:player1_.GetArmy()) {
-	window_.draw(*(unit->GetShape()));
+	sf::CircleShape& shape = *(unit->GetShape());
+	shape.setPosition(sf::Vector2f(unit->GetPosition().X() * 40 + 4, unit->GetPosition().Y() * 40 + 4));
+	window_.draw(shape);
     }
     for (auto& unit:player2_.GetArmy()) {
-	    window_.draw(*(unit->GetShape()));
+	sf::CircleShape& shape = *(unit->GetShape());
+	shape.setPosition(sf::Vector2f(unit->GetPosition().X() * 40 + 4, unit->GetPosition().Y() * 40 + 4));
+	window_.draw(shape);
     }
 }

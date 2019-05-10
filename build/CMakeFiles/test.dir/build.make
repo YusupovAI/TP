@@ -56,24 +56,38 @@ include CMakeFiles/test.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/test.dir/flags.make
 
-CMakeFiles/test.dir/tests/army_test.cpp.obj: CMakeFiles/test.dir/flags.make
-CMakeFiles/test.dir/tests/army_test.cpp.obj: CMakeFiles/test.dir/includes_CXX.rsp
-CMakeFiles/test.dir/tests/army_test.cpp.obj: ../tests/army_test.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\iusup\TP\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/test.dir/tests/army_test.cpp.obj"
-	C:\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\test.dir\tests\army_test.cpp.obj -c C:\Users\iusup\TP\tests\army_test.cpp
+CMakeFiles/test.dir/tests/decorator_tests.cpp.obj: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/tests/decorator_tests.cpp.obj: CMakeFiles/test.dir/includes_CXX.rsp
+CMakeFiles/test.dir/tests/decorator_tests.cpp.obj: ../tests/decorator_tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\iusup\TP\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/test.dir/tests/decorator_tests.cpp.obj"
+	C:\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\test.dir\tests\decorator_tests.cpp.obj -c C:\Users\iusup\TP\tests\decorator_tests.cpp
 
-CMakeFiles/test.dir/tests/army_test.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/tests/army_test.cpp.i"
-	C:\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\iusup\TP\tests\army_test.cpp > CMakeFiles\test.dir\tests\army_test.cpp.i
+CMakeFiles/test.dir/tests/decorator_tests.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/tests/decorator_tests.cpp.i"
+	C:\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\iusup\TP\tests\decorator_tests.cpp > CMakeFiles\test.dir\tests\decorator_tests.cpp.i
 
-CMakeFiles/test.dir/tests/army_test.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/tests/army_test.cpp.s"
-	C:\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\iusup\TP\tests\army_test.cpp -o CMakeFiles\test.dir\tests\army_test.cpp.s
+CMakeFiles/test.dir/tests/decorator_tests.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/tests/decorator_tests.cpp.s"
+	C:\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\iusup\TP\tests\decorator_tests.cpp -o CMakeFiles\test.dir\tests\decorator_tests.cpp.s
+
+CMakeFiles/test.dir/tests/army_tests.cpp.obj: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/tests/army_tests.cpp.obj: CMakeFiles/test.dir/includes_CXX.rsp
+CMakeFiles/test.dir/tests/army_tests.cpp.obj: ../tests/army_tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\iusup\TP\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/test.dir/tests/army_tests.cpp.obj"
+	C:\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\test.dir\tests\army_tests.cpp.obj -c C:\Users\iusup\TP\tests\army_tests.cpp
+
+CMakeFiles/test.dir/tests/army_tests.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/tests/army_tests.cpp.i"
+	C:\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\iusup\TP\tests\army_tests.cpp > CMakeFiles\test.dir\tests\army_tests.cpp.i
+
+CMakeFiles/test.dir/tests/army_tests.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/tests/army_tests.cpp.s"
+	C:\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\iusup\TP\tests\army_tests.cpp -o CMakeFiles\test.dir\tests\army_tests.cpp.s
 
 CMakeFiles/test.dir/tests/main.cpp.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/tests/main.cpp.obj: CMakeFiles/test.dir/includes_CXX.rsp
 CMakeFiles/test.dir/tests/main.cpp.obj: ../tests/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\iusup\TP\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/test.dir/tests/main.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\iusup\TP\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/test.dir/tests/main.cpp.obj"
 	C:\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\test.dir\tests\main.cpp.obj -c C:\Users\iusup\TP\tests\main.cpp
 
 CMakeFiles/test.dir/tests/main.cpp.i: cmake_force
@@ -87,7 +101,7 @@ CMakeFiles/test.dir/tests/main.cpp.s: cmake_force
 CMakeFiles/test.dir/code/Army/src/Factory/HumanFactory.cpp.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/code/Army/src/Factory/HumanFactory.cpp.obj: CMakeFiles/test.dir/includes_CXX.rsp
 CMakeFiles/test.dir/code/Army/src/Factory/HumanFactory.cpp.obj: ../code/Army/src/Factory/HumanFactory.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\iusup\TP\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/test.dir/code/Army/src/Factory/HumanFactory.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\iusup\TP\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/test.dir/code/Army/src/Factory/HumanFactory.cpp.obj"
 	C:\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\test.dir\code\Army\src\Factory\HumanFactory.cpp.obj -c C:\Users\iusup\TP\code\Army\src\Factory\HumanFactory.cpp
 
 CMakeFiles/test.dir/code/Army/src/Factory/HumanFactory.cpp.i: cmake_force
@@ -101,7 +115,7 @@ CMakeFiles/test.dir/code/Army/src/Factory/HumanFactory.cpp.s: cmake_force
 CMakeFiles/test.dir/code/Army/src/Factory/OrcFactory.cpp.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/code/Army/src/Factory/OrcFactory.cpp.obj: CMakeFiles/test.dir/includes_CXX.rsp
 CMakeFiles/test.dir/code/Army/src/Factory/OrcFactory.cpp.obj: ../code/Army/src/Factory/OrcFactory.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\iusup\TP\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/test.dir/code/Army/src/Factory/OrcFactory.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\iusup\TP\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/test.dir/code/Army/src/Factory/OrcFactory.cpp.obj"
 	C:\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\test.dir\code\Army\src\Factory\OrcFactory.cpp.obj -c C:\Users\iusup\TP\code\Army\src\Factory\OrcFactory.cpp
 
 CMakeFiles/test.dir/code/Army/src/Factory/OrcFactory.cpp.i: cmake_force
@@ -115,7 +129,7 @@ CMakeFiles/test.dir/code/Army/src/Factory/OrcFactory.cpp.s: cmake_force
 CMakeFiles/test.dir/code/Army/src/Point.cpp.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/code/Army/src/Point.cpp.obj: CMakeFiles/test.dir/includes_CXX.rsp
 CMakeFiles/test.dir/code/Army/src/Point.cpp.obj: ../code/Army/src/Point.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\iusup\TP\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/test.dir/code/Army/src/Point.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\iusup\TP\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/test.dir/code/Army/src/Point.cpp.obj"
 	C:\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\test.dir\code\Army\src\Point.cpp.obj -c C:\Users\iusup\TP\code\Army\src\Point.cpp
 
 CMakeFiles/test.dir/code/Army/src/Point.cpp.i: cmake_force
@@ -125,20 +139,6 @@ CMakeFiles/test.dir/code/Army/src/Point.cpp.i: cmake_force
 CMakeFiles/test.dir/code/Army/src/Point.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/code/Army/src/Point.cpp.s"
 	C:\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\iusup\TP\code\Army\src\Point.cpp -o CMakeFiles\test.dir\code\Army\src\Point.cpp.s
-
-CMakeFiles/test.dir/code/Army/src/Unit.cpp.obj: CMakeFiles/test.dir/flags.make
-CMakeFiles/test.dir/code/Army/src/Unit.cpp.obj: CMakeFiles/test.dir/includes_CXX.rsp
-CMakeFiles/test.dir/code/Army/src/Unit.cpp.obj: ../code/Army/src/Unit.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\iusup\TP\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/test.dir/code/Army/src/Unit.cpp.obj"
-	C:\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\test.dir\code\Army\src\Unit.cpp.obj -c C:\Users\iusup\TP\code\Army\src\Unit.cpp
-
-CMakeFiles/test.dir/code/Army/src/Unit.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/code/Army/src/Unit.cpp.i"
-	C:\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\iusup\TP\code\Army\src\Unit.cpp > CMakeFiles\test.dir\code\Army\src\Unit.cpp.i
-
-CMakeFiles/test.dir/code/Army/src/Unit.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/code/Army/src/Unit.cpp.s"
-	C:\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\iusup\TP\code\Army\src\Unit.cpp -o CMakeFiles\test.dir\code\Army\src\Unit.cpp.s
 
 CMakeFiles/test.dir/code/Army/src/Hero/Hero.cpp.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/code/Army/src/Hero/Hero.cpp.obj: CMakeFiles/test.dir/includes_CXX.rsp
@@ -224,36 +224,100 @@ CMakeFiles/test.dir/code/Army/src/Attack.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/code/Army/src/Attack.cpp.s"
 	C:\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\iusup\TP\code\Army\src\Attack.cpp -o CMakeFiles\test.dir\code\Army\src\Attack.cpp.s
 
+CMakeFiles/test.dir/code/Army/src/Unit/BaseUnit.cpp.obj: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/code/Army/src/Unit/BaseUnit.cpp.obj: CMakeFiles/test.dir/includes_CXX.rsp
+CMakeFiles/test.dir/code/Army/src/Unit/BaseUnit.cpp.obj: ../code/Army/src/Unit/BaseUnit.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\iusup\TP\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/test.dir/code/Army/src/Unit/BaseUnit.cpp.obj"
+	C:\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\test.dir\code\Army\src\Unit\BaseUnit.cpp.obj -c C:\Users\iusup\TP\code\Army\src\Unit\BaseUnit.cpp
+
+CMakeFiles/test.dir/code/Army/src/Unit/BaseUnit.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/code/Army/src/Unit/BaseUnit.cpp.i"
+	C:\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\iusup\TP\code\Army\src\Unit\BaseUnit.cpp > CMakeFiles\test.dir\code\Army\src\Unit\BaseUnit.cpp.i
+
+CMakeFiles/test.dir/code/Army/src/Unit/BaseUnit.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/code/Army/src/Unit/BaseUnit.cpp.s"
+	C:\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\iusup\TP\code\Army\src\Unit\BaseUnit.cpp -o CMakeFiles\test.dir\code\Army\src\Unit\BaseUnit.cpp.s
+
+CMakeFiles/test.dir/code/Army/src/Unit/UnitDecorator.cpp.obj: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/code/Army/src/Unit/UnitDecorator.cpp.obj: CMakeFiles/test.dir/includes_CXX.rsp
+CMakeFiles/test.dir/code/Army/src/Unit/UnitDecorator.cpp.obj: ../code/Army/src/Unit/UnitDecorator.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\iusup\TP\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/test.dir/code/Army/src/Unit/UnitDecorator.cpp.obj"
+	C:\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\test.dir\code\Army\src\Unit\UnitDecorator.cpp.obj -c C:\Users\iusup\TP\code\Army\src\Unit\UnitDecorator.cpp
+
+CMakeFiles/test.dir/code/Army/src/Unit/UnitDecorator.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/code/Army/src/Unit/UnitDecorator.cpp.i"
+	C:\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\iusup\TP\code\Army\src\Unit\UnitDecorator.cpp > CMakeFiles\test.dir\code\Army\src\Unit\UnitDecorator.cpp.i
+
+CMakeFiles/test.dir/code/Army/src/Unit/UnitDecorator.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/code/Army/src/Unit/UnitDecorator.cpp.s"
+	C:\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\iusup\TP\code\Army\src\Unit\UnitDecorator.cpp -o CMakeFiles\test.dir\code\Army\src\Unit\UnitDecorator.cpp.s
+
+CMakeFiles/test.dir/code/Army/src/Unit/DoubleAttackUnit.cpp.obj: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/code/Army/src/Unit/DoubleAttackUnit.cpp.obj: CMakeFiles/test.dir/includes_CXX.rsp
+CMakeFiles/test.dir/code/Army/src/Unit/DoubleAttackUnit.cpp.obj: ../code/Army/src/Unit/DoubleAttackUnit.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\iusup\TP\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/test.dir/code/Army/src/Unit/DoubleAttackUnit.cpp.obj"
+	C:\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\test.dir\code\Army\src\Unit\DoubleAttackUnit.cpp.obj -c C:\Users\iusup\TP\code\Army\src\Unit\DoubleAttackUnit.cpp
+
+CMakeFiles/test.dir/code/Army/src/Unit/DoubleAttackUnit.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/code/Army/src/Unit/DoubleAttackUnit.cpp.i"
+	C:\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\iusup\TP\code\Army\src\Unit\DoubleAttackUnit.cpp > CMakeFiles\test.dir\code\Army\src\Unit\DoubleAttackUnit.cpp.i
+
+CMakeFiles/test.dir/code/Army/src/Unit/DoubleAttackUnit.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/code/Army/src/Unit/DoubleAttackUnit.cpp.s"
+	C:\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\iusup\TP\code\Army\src\Unit\DoubleAttackUnit.cpp -o CMakeFiles\test.dir\code\Army\src\Unit\DoubleAttackUnit.cpp.s
+
+CMakeFiles/test.dir/code/Army/src/Unit/FireAttackUnit.cpp.obj: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/code/Army/src/Unit/FireAttackUnit.cpp.obj: CMakeFiles/test.dir/includes_CXX.rsp
+CMakeFiles/test.dir/code/Army/src/Unit/FireAttackUnit.cpp.obj: ../code/Army/src/Unit/FireAttackUnit.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\iusup\TP\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/test.dir/code/Army/src/Unit/FireAttackUnit.cpp.obj"
+	C:\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\test.dir\code\Army\src\Unit\FireAttackUnit.cpp.obj -c C:\Users\iusup\TP\code\Army\src\Unit\FireAttackUnit.cpp
+
+CMakeFiles/test.dir/code/Army/src/Unit/FireAttackUnit.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/code/Army/src/Unit/FireAttackUnit.cpp.i"
+	C:\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\iusup\TP\code\Army\src\Unit\FireAttackUnit.cpp > CMakeFiles\test.dir\code\Army\src\Unit\FireAttackUnit.cpp.i
+
+CMakeFiles/test.dir/code/Army/src/Unit/FireAttackUnit.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/code/Army/src/Unit/FireAttackUnit.cpp.s"
+	C:\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\iusup\TP\code\Army\src\Unit\FireAttackUnit.cpp -o CMakeFiles\test.dir\code\Army\src\Unit\FireAttackUnit.cpp.s
+
 # Object files for target test
 test_OBJECTS = \
-"CMakeFiles/test.dir/tests/army_test.cpp.obj" \
+"CMakeFiles/test.dir/tests/decorator_tests.cpp.obj" \
+"CMakeFiles/test.dir/tests/army_tests.cpp.obj" \
 "CMakeFiles/test.dir/tests/main.cpp.obj" \
 "CMakeFiles/test.dir/code/Army/src/Factory/HumanFactory.cpp.obj" \
 "CMakeFiles/test.dir/code/Army/src/Factory/OrcFactory.cpp.obj" \
 "CMakeFiles/test.dir/code/Army/src/Point.cpp.obj" \
-"CMakeFiles/test.dir/code/Army/src/Unit.cpp.obj" \
 "CMakeFiles/test.dir/code/Army/src/Hero/Hero.cpp.obj" \
 "CMakeFiles/test.dir/code/Army/src/Hero/HeroBuilder.cpp.obj" \
 "CMakeFiles/test.dir/code/Army/src/Hero/HeroDirector.cpp.obj" \
 "CMakeFiles/test.dir/code/Army/src/Hero/HumanHeroBuilder.cpp.obj" \
 "CMakeFiles/test.dir/code/Army/src/Hero/OrcHeroBuilder.cpp.obj" \
-"CMakeFiles/test.dir/code/Army/src/Attack.cpp.obj"
+"CMakeFiles/test.dir/code/Army/src/Attack.cpp.obj" \
+"CMakeFiles/test.dir/code/Army/src/Unit/BaseUnit.cpp.obj" \
+"CMakeFiles/test.dir/code/Army/src/Unit/UnitDecorator.cpp.obj" \
+"CMakeFiles/test.dir/code/Army/src/Unit/DoubleAttackUnit.cpp.obj" \
+"CMakeFiles/test.dir/code/Army/src/Unit/FireAttackUnit.cpp.obj"
 
 # External object files for target test
 test_EXTERNAL_OBJECTS =
 
-test.exe: CMakeFiles/test.dir/tests/army_test.cpp.obj
+test.exe: CMakeFiles/test.dir/tests/decorator_tests.cpp.obj
+test.exe: CMakeFiles/test.dir/tests/army_tests.cpp.obj
 test.exe: CMakeFiles/test.dir/tests/main.cpp.obj
 test.exe: CMakeFiles/test.dir/code/Army/src/Factory/HumanFactory.cpp.obj
 test.exe: CMakeFiles/test.dir/code/Army/src/Factory/OrcFactory.cpp.obj
 test.exe: CMakeFiles/test.dir/code/Army/src/Point.cpp.obj
-test.exe: CMakeFiles/test.dir/code/Army/src/Unit.cpp.obj
 test.exe: CMakeFiles/test.dir/code/Army/src/Hero/Hero.cpp.obj
 test.exe: CMakeFiles/test.dir/code/Army/src/Hero/HeroBuilder.cpp.obj
 test.exe: CMakeFiles/test.dir/code/Army/src/Hero/HeroDirector.cpp.obj
 test.exe: CMakeFiles/test.dir/code/Army/src/Hero/HumanHeroBuilder.cpp.obj
 test.exe: CMakeFiles/test.dir/code/Army/src/Hero/OrcHeroBuilder.cpp.obj
 test.exe: CMakeFiles/test.dir/code/Army/src/Attack.cpp.obj
+test.exe: CMakeFiles/test.dir/code/Army/src/Unit/BaseUnit.cpp.obj
+test.exe: CMakeFiles/test.dir/code/Army/src/Unit/UnitDecorator.cpp.obj
+test.exe: CMakeFiles/test.dir/code/Army/src/Unit/DoubleAttackUnit.cpp.obj
+test.exe: CMakeFiles/test.dir/code/Army/src/Unit/FireAttackUnit.cpp.obj
 test.exe: CMakeFiles/test.dir/build.make
 test.exe: code/Army/libarmy.a
 test.exe: lib/libgtest.a
@@ -267,7 +331,7 @@ test.exe: lib/libgtest.a
 test.exe: CMakeFiles/test.dir/linklibs.rsp
 test.exe: CMakeFiles/test.dir/objects1.rsp
 test.exe: CMakeFiles/test.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\iusup\TP\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Linking CXX executable test.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\iusup\TP\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Linking CXX executable test.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\test.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

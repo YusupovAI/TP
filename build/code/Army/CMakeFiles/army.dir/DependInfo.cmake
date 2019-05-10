@@ -13,7 +13,10 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/iusup/TP/code/Army/src/Hero/HumanHeroBuilder.cpp" "C:/Users/iusup/TP/build/code/Army/CMakeFiles/army.dir/src/Hero/HumanHeroBuilder.cpp.obj"
   "C:/Users/iusup/TP/code/Army/src/Hero/OrcHeroBuilder.cpp" "C:/Users/iusup/TP/build/code/Army/CMakeFiles/army.dir/src/Hero/OrcHeroBuilder.cpp.obj"
   "C:/Users/iusup/TP/code/Army/src/Point.cpp" "C:/Users/iusup/TP/build/code/Army/CMakeFiles/army.dir/src/Point.cpp.obj"
-  "C:/Users/iusup/TP/code/Army/src/Unit.cpp" "C:/Users/iusup/TP/build/code/Army/CMakeFiles/army.dir/src/Unit.cpp.obj"
+  "C:/Users/iusup/TP/code/Army/src/Unit/BaseUnit.cpp" "C:/Users/iusup/TP/build/code/Army/CMakeFiles/army.dir/src/Unit/BaseUnit.cpp.obj"
+  "C:/Users/iusup/TP/code/Army/src/Unit/DoubleAttackUnit.cpp" "C:/Users/iusup/TP/build/code/Army/CMakeFiles/army.dir/src/Unit/DoubleAttackUnit.cpp.obj"
+  "C:/Users/iusup/TP/code/Army/src/Unit/FireAttackUnit.cpp" "C:/Users/iusup/TP/build/code/Army/CMakeFiles/army.dir/src/Unit/FireAttackUnit.cpp.obj"
+  "C:/Users/iusup/TP/code/Army/src/Unit/UnitDecorator.cpp" "C:/Users/iusup/TP/build/code/Army/CMakeFiles/army.dir/src/Unit/UnitDecorator.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

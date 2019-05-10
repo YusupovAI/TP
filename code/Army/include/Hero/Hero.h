@@ -1,15 +1,11 @@
-//
-// Created by iusup on 26.03.2019.
-//
-
 #ifndef TP_HERO_H
 #define TP_HERO_H
 
-#include "Unit/Unit.h"
+#include "Unit/BaseUnit.h"
 #include "Point.h"
 #include <memory>
 
-class Hero : public Unit {
+class Hero : public BaseUnit {
 public:
     Hero();
 

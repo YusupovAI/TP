@@ -542,35 +542,125 @@ code/Army/src/Point.cpp.s:
 	$(MAKE) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/code/Army/src/Point.cpp.s
 .PHONY : code/Army/src/Point.cpp.s
 
-code/Army/src/Unit.obj: code/Army/src/Unit.cpp.obj
+code/Army/src/Unit/BaseUnit.obj: code/Army/src/Unit/BaseUnit.cpp.obj
 
-.PHONY : code/Army/src/Unit.obj
+.PHONY : code/Army/src/Unit/BaseUnit.obj
 
 # target to build an object file
-code/Army/src/Unit.cpp.obj:
-	$(MAKE) -f CMakeFiles\Game.dir\build.make CMakeFiles/Game.dir/code/Army/src/Unit.cpp.obj
-	$(MAKE) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/code/Army/src/Unit.cpp.obj
-.PHONY : code/Army/src/Unit.cpp.obj
+code/Army/src/Unit/BaseUnit.cpp.obj:
+	$(MAKE) -f CMakeFiles\Game.dir\build.make CMakeFiles/Game.dir/code/Army/src/Unit/BaseUnit.cpp.obj
+	$(MAKE) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/code/Army/src/Unit/BaseUnit.cpp.obj
+.PHONY : code/Army/src/Unit/BaseUnit.cpp.obj
 
-code/Army/src/Unit.i: code/Army/src/Unit.cpp.i
+code/Army/src/Unit/BaseUnit.i: code/Army/src/Unit/BaseUnit.cpp.i
 
-.PHONY : code/Army/src/Unit.i
+.PHONY : code/Army/src/Unit/BaseUnit.i
 
 # target to preprocess a source file
-code/Army/src/Unit.cpp.i:
-	$(MAKE) -f CMakeFiles\Game.dir\build.make CMakeFiles/Game.dir/code/Army/src/Unit.cpp.i
-	$(MAKE) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/code/Army/src/Unit.cpp.i
-.PHONY : code/Army/src/Unit.cpp.i
+code/Army/src/Unit/BaseUnit.cpp.i:
+	$(MAKE) -f CMakeFiles\Game.dir\build.make CMakeFiles/Game.dir/code/Army/src/Unit/BaseUnit.cpp.i
+	$(MAKE) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/code/Army/src/Unit/BaseUnit.cpp.i
+.PHONY : code/Army/src/Unit/BaseUnit.cpp.i
 
-code/Army/src/Unit.s: code/Army/src/Unit.cpp.s
+code/Army/src/Unit/BaseUnit.s: code/Army/src/Unit/BaseUnit.cpp.s
 
-.PHONY : code/Army/src/Unit.s
+.PHONY : code/Army/src/Unit/BaseUnit.s
 
 # target to generate assembly for a file
-code/Army/src/Unit.cpp.s:
-	$(MAKE) -f CMakeFiles\Game.dir\build.make CMakeFiles/Game.dir/code/Army/src/Unit.cpp.s
-	$(MAKE) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/code/Army/src/Unit.cpp.s
-.PHONY : code/Army/src/Unit.cpp.s
+code/Army/src/Unit/BaseUnit.cpp.s:
+	$(MAKE) -f CMakeFiles\Game.dir\build.make CMakeFiles/Game.dir/code/Army/src/Unit/BaseUnit.cpp.s
+	$(MAKE) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/code/Army/src/Unit/BaseUnit.cpp.s
+.PHONY : code/Army/src/Unit/BaseUnit.cpp.s
+
+code/Army/src/Unit/DoubleAttackUnit.obj: code/Army/src/Unit/DoubleAttackUnit.cpp.obj
+
+.PHONY : code/Army/src/Unit/DoubleAttackUnit.obj
+
+# target to build an object file
+code/Army/src/Unit/DoubleAttackUnit.cpp.obj:
+	$(MAKE) -f CMakeFiles\Game.dir\build.make CMakeFiles/Game.dir/code/Army/src/Unit/DoubleAttackUnit.cpp.obj
+	$(MAKE) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/code/Army/src/Unit/DoubleAttackUnit.cpp.obj
+.PHONY : code/Army/src/Unit/DoubleAttackUnit.cpp.obj
+
+code/Army/src/Unit/DoubleAttackUnit.i: code/Army/src/Unit/DoubleAttackUnit.cpp.i
+
+.PHONY : code/Army/src/Unit/DoubleAttackUnit.i
+
+# target to preprocess a source file
+code/Army/src/Unit/DoubleAttackUnit.cpp.i:
+	$(MAKE) -f CMakeFiles\Game.dir\build.make CMakeFiles/Game.dir/code/Army/src/Unit/DoubleAttackUnit.cpp.i
+	$(MAKE) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/code/Army/src/Unit/DoubleAttackUnit.cpp.i
+.PHONY : code/Army/src/Unit/DoubleAttackUnit.cpp.i
+
+code/Army/src/Unit/DoubleAttackUnit.s: code/Army/src/Unit/DoubleAttackUnit.cpp.s
+
+.PHONY : code/Army/src/Unit/DoubleAttackUnit.s
+
+# target to generate assembly for a file
+code/Army/src/Unit/DoubleAttackUnit.cpp.s:
+	$(MAKE) -f CMakeFiles\Game.dir\build.make CMakeFiles/Game.dir/code/Army/src/Unit/DoubleAttackUnit.cpp.s
+	$(MAKE) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/code/Army/src/Unit/DoubleAttackUnit.cpp.s
+.PHONY : code/Army/src/Unit/DoubleAttackUnit.cpp.s
+
+code/Army/src/Unit/FireAttackUnit.obj: code/Army/src/Unit/FireAttackUnit.cpp.obj
+
+.PHONY : code/Army/src/Unit/FireAttackUnit.obj
+
+# target to build an object file
+code/Army/src/Unit/FireAttackUnit.cpp.obj:
+	$(MAKE) -f CMakeFiles\Game.dir\build.make CMakeFiles/Game.dir/code/Army/src/Unit/FireAttackUnit.cpp.obj
+	$(MAKE) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/code/Army/src/Unit/FireAttackUnit.cpp.obj
+.PHONY : code/Army/src/Unit/FireAttackUnit.cpp.obj
+
+code/Army/src/Unit/FireAttackUnit.i: code/Army/src/Unit/FireAttackUnit.cpp.i
+
+.PHONY : code/Army/src/Unit/FireAttackUnit.i
+
+# target to preprocess a source file
+code/Army/src/Unit/FireAttackUnit.cpp.i:
+	$(MAKE) -f CMakeFiles\Game.dir\build.make CMakeFiles/Game.dir/code/Army/src/Unit/FireAttackUnit.cpp.i
+	$(MAKE) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/code/Army/src/Unit/FireAttackUnit.cpp.i
+.PHONY : code/Army/src/Unit/FireAttackUnit.cpp.i
+
+code/Army/src/Unit/FireAttackUnit.s: code/Army/src/Unit/FireAttackUnit.cpp.s
+
+.PHONY : code/Army/src/Unit/FireAttackUnit.s
+
+# target to generate assembly for a file
+code/Army/src/Unit/FireAttackUnit.cpp.s:
+	$(MAKE) -f CMakeFiles\Game.dir\build.make CMakeFiles/Game.dir/code/Army/src/Unit/FireAttackUnit.cpp.s
+	$(MAKE) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/code/Army/src/Unit/FireAttackUnit.cpp.s
+.PHONY : code/Army/src/Unit/FireAttackUnit.cpp.s
+
+code/Army/src/Unit/UnitDecorator.obj: code/Army/src/Unit/UnitDecorator.cpp.obj
+
+.PHONY : code/Army/src/Unit/UnitDecorator.obj
+
+# target to build an object file
+code/Army/src/Unit/UnitDecorator.cpp.obj:
+	$(MAKE) -f CMakeFiles\Game.dir\build.make CMakeFiles/Game.dir/code/Army/src/Unit/UnitDecorator.cpp.obj
+	$(MAKE) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/code/Army/src/Unit/UnitDecorator.cpp.obj
+.PHONY : code/Army/src/Unit/UnitDecorator.cpp.obj
+
+code/Army/src/Unit/UnitDecorator.i: code/Army/src/Unit/UnitDecorator.cpp.i
+
+.PHONY : code/Army/src/Unit/UnitDecorator.i
+
+# target to preprocess a source file
+code/Army/src/Unit/UnitDecorator.cpp.i:
+	$(MAKE) -f CMakeFiles\Game.dir\build.make CMakeFiles/Game.dir/code/Army/src/Unit/UnitDecorator.cpp.i
+	$(MAKE) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/code/Army/src/Unit/UnitDecorator.cpp.i
+.PHONY : code/Army/src/Unit/UnitDecorator.cpp.i
+
+code/Army/src/Unit/UnitDecorator.s: code/Army/src/Unit/UnitDecorator.cpp.s
+
+.PHONY : code/Army/src/Unit/UnitDecorator.s
+
+# target to generate assembly for a file
+code/Army/src/Unit/UnitDecorator.cpp.s:
+	$(MAKE) -f CMakeFiles\Game.dir\build.make CMakeFiles/Game.dir/code/Army/src/Unit/UnitDecorator.cpp.s
+	$(MAKE) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/code/Army/src/Unit/UnitDecorator.cpp.s
+.PHONY : code/Army/src/Unit/UnitDecorator.cpp.s
 
 code/Game/src/Game.obj: code/Game/src/Game.cpp.obj
 
@@ -653,32 +743,59 @@ code/main.cpp.s:
 	$(MAKE) -f CMakeFiles\Game.dir\build.make CMakeFiles/Game.dir/code/main.cpp.s
 .PHONY : code/main.cpp.s
 
-tests/army_test.obj: tests/army_test.cpp.obj
+tests/army_tests.obj: tests/army_tests.cpp.obj
 
-.PHONY : tests/army_test.obj
+.PHONY : tests/army_tests.obj
 
 # target to build an object file
-tests/army_test.cpp.obj:
-	$(MAKE) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/tests/army_test.cpp.obj
-.PHONY : tests/army_test.cpp.obj
+tests/army_tests.cpp.obj:
+	$(MAKE) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/tests/army_tests.cpp.obj
+.PHONY : tests/army_tests.cpp.obj
 
-tests/army_test.i: tests/army_test.cpp.i
+tests/army_tests.i: tests/army_tests.cpp.i
 
-.PHONY : tests/army_test.i
+.PHONY : tests/army_tests.i
 
 # target to preprocess a source file
-tests/army_test.cpp.i:
-	$(MAKE) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/tests/army_test.cpp.i
-.PHONY : tests/army_test.cpp.i
+tests/army_tests.cpp.i:
+	$(MAKE) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/tests/army_tests.cpp.i
+.PHONY : tests/army_tests.cpp.i
 
-tests/army_test.s: tests/army_test.cpp.s
+tests/army_tests.s: tests/army_tests.cpp.s
 
-.PHONY : tests/army_test.s
+.PHONY : tests/army_tests.s
 
 # target to generate assembly for a file
-tests/army_test.cpp.s:
-	$(MAKE) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/tests/army_test.cpp.s
-.PHONY : tests/army_test.cpp.s
+tests/army_tests.cpp.s:
+	$(MAKE) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/tests/army_tests.cpp.s
+.PHONY : tests/army_tests.cpp.s
+
+tests/decorator_tests.obj: tests/decorator_tests.cpp.obj
+
+.PHONY : tests/decorator_tests.obj
+
+# target to build an object file
+tests/decorator_tests.cpp.obj:
+	$(MAKE) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/tests/decorator_tests.cpp.obj
+.PHONY : tests/decorator_tests.cpp.obj
+
+tests/decorator_tests.i: tests/decorator_tests.cpp.i
+
+.PHONY : tests/decorator_tests.i
+
+# target to preprocess a source file
+tests/decorator_tests.cpp.i:
+	$(MAKE) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/tests/decorator_tests.cpp.i
+.PHONY : tests/decorator_tests.cpp.i
+
+tests/decorator_tests.s: tests/decorator_tests.cpp.s
+
+.PHONY : tests/decorator_tests.s
+
+# target to generate assembly for a file
+tests/decorator_tests.cpp.s:
+	$(MAKE) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/tests/decorator_tests.cpp.s
+.PHONY : tests/decorator_tests.cpp.s
 
 tests/main.obj: tests/main.cpp.obj
 
@@ -755,9 +872,18 @@ help:
 	@echo ... code/Army/src/Point.obj
 	@echo ... code/Army/src/Point.i
 	@echo ... code/Army/src/Point.s
-	@echo ... code/Army/src/Unit.obj
-	@echo ... code/Army/src/Unit.i
-	@echo ... code/Army/src/Unit.s
+	@echo ... code/Army/src/Unit/BaseUnit.obj
+	@echo ... code/Army/src/Unit/BaseUnit.i
+	@echo ... code/Army/src/Unit/BaseUnit.s
+	@echo ... code/Army/src/Unit/DoubleAttackUnit.obj
+	@echo ... code/Army/src/Unit/DoubleAttackUnit.i
+	@echo ... code/Army/src/Unit/DoubleAttackUnit.s
+	@echo ... code/Army/src/Unit/FireAttackUnit.obj
+	@echo ... code/Army/src/Unit/FireAttackUnit.i
+	@echo ... code/Army/src/Unit/FireAttackUnit.s
+	@echo ... code/Army/src/Unit/UnitDecorator.obj
+	@echo ... code/Army/src/Unit/UnitDecorator.i
+	@echo ... code/Army/src/Unit/UnitDecorator.s
 	@echo ... code/Game/src/Game.obj
 	@echo ... code/Game/src/Game.i
 	@echo ... code/Game/src/Game.s
@@ -767,9 +893,12 @@ help:
 	@echo ... code/main.obj
 	@echo ... code/main.i
 	@echo ... code/main.s
-	@echo ... tests/army_test.obj
-	@echo ... tests/army_test.i
-	@echo ... tests/army_test.s
+	@echo ... tests/army_tests.obj
+	@echo ... tests/army_tests.i
+	@echo ... tests/army_tests.s
+	@echo ... tests/decorator_tests.obj
+	@echo ... tests/decorator_tests.i
+	@echo ... tests/decorator_tests.s
 	@echo ... tests/main.obj
 	@echo ... tests/main.i
 	@echo ... tests/main.s

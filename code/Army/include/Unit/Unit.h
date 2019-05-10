@@ -18,51 +18,42 @@ public:
 
     Unit(const Unit &) = default;
 
-    virtual void Offense(const std::shared_ptr<Unit> &);
+    virtual void Offense(const std::shared_ptr<Unit> &) = 0;
 
-    virtual void Move(const Point &);
+    virtual void Move(const Point &) = 0;
 
-    unsigned int GetHP() const;
+    virtual unsigned int GetHP() const = 0;
 
-    void SetHP(int hp);
+    virtual void SetHP(int hp) = 0;
 
-    unsigned int GetCurTurnPoints() const;
+    virtual unsigned int GetCurTurnPoints() const = 0;
 
-    unsigned int GetTurnPoints() const;
+    virtual unsigned int GetTurnPoints() const = 0;
 
-    void SetTurnPoints(unsigned int turn_points);
+    virtual void SetTurnPoints(unsigned int turn_points) = 0;
 
-    void SetCurTurnPoints(unsigned int cur_turn_points);
+    virtual void SetCurTurnPoints(unsigned int cur_turn_points) = 0;
 
-    Attack GetAttack() const;
+    virtual Attack GetAttack() const = 0;
 
-    void SetAttack(Attack attack);
+    virtual void SetAttack(Attack attack) = 0;
 
-    unsigned int GetAttackRange() const;
+    virtual unsigned int GetAttackRange() const = 0;
 
-    void SetAttackRange(unsigned int attack_range);
+    virtual void SetAttackRange(unsigned int attack_range) = 0;
 
-    Point GetPosition() const;
+    virtual Point GetPosition() const = 0;
 
-    void SetPosition(const Point &position);
+    virtual void SetPosition(const Point &position) = 0;
 
-    virtual void Attacked(const Attack& attack);
+    virtual void Attacked(const Attack& attack) = 0;
 
-    const std::shared_ptr<sf::CircleShape>& GetShape() const;
+    virtual const std::shared_ptr<sf::CircleShape>& GetShape() const = 0;
 
-    void SetShape(const sf::CircleShape&);
+    virtual void SetShape(const sf::CircleShape&) = 0;
 
     virtual ~Unit() = default;
 
-protected:
-    int hp_;
-    unsigned int turn_points_;
-    unsigned int cur_turn_points_;
-    unsigned int damage_;
-    unsigned int attack_range_;
-    Point position_;
-    Attack attack_;
-    std::shared_ptr<sf::CircleShape> shape_;
 };
 
 

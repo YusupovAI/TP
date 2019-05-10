@@ -5,11 +5,11 @@
 #ifndef TP_INFANTRY_H
 #define TP_INFANTRY_H
 
-#include "Unit/Unit.h"
+#include "Unit/BaseUnit.h"
 
-class Infantry final : public Unit {
+class Infantry final : public BaseUnit {
 public:
-    explicit Infantry(const Point &p) : Unit(p) {};
+    explicit Infantry(const Point &p) : BaseUnit(p) {};
 
     ~Infantry() override = default;
 };

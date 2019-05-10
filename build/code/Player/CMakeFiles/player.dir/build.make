@@ -112,24 +112,10 @@ code/Player/CMakeFiles/player.dir/__/Army/src/Point.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/player.dir/__/Army/src/Point.cpp.s"
 	cd /d C:\Users\iusup\TP\build\code\Player && C:\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\iusup\TP\code\Army\src\Point.cpp -o CMakeFiles\player.dir\__\Army\src\Point.cpp.s
 
-code/Player/CMakeFiles/player.dir/__/Army/src/Unit.cpp.obj: code/Player/CMakeFiles/player.dir/flags.make
-code/Player/CMakeFiles/player.dir/__/Army/src/Unit.cpp.obj: code/Player/CMakeFiles/player.dir/includes_CXX.rsp
-code/Player/CMakeFiles/player.dir/__/Army/src/Unit.cpp.obj: ../code/Army/src/Unit.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\iusup\TP\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object code/Player/CMakeFiles/player.dir/__/Army/src/Unit.cpp.obj"
-	cd /d C:\Users\iusup\TP\build\code\Player && C:\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\player.dir\__\Army\src\Unit.cpp.obj -c C:\Users\iusup\TP\code\Army\src\Unit.cpp
-
-code/Player/CMakeFiles/player.dir/__/Army/src/Unit.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/player.dir/__/Army/src/Unit.cpp.i"
-	cd /d C:\Users\iusup\TP\build\code\Player && C:\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\iusup\TP\code\Army\src\Unit.cpp > CMakeFiles\player.dir\__\Army\src\Unit.cpp.i
-
-code/Player/CMakeFiles/player.dir/__/Army/src/Unit.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/player.dir/__/Army/src/Unit.cpp.s"
-	cd /d C:\Users\iusup\TP\build\code\Player && C:\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\iusup\TP\code\Army\src\Unit.cpp -o CMakeFiles\player.dir\__\Army\src\Unit.cpp.s
-
 code/Player/CMakeFiles/player.dir/__/Army/src/Hero/Hero.cpp.obj: code/Player/CMakeFiles/player.dir/flags.make
 code/Player/CMakeFiles/player.dir/__/Army/src/Hero/Hero.cpp.obj: code/Player/CMakeFiles/player.dir/includes_CXX.rsp
 code/Player/CMakeFiles/player.dir/__/Army/src/Hero/Hero.cpp.obj: ../code/Army/src/Hero/Hero.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\iusup\TP\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object code/Player/CMakeFiles/player.dir/__/Army/src/Hero/Hero.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\iusup\TP\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object code/Player/CMakeFiles/player.dir/__/Army/src/Hero/Hero.cpp.obj"
 	cd /d C:\Users\iusup\TP\build\code\Player && C:\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\player.dir\__\Army\src\Hero\Hero.cpp.obj -c C:\Users\iusup\TP\code\Army\src\Hero\Hero.cpp
 
 code/Player/CMakeFiles/player.dir/__/Army/src/Hero/Hero.cpp.i: cmake_force
@@ -143,7 +129,7 @@ code/Player/CMakeFiles/player.dir/__/Army/src/Hero/Hero.cpp.s: cmake_force
 code/Player/CMakeFiles/player.dir/__/Army/src/Hero/HeroBuilder.cpp.obj: code/Player/CMakeFiles/player.dir/flags.make
 code/Player/CMakeFiles/player.dir/__/Army/src/Hero/HeroBuilder.cpp.obj: code/Player/CMakeFiles/player.dir/includes_CXX.rsp
 code/Player/CMakeFiles/player.dir/__/Army/src/Hero/HeroBuilder.cpp.obj: ../code/Army/src/Hero/HeroBuilder.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\iusup\TP\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object code/Player/CMakeFiles/player.dir/__/Army/src/Hero/HeroBuilder.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\iusup\TP\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object code/Player/CMakeFiles/player.dir/__/Army/src/Hero/HeroBuilder.cpp.obj"
 	cd /d C:\Users\iusup\TP\build\code\Player && C:\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\player.dir\__\Army\src\Hero\HeroBuilder.cpp.obj -c C:\Users\iusup\TP\code\Army\src\Hero\HeroBuilder.cpp
 
 code/Player/CMakeFiles/player.dir/__/Army/src/Hero/HeroBuilder.cpp.i: cmake_force
@@ -157,7 +143,7 @@ code/Player/CMakeFiles/player.dir/__/Army/src/Hero/HeroBuilder.cpp.s: cmake_forc
 code/Player/CMakeFiles/player.dir/__/Army/src/Hero/HeroDirector.cpp.obj: code/Player/CMakeFiles/player.dir/flags.make
 code/Player/CMakeFiles/player.dir/__/Army/src/Hero/HeroDirector.cpp.obj: code/Player/CMakeFiles/player.dir/includes_CXX.rsp
 code/Player/CMakeFiles/player.dir/__/Army/src/Hero/HeroDirector.cpp.obj: ../code/Army/src/Hero/HeroDirector.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\iusup\TP\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object code/Player/CMakeFiles/player.dir/__/Army/src/Hero/HeroDirector.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\iusup\TP\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object code/Player/CMakeFiles/player.dir/__/Army/src/Hero/HeroDirector.cpp.obj"
 	cd /d C:\Users\iusup\TP\build\code\Player && C:\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\player.dir\__\Army\src\Hero\HeroDirector.cpp.obj -c C:\Users\iusup\TP\code\Army\src\Hero\HeroDirector.cpp
 
 code/Player/CMakeFiles/player.dir/__/Army/src/Hero/HeroDirector.cpp.i: cmake_force
@@ -171,7 +157,7 @@ code/Player/CMakeFiles/player.dir/__/Army/src/Hero/HeroDirector.cpp.s: cmake_for
 code/Player/CMakeFiles/player.dir/__/Army/src/Hero/HumanHeroBuilder.cpp.obj: code/Player/CMakeFiles/player.dir/flags.make
 code/Player/CMakeFiles/player.dir/__/Army/src/Hero/HumanHeroBuilder.cpp.obj: code/Player/CMakeFiles/player.dir/includes_CXX.rsp
 code/Player/CMakeFiles/player.dir/__/Army/src/Hero/HumanHeroBuilder.cpp.obj: ../code/Army/src/Hero/HumanHeroBuilder.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\iusup\TP\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object code/Player/CMakeFiles/player.dir/__/Army/src/Hero/HumanHeroBuilder.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\iusup\TP\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object code/Player/CMakeFiles/player.dir/__/Army/src/Hero/HumanHeroBuilder.cpp.obj"
 	cd /d C:\Users\iusup\TP\build\code\Player && C:\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\player.dir\__\Army\src\Hero\HumanHeroBuilder.cpp.obj -c C:\Users\iusup\TP\code\Army\src\Hero\HumanHeroBuilder.cpp
 
 code/Player/CMakeFiles/player.dir/__/Army/src/Hero/HumanHeroBuilder.cpp.i: cmake_force
@@ -185,7 +171,7 @@ code/Player/CMakeFiles/player.dir/__/Army/src/Hero/HumanHeroBuilder.cpp.s: cmake
 code/Player/CMakeFiles/player.dir/__/Army/src/Hero/OrcHeroBuilder.cpp.obj: code/Player/CMakeFiles/player.dir/flags.make
 code/Player/CMakeFiles/player.dir/__/Army/src/Hero/OrcHeroBuilder.cpp.obj: code/Player/CMakeFiles/player.dir/includes_CXX.rsp
 code/Player/CMakeFiles/player.dir/__/Army/src/Hero/OrcHeroBuilder.cpp.obj: ../code/Army/src/Hero/OrcHeroBuilder.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\iusup\TP\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object code/Player/CMakeFiles/player.dir/__/Army/src/Hero/OrcHeroBuilder.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\iusup\TP\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object code/Player/CMakeFiles/player.dir/__/Army/src/Hero/OrcHeroBuilder.cpp.obj"
 	cd /d C:\Users\iusup\TP\build\code\Player && C:\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\player.dir\__\Army\src\Hero\OrcHeroBuilder.cpp.obj -c C:\Users\iusup\TP\code\Army\src\Hero\OrcHeroBuilder.cpp
 
 code/Player/CMakeFiles/player.dir/__/Army/src/Hero/OrcHeroBuilder.cpp.i: cmake_force
@@ -199,7 +185,7 @@ code/Player/CMakeFiles/player.dir/__/Army/src/Hero/OrcHeroBuilder.cpp.s: cmake_f
 code/Player/CMakeFiles/player.dir/__/Army/src/Attack.cpp.obj: code/Player/CMakeFiles/player.dir/flags.make
 code/Player/CMakeFiles/player.dir/__/Army/src/Attack.cpp.obj: code/Player/CMakeFiles/player.dir/includes_CXX.rsp
 code/Player/CMakeFiles/player.dir/__/Army/src/Attack.cpp.obj: ../code/Army/src/Attack.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\iusup\TP\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object code/Player/CMakeFiles/player.dir/__/Army/src/Attack.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\iusup\TP\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object code/Player/CMakeFiles/player.dir/__/Army/src/Attack.cpp.obj"
 	cd /d C:\Users\iusup\TP\build\code\Player && C:\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\player.dir\__\Army\src\Attack.cpp.obj -c C:\Users\iusup\TP\code\Army\src\Attack.cpp
 
 code/Player/CMakeFiles/player.dir/__/Army/src/Attack.cpp.i: cmake_force
@@ -210,19 +196,78 @@ code/Player/CMakeFiles/player.dir/__/Army/src/Attack.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/player.dir/__/Army/src/Attack.cpp.s"
 	cd /d C:\Users\iusup\TP\build\code\Player && C:\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\iusup\TP\code\Army\src\Attack.cpp -o CMakeFiles\player.dir\__\Army\src\Attack.cpp.s
 
+code/Player/CMakeFiles/player.dir/__/Army/src/Unit/BaseUnit.cpp.obj: code/Player/CMakeFiles/player.dir/flags.make
+code/Player/CMakeFiles/player.dir/__/Army/src/Unit/BaseUnit.cpp.obj: code/Player/CMakeFiles/player.dir/includes_CXX.rsp
+code/Player/CMakeFiles/player.dir/__/Army/src/Unit/BaseUnit.cpp.obj: ../code/Army/src/Unit/BaseUnit.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\iusup\TP\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object code/Player/CMakeFiles/player.dir/__/Army/src/Unit/BaseUnit.cpp.obj"
+	cd /d C:\Users\iusup\TP\build\code\Player && C:\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\player.dir\__\Army\src\Unit\BaseUnit.cpp.obj -c C:\Users\iusup\TP\code\Army\src\Unit\BaseUnit.cpp
+
+code/Player/CMakeFiles/player.dir/__/Army/src/Unit/BaseUnit.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/player.dir/__/Army/src/Unit/BaseUnit.cpp.i"
+	cd /d C:\Users\iusup\TP\build\code\Player && C:\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\iusup\TP\code\Army\src\Unit\BaseUnit.cpp > CMakeFiles\player.dir\__\Army\src\Unit\BaseUnit.cpp.i
+
+code/Player/CMakeFiles/player.dir/__/Army/src/Unit/BaseUnit.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/player.dir/__/Army/src/Unit/BaseUnit.cpp.s"
+	cd /d C:\Users\iusup\TP\build\code\Player && C:\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\iusup\TP\code\Army\src\Unit\BaseUnit.cpp -o CMakeFiles\player.dir\__\Army\src\Unit\BaseUnit.cpp.s
+
+code/Player/CMakeFiles/player.dir/__/Army/src/Unit/UnitDecorator.cpp.obj: code/Player/CMakeFiles/player.dir/flags.make
+code/Player/CMakeFiles/player.dir/__/Army/src/Unit/UnitDecorator.cpp.obj: code/Player/CMakeFiles/player.dir/includes_CXX.rsp
+code/Player/CMakeFiles/player.dir/__/Army/src/Unit/UnitDecorator.cpp.obj: ../code/Army/src/Unit/UnitDecorator.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\iusup\TP\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object code/Player/CMakeFiles/player.dir/__/Army/src/Unit/UnitDecorator.cpp.obj"
+	cd /d C:\Users\iusup\TP\build\code\Player && C:\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\player.dir\__\Army\src\Unit\UnitDecorator.cpp.obj -c C:\Users\iusup\TP\code\Army\src\Unit\UnitDecorator.cpp
+
+code/Player/CMakeFiles/player.dir/__/Army/src/Unit/UnitDecorator.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/player.dir/__/Army/src/Unit/UnitDecorator.cpp.i"
+	cd /d C:\Users\iusup\TP\build\code\Player && C:\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\iusup\TP\code\Army\src\Unit\UnitDecorator.cpp > CMakeFiles\player.dir\__\Army\src\Unit\UnitDecorator.cpp.i
+
+code/Player/CMakeFiles/player.dir/__/Army/src/Unit/UnitDecorator.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/player.dir/__/Army/src/Unit/UnitDecorator.cpp.s"
+	cd /d C:\Users\iusup\TP\build\code\Player && C:\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\iusup\TP\code\Army\src\Unit\UnitDecorator.cpp -o CMakeFiles\player.dir\__\Army\src\Unit\UnitDecorator.cpp.s
+
+code/Player/CMakeFiles/player.dir/__/Army/src/Unit/DoubleAttackUnit.cpp.obj: code/Player/CMakeFiles/player.dir/flags.make
+code/Player/CMakeFiles/player.dir/__/Army/src/Unit/DoubleAttackUnit.cpp.obj: code/Player/CMakeFiles/player.dir/includes_CXX.rsp
+code/Player/CMakeFiles/player.dir/__/Army/src/Unit/DoubleAttackUnit.cpp.obj: ../code/Army/src/Unit/DoubleAttackUnit.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\iusup\TP\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object code/Player/CMakeFiles/player.dir/__/Army/src/Unit/DoubleAttackUnit.cpp.obj"
+	cd /d C:\Users\iusup\TP\build\code\Player && C:\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\player.dir\__\Army\src\Unit\DoubleAttackUnit.cpp.obj -c C:\Users\iusup\TP\code\Army\src\Unit\DoubleAttackUnit.cpp
+
+code/Player/CMakeFiles/player.dir/__/Army/src/Unit/DoubleAttackUnit.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/player.dir/__/Army/src/Unit/DoubleAttackUnit.cpp.i"
+	cd /d C:\Users\iusup\TP\build\code\Player && C:\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\iusup\TP\code\Army\src\Unit\DoubleAttackUnit.cpp > CMakeFiles\player.dir\__\Army\src\Unit\DoubleAttackUnit.cpp.i
+
+code/Player/CMakeFiles/player.dir/__/Army/src/Unit/DoubleAttackUnit.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/player.dir/__/Army/src/Unit/DoubleAttackUnit.cpp.s"
+	cd /d C:\Users\iusup\TP\build\code\Player && C:\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\iusup\TP\code\Army\src\Unit\DoubleAttackUnit.cpp -o CMakeFiles\player.dir\__\Army\src\Unit\DoubleAttackUnit.cpp.s
+
+code/Player/CMakeFiles/player.dir/__/Army/src/Unit/FireAttackUnit.cpp.obj: code/Player/CMakeFiles/player.dir/flags.make
+code/Player/CMakeFiles/player.dir/__/Army/src/Unit/FireAttackUnit.cpp.obj: code/Player/CMakeFiles/player.dir/includes_CXX.rsp
+code/Player/CMakeFiles/player.dir/__/Army/src/Unit/FireAttackUnit.cpp.obj: ../code/Army/src/Unit/FireAttackUnit.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\iusup\TP\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object code/Player/CMakeFiles/player.dir/__/Army/src/Unit/FireAttackUnit.cpp.obj"
+	cd /d C:\Users\iusup\TP\build\code\Player && C:\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\player.dir\__\Army\src\Unit\FireAttackUnit.cpp.obj -c C:\Users\iusup\TP\code\Army\src\Unit\FireAttackUnit.cpp
+
+code/Player/CMakeFiles/player.dir/__/Army/src/Unit/FireAttackUnit.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/player.dir/__/Army/src/Unit/FireAttackUnit.cpp.i"
+	cd /d C:\Users\iusup\TP\build\code\Player && C:\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\iusup\TP\code\Army\src\Unit\FireAttackUnit.cpp > CMakeFiles\player.dir\__\Army\src\Unit\FireAttackUnit.cpp.i
+
+code/Player/CMakeFiles/player.dir/__/Army/src/Unit/FireAttackUnit.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/player.dir/__/Army/src/Unit/FireAttackUnit.cpp.s"
+	cd /d C:\Users\iusup\TP\build\code\Player && C:\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\iusup\TP\code\Army\src\Unit\FireAttackUnit.cpp -o CMakeFiles\player.dir\__\Army\src\Unit\FireAttackUnit.cpp.s
+
 # Object files for target player
 player_OBJECTS = \
 "CMakeFiles/player.dir/src/Player.cpp.obj" \
 "CMakeFiles/player.dir/__/Army/src/Factory/HumanFactory.cpp.obj" \
 "CMakeFiles/player.dir/__/Army/src/Factory/OrcFactory.cpp.obj" \
 "CMakeFiles/player.dir/__/Army/src/Point.cpp.obj" \
-"CMakeFiles/player.dir/__/Army/src/Unit.cpp.obj" \
 "CMakeFiles/player.dir/__/Army/src/Hero/Hero.cpp.obj" \
 "CMakeFiles/player.dir/__/Army/src/Hero/HeroBuilder.cpp.obj" \
 "CMakeFiles/player.dir/__/Army/src/Hero/HeroDirector.cpp.obj" \
 "CMakeFiles/player.dir/__/Army/src/Hero/HumanHeroBuilder.cpp.obj" \
 "CMakeFiles/player.dir/__/Army/src/Hero/OrcHeroBuilder.cpp.obj" \
-"CMakeFiles/player.dir/__/Army/src/Attack.cpp.obj"
+"CMakeFiles/player.dir/__/Army/src/Attack.cpp.obj" \
+"CMakeFiles/player.dir/__/Army/src/Unit/BaseUnit.cpp.obj" \
+"CMakeFiles/player.dir/__/Army/src/Unit/UnitDecorator.cpp.obj" \
+"CMakeFiles/player.dir/__/Army/src/Unit/DoubleAttackUnit.cpp.obj" \
+"CMakeFiles/player.dir/__/Army/src/Unit/FireAttackUnit.cpp.obj"
 
 # External object files for target player
 player_EXTERNAL_OBJECTS =
@@ -231,16 +276,19 @@ code/Player/libplayer.a: code/Player/CMakeFiles/player.dir/src/Player.cpp.obj
 code/Player/libplayer.a: code/Player/CMakeFiles/player.dir/__/Army/src/Factory/HumanFactory.cpp.obj
 code/Player/libplayer.a: code/Player/CMakeFiles/player.dir/__/Army/src/Factory/OrcFactory.cpp.obj
 code/Player/libplayer.a: code/Player/CMakeFiles/player.dir/__/Army/src/Point.cpp.obj
-code/Player/libplayer.a: code/Player/CMakeFiles/player.dir/__/Army/src/Unit.cpp.obj
 code/Player/libplayer.a: code/Player/CMakeFiles/player.dir/__/Army/src/Hero/Hero.cpp.obj
 code/Player/libplayer.a: code/Player/CMakeFiles/player.dir/__/Army/src/Hero/HeroBuilder.cpp.obj
 code/Player/libplayer.a: code/Player/CMakeFiles/player.dir/__/Army/src/Hero/HeroDirector.cpp.obj
 code/Player/libplayer.a: code/Player/CMakeFiles/player.dir/__/Army/src/Hero/HumanHeroBuilder.cpp.obj
 code/Player/libplayer.a: code/Player/CMakeFiles/player.dir/__/Army/src/Hero/OrcHeroBuilder.cpp.obj
 code/Player/libplayer.a: code/Player/CMakeFiles/player.dir/__/Army/src/Attack.cpp.obj
+code/Player/libplayer.a: code/Player/CMakeFiles/player.dir/__/Army/src/Unit/BaseUnit.cpp.obj
+code/Player/libplayer.a: code/Player/CMakeFiles/player.dir/__/Army/src/Unit/UnitDecorator.cpp.obj
+code/Player/libplayer.a: code/Player/CMakeFiles/player.dir/__/Army/src/Unit/DoubleAttackUnit.cpp.obj
+code/Player/libplayer.a: code/Player/CMakeFiles/player.dir/__/Army/src/Unit/FireAttackUnit.cpp.obj
 code/Player/libplayer.a: code/Player/CMakeFiles/player.dir/build.make
 code/Player/libplayer.a: code/Player/CMakeFiles/player.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\iusup\TP\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX static library libplayer.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\iusup\TP\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Linking CXX static library libplayer.a"
 	cd /d C:\Users\iusup\TP\build\code\Player && $(CMAKE_COMMAND) -P CMakeFiles\player.dir\cmake_clean_target.cmake
 	cd /d C:\Users\iusup\TP\build\code\Player && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\player.dir\link.txt --verbose=$(VERBOSE)
 

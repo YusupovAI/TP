@@ -687,24 +687,18 @@ UnitFactory.h
 ../code/Army/include/Factory/UnitFactory.h
 SFML/Graphics.hpp
 ../code/Army/include/Factory/SFML/Graphics.hpp
-memory
--
 
 ../code/Army/include/Factory/Humanfactory.h
 UnitFactory.h
 ../code/Army/include/Factory/UnitFactory.h
 SFML/Graphics.hpp
 ../code/Army/include/Factory/SFML/Graphics.hpp
-memory
--
 
 ../code/Army/include/Factory/OrcFactory.h
 UnitFactory.h
 ../code/Army/include/Factory/UnitFactory.h
 SFML/Graphics.hpp
 ../code/Army/include/Factory/SFML/Graphics.hpp
-memory
--
 
 ../code/Army/include/Factory/UnitFactory.h
 Unit/Unit.h

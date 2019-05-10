@@ -682,21 +682,11 @@ Attack.h
 
 ../code/Army/include/Attack.h
 
-../code/Army/include/Factory/HumanFactory.h
-UnitFactory.h
-../code/Army/include/Factory/UnitFactory.h
-SFML/Graphics.hpp
-../code/Army/include/Factory/SFML/Graphics.hpp
-memory
--
-
 ../code/Army/include/Factory/OrcFactory.h
 UnitFactory.h
 ../code/Army/include/Factory/UnitFactory.h
 SFML/Graphics.hpp
 ../code/Army/include/Factory/SFML/Graphics.hpp
-memory
--
 
 ../code/Army/include/Factory/UnitFactory.h
 Unit/Unit.h
@@ -733,22 +723,6 @@ Attack.h
 ../code/Army/include/Unit/Attack.h
 SFML/Graphics.hpp
 ../code/Army/include/Unit/SFML/Graphics.hpp
-
-C:/Users/iusup/TP/code/Army/src/Factory/HumanFactory.cpp
-Factory/HumanFactory.h
-C:/Users/iusup/TP/code/Army/src/Factory/Factory/HumanFactory.h
-Unit/Horseman.h
-C:/Users/iusup/TP/code/Army/src/Factory/Unit/Horseman.h
-Unit/Mage.h
-C:/Users/iusup/TP/code/Army/src/Factory/Unit/Mage.h
-Unit/Infantry.h
-C:/Users/iusup/TP/code/Army/src/Factory/Unit/Infantry.h
-settings/characteristics.h
-C:/Users/iusup/TP/code/Army/src/Factory/settings/characteristics.h
-Attack.h
-C:/Users/iusup/TP/code/Army/src/Factory/Attack.h
-SFML/Graphics.hpp
-C:/Users/iusup/TP/code/Army/src/Factory/SFML/Graphics.hpp
 
 C:/Users/iusup/TP/code/Army/src/Factory/OrcFactory.cpp
 Factory/OrcFactory.h

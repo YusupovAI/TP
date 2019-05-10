@@ -10,6 +10,14 @@
 #include "Attack.h"
 #include "SFML/Graphics.hpp"
 
+HumanFactory::HumanFactory() {
+    infantry_model_ = sf::CircleShape(16, 4);
+    infantry_model_.setFillColor(sf::Color(128, 0, 0));
+    mage_model_ = sf::CircleShape(16, 3);
+    mage_model_.setFillColor(sf::Color(128, 0, 0));
+    horseman_model_ = sf::CircleShape(16, 30);
+    horseman_model_.setFillColor(sf::Color(128, 0, 0));
+}
 
 std::shared_ptr<Unit> HumanFactory::CreateHorseman(const Point &p) const {
     auto res =  std::make_shared<Horseman>(p);
@@ -18,9 +26,7 @@ std::shared_ptr<Unit> HumanFactory::CreateHorseman(const Point &p) const {
     res->SetCurTurnPoints(res->GetTurnPoints());
     res->SetAttack(HumanCharacteristics::horseman_attack);
     res->SetAttackRange(HumanCharacteristics::horseman_attack_range);
-    sf::CircleShape shape(16, 30);
-    shape.setFillColor(sf::Color(128, 0, 0));
-    res->SetShape(shape);
+    res->SetShape(horseman_model_);
     return res;
 }
 
@@ -31,9 +37,7 @@ std::shared_ptr<Unit> HumanFactory::CreateInfantry(const Point &p) const {
     res->SetAttack(HumanCharacteristics::infantry_attack);
     res->SetTurnPoints(HumanCharacteristics::infantry_turn_points);
     res->SetCurTurnPoints(res->GetTurnPoints());
-    sf::CircleShape shape(16, 4);
-    shape.setFillColor(sf::Color(128, 0, 0));
-    res->SetShape(shape);
+    res->SetShape(infantry_model_);
     return res;
 }
 
@@ -44,8 +48,6 @@ std::shared_ptr<Unit> HumanFactory::CreateMage(const Point &p) const {
     res->SetCurTurnPoints(res->GetTurnPoints());
     res->SetAttack(HumanCharacteristics::mage_attack);
     res->SetAttackRange(HumanCharacteristics::mage_attack_range);
-    sf::CircleShape shape(16, 3);
-    shape.setFillColor(sf::Color(128, 0, 0));
-    res->SetShape(shape);
+    res->SetShape(mage_model_);
     return res;
 }

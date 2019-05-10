@@ -5,6 +5,15 @@
 #include "settings/characteristics.h"
 #include "SFML/Graphics.hpp"
 
+OrcFactory::OrcFactory() {
+    infantry_model_ = sf::CircleShape(16, 4);
+    infantry_model_.setFillColor(sf::Color(0, 0, 128));
+    mage_model_ = sf::CircleShape(16, 3);
+    mage_model_.setFillColor(sf::Color(0, 0, 128));
+    horseman_model_ = sf::CircleShape(16, 30);
+    horseman_model_.setFillColor(sf::Color(0, 0, 128));
+}
+
 
 std::shared_ptr<Unit> OrcFactory::CreateMage(const Point &p) const {
     auto res = std::make_shared<Mage>(p);
@@ -13,9 +22,7 @@ std::shared_ptr<Unit> OrcFactory::CreateMage(const Point &p) const {
     res->SetCurTurnPoints(res->GetTurnPoints());
     res->SetAttack(OrcCharacteristics::mage_attack);
     res->SetAttackRange(OrcCharacteristics::mage_attack_range);
-    sf::CircleShape shape(16, 3);
-    shape.setFillColor(sf::Color(0, 0, 128));
-    res->SetShape(shape);
+    res->SetShape(mage_model_);
     return res;
 }
 
@@ -26,9 +33,7 @@ std::shared_ptr<Unit> OrcFactory::CreateHorseman(const Point &p) const {
     res->SetCurTurnPoints(res->GetTurnPoints());
     res->SetAttack(OrcCharacteristics::horseman_attack);
     res->SetAttackRange(OrcCharacteristics::horseman_attack_range);
-    sf::CircleShape shape(16, 30);
-    shape.setFillColor(sf::Color(0, 0, 128));
-    res->SetShape(shape);
+    res->SetShape(horseman_model_);
     return res;
 }
 
@@ -39,8 +44,6 @@ std::shared_ptr<Unit> OrcFactory::CreateInfantry(const Point &p) const {
     res->SetAttack(OrcCharacteristics::infantry_attack);
     res->SetTurnPoints(OrcCharacteristics::infantry_turn_points);
     res->SetCurTurnPoints(res->GetTurnPoints());
-    sf::CircleShape shape(16, 4);
-    shape.setFillColor(sf::Color(0, 0, 128));
-    res->SetShape(shape);
+    res->SetShape(infantry_model_);
     return res;
 }

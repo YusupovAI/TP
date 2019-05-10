@@ -8,6 +8,18 @@
 
 ../code/Army/include/Attack.h
 
+../code/Army/include/Factory/HumanFactory.h
+UnitFactory.h
+../code/Army/include/Factory/UnitFactory.h
+SFML/Graphics.hpp
+../code/Army/include/Factory/SFML/Graphics.hpp
+
+../code/Army/include/Factory/OrcFactory.h
+UnitFactory.h
+../code/Army/include/Factory/UnitFactory.h
+SFML/Graphics.hpp
+../code/Army/include/Factory/SFML/Graphics.hpp
+
 ../code/Army/include/Factory/UnitFactory.h
 Unit/Unit.h
 ../code/Army/include/Factory/Unit/Unit.h
@@ -54,6 +66,14 @@ HeroBuilder.h
 Unit.h
 ../code/Army/include/Unit/Unit.h
 
+../code/Army/include/Unit/DoubleAttackUnit.h
+Unit/UnitDecorator.h
+../code/Army/include/Unit/Unit/UnitDecorator.h
+memory
+-
+Unit/Unit.h
+../code/Army/include/Unit/Unit/Unit.h
+
 ../code/Army/include/Unit/Unit.h
 Point.h
 ../code/Army/include/Unit/Point.h
@@ -61,6 +81,14 @@ memory
 -
 Attack.h
 ../code/Army/include/Unit/Attack.h
+SFML/Graphics.hpp
+../code/Army/include/Unit/SFML/Graphics.hpp
+
+../code/Army/include/Unit/UnitDecorator.h
+Unit/Unit.h
+../code/Army/include/Unit/Unit/Unit.h
+memory
+-
 SFML/Graphics.hpp
 ../code/Army/include/Unit/SFML/Graphics.hpp
 
@@ -758,9 +786,25 @@ SFML/Config.hpp
 
 ../lib/SFML/include/SFML/Window/WindowStyle.hpp
 
-C:/Users/iusup/TP/code/Game/src/Game.cpp
-Game.h
-C:/Users/iusup/TP/code/Game/src/Game.h
+C:/Users/iusup/TP/code/main.cpp
 SFML/Graphics.hpp
-C:/Users/iusup/TP/code/Game/src/SFML/Graphics.hpp
+C:/Users/iusup/TP/code/SFML/Graphics.hpp
+SFML/Window.hpp
+C:/Users/iusup/TP/code/SFML/Window.hpp
+iostream
+-
+Game.h
+C:/Users/iusup/TP/code/Game.h
+Factory/HumanFactory.h
+C:/Users/iusup/TP/code/Factory/HumanFactory.h
+Factory/OrcFactory.h
+C:/Users/iusup/TP/code/Factory/OrcFactory.h
+Player.h
+C:/Users/iusup/TP/code/Player.h
+Point.h
+C:/Users/iusup/TP/code/Point.h
+Unit/DoubleAttackUnit.h
+C:/Users/iusup/TP/code/Unit/DoubleAttackUnit.h
+iostream
+-
 

@@ -7,11 +7,10 @@
 
 #include "UnitFactory.h"
 #include "SFML/Graphics.hpp"
-#include <memory>
 
 class HumanFactory final : public UnitFactory {
 public:
-    HumanFactory() = default;
+    HumanFactory();
 
     std::shared_ptr<Unit> CreateInfantry(const Point &) const override;
 
@@ -19,6 +18,10 @@ public:
 
     std::shared_ptr<Unit> CreateMage(const Point &) const override;
 
+private:
+    sf::CircleShape infantry_model_;
+    sf::CircleShape mage_model_;
+    sf::CircleShape horseman_model_;
 };
 
 

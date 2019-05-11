@@ -689,6 +689,33 @@ code/Game/src/Game.cpp.s:
 	$(MAKE) -f CMakeFiles\Game.dir\build.make CMakeFiles/Game.dir/code/Game/src/Game.cpp.s
 .PHONY : code/Game/src/Game.cpp.s
 
+code/Game/src/Painter.obj: code/Game/src/Painter.cpp.obj
+
+.PHONY : code/Game/src/Painter.obj
+
+# target to build an object file
+code/Game/src/Painter.cpp.obj:
+	$(MAKE) -f CMakeFiles\Game.dir\build.make CMakeFiles/Game.dir/code/Game/src/Painter.cpp.obj
+.PHONY : code/Game/src/Painter.cpp.obj
+
+code/Game/src/Painter.i: code/Game/src/Painter.cpp.i
+
+.PHONY : code/Game/src/Painter.i
+
+# target to preprocess a source file
+code/Game/src/Painter.cpp.i:
+	$(MAKE) -f CMakeFiles\Game.dir\build.make CMakeFiles/Game.dir/code/Game/src/Painter.cpp.i
+.PHONY : code/Game/src/Painter.cpp.i
+
+code/Game/src/Painter.s: code/Game/src/Painter.cpp.s
+
+.PHONY : code/Game/src/Painter.s
+
+# target to generate assembly for a file
+code/Game/src/Painter.cpp.s:
+	$(MAKE) -f CMakeFiles\Game.dir\build.make CMakeFiles/Game.dir/code/Game/src/Painter.cpp.s
+.PHONY : code/Game/src/Painter.cpp.s
+
 code/Player/src/Player.obj: code/Player/src/Player.cpp.obj
 
 .PHONY : code/Player/src/Player.obj
@@ -887,6 +914,9 @@ help:
 	@echo ... code/Game/src/Game.obj
 	@echo ... code/Game/src/Game.i
 	@echo ... code/Game/src/Game.s
+	@echo ... code/Game/src/Painter.obj
+	@echo ... code/Game/src/Painter.i
+	@echo ... code/Game/src/Painter.s
 	@echo ... code/Player/src/Player.obj
 	@echo ... code/Player/src/Player.i
 	@echo ... code/Player/src/Player.s

@@ -52,6 +52,8 @@ public:
 
     virtual void SetShape(const sf::CircleShape&) = 0;
 
+    virtual void Update() = 0;
+
     virtual ~Unit() = default;
 
 };

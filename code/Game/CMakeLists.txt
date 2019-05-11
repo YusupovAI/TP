@@ -21,6 +21,7 @@ target_sources(
 	game
 	PUBLIC
 	${SOURCE_DIR}/Game.cpp
+	${SOURCE_DIR}/Painter.cpp
 	)
 
 

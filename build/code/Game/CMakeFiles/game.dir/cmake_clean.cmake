@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/game.dir/src/Game.cpp.obj"
+  "CMakeFiles/game.dir/src/Painter.cpp.obj"
   "CMakeFiles/game.dir/__/Player/src/Player.cpp.obj"
   "CMakeFiles/game.dir/__/Army/src/Factory/HumanFactory.cpp.obj"
   "CMakeFiles/game.dir/__/Army/src/Factory/OrcFactory.cpp.obj"

@@ -18,6 +18,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/iusup/TP/code/Army/src/Unit/FireAttackUnit.cpp" "C:/Users/iusup/TP/build/CMakeFiles/Game.dir/code/Army/src/Unit/FireAttackUnit.cpp.obj"
   "C:/Users/iusup/TP/code/Army/src/Unit/UnitDecorator.cpp" "C:/Users/iusup/TP/build/CMakeFiles/Game.dir/code/Army/src/Unit/UnitDecorator.cpp.obj"
   "C:/Users/iusup/TP/code/Game/src/Game.cpp" "C:/Users/iusup/TP/build/CMakeFiles/Game.dir/code/Game/src/Game.cpp.obj"
+  "C:/Users/iusup/TP/code/Game/src/Painter.cpp" "C:/Users/iusup/TP/build/CMakeFiles/Game.dir/code/Game/src/Painter.cpp.obj"
   "C:/Users/iusup/TP/code/Player/src/Player.cpp" "C:/Users/iusup/TP/build/CMakeFiles/Game.dir/code/Player/src/Player.cpp.obj"
   "C:/Users/iusup/TP/code/main.cpp" "C:/Users/iusup/TP/build/CMakeFiles/Game.dir/code/main.cpp.obj"
   )

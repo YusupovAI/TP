@@ -586,6 +586,33 @@ src/Game.cpp.s:
 	cd /d C:\Users\iusup\TP\build && $(MAKE) -f code\Game\CMakeFiles\game.dir\build.make code/Game/CMakeFiles/game.dir/src/Game.cpp.s
 .PHONY : src/Game.cpp.s
 
+src/Painter.obj: src/Painter.cpp.obj
+
+.PHONY : src/Painter.obj
+
+# target to build an object file
+src/Painter.cpp.obj:
+	cd /d C:\Users\iusup\TP\build && $(MAKE) -f code\Game\CMakeFiles\game.dir\build.make code/Game/CMakeFiles/game.dir/src/Painter.cpp.obj
+.PHONY : src/Painter.cpp.obj
+
+src/Painter.i: src/Painter.cpp.i
+
+.PHONY : src/Painter.i
+
+# target to preprocess a source file
+src/Painter.cpp.i:
+	cd /d C:\Users\iusup\TP\build && $(MAKE) -f code\Game\CMakeFiles\game.dir\build.make code/Game/CMakeFiles/game.dir/src/Painter.cpp.i
+.PHONY : src/Painter.cpp.i
+
+src/Painter.s: src/Painter.cpp.s
+
+.PHONY : src/Painter.s
+
+# target to generate assembly for a file
+src/Painter.cpp.s:
+	cd /d C:\Users\iusup\TP\build && $(MAKE) -f code\Game\CMakeFiles\game.dir\build.make code/Game/CMakeFiles/game.dir/src/Painter.cpp.s
+.PHONY : src/Painter.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -645,6 +672,9 @@ help:
 	@echo ... src/Game.obj
 	@echo ... src/Game.i
 	@echo ... src/Game.s
+	@echo ... src/Painter.obj
+	@echo ... src/Painter.i
+	@echo ... src/Painter.s
 .PHONY : help
 
 

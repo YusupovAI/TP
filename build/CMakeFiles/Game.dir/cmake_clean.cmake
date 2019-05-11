@@ -15,6 +15,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/Game.dir/code/Army/src/Unit/FireAttackUnit.cpp.obj"
   "CMakeFiles/Game.dir/code/Player/src/Player.cpp.obj"
   "CMakeFiles/Game.dir/code/Game/src/Game.cpp.obj"
+  "CMakeFiles/Game.dir/code/Game/src/Painter.cpp.obj"
   "Game.pdb"
   "Game.exe"
   "Game.exe.manifest"

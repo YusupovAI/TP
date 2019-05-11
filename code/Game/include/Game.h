@@ -3,6 +3,7 @@
 #include "Player.h"
 #include "SFML/Window.hpp"
 #include "SFML/Graphics.hpp"
+#include "Painter.h"
 
 class Game final {
 
@@ -14,14 +15,13 @@ public:
 
 private:
     unsigned int turn_;
-    enum PlayerTurns { F_PLAYER_TURN, S_PLAYER_TURN} cur_turn_;
+    enum PlayerTurns { F_PLAYER_TURN, S_PLAYER_TURN} current_turn_;
     Player player1_, player2_;
+    void NextTurn();
 
-    void DrawField();
-    void DrawUnits();
-
+    Painter painter_;
     sf::RenderWindow window_;
-    sf::RectangleShape ceil_;
+    std::shared_ptr<Unit> current_unit_;
 };
 
 #endif

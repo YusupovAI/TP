@@ -72,5 +72,6 @@ void UnitDecorator::SetShape(const sf::CircleShape& shape) {
     unit_->SetShape(shape);
 }
 
-
-
+void UnitDecorator::Update() {
+    unit_->Update();
+}

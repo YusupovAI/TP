@@ -44,6 +44,8 @@ public:
 
     virtual void SetShape(const sf::CircleShape&) override;
 
+    virtual void Update() override;
+
     virtual ~BaseUnit() = default;
 protected:
     int hp_;

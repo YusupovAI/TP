@@ -92,3 +92,6 @@ void BaseUnit::SetShape(const sf::CircleShape& shape) {
     shape_ = std::make_shared<sf::CircleShape>(shape);
 }
 
+void BaseUnit::Update() {
+    cur_turn_points_ = turn_points_;
+}

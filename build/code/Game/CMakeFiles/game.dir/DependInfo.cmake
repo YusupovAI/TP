@@ -19,6 +19,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/iusup/TP/code/Army/src/Unit/UnitDecorator.cpp" "C:/Users/iusup/TP/build/code/Game/CMakeFiles/game.dir/__/Army/src/Unit/UnitDecorator.cpp.obj"
   "C:/Users/iusup/TP/code/Player/src/Player.cpp" "C:/Users/iusup/TP/build/code/Game/CMakeFiles/game.dir/__/Player/src/Player.cpp.obj"
   "C:/Users/iusup/TP/code/Game/src/Game.cpp" "C:/Users/iusup/TP/build/code/Game/CMakeFiles/game.dir/src/Game.cpp.obj"
+  "C:/Users/iusup/TP/code/Game/src/Painter.cpp" "C:/Users/iusup/TP/build/code/Game/CMakeFiles/game.dir/src/Painter.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

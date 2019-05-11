@@ -1080,6 +1080,7 @@ code/Game/CMakeFiles/game.dir/src/Game.cpp.obj
  ../code/Game/../../lib/SFML/include/SFML/Window/WindowHandle.hpp
  ../code/Game/../../lib/SFML/include/SFML/Window/WindowStyle.hpp
  ../code/Game/include/Game.h
+ ../code/Game/include/Painter.h
  ../code/Player/../Army/include/Attack.h
  ../code/Player/../Army/include/Factory/UnitFactory.h
  ../code/Player/../Army/include/Hero/Hero.h
@@ -1092,3 +1093,83 @@ code/Game/CMakeFiles/game.dir/src/Game.cpp.obj
  ../code/Player/../Army/include/Unit/Unit.h
  ../code/Player/include/Player.h
  C:/Users/iusup/TP/code/Game/src/Game.cpp
+code/Game/CMakeFiles/game.dir/src/Painter.cpp.obj
+ ../code/Game/../../lib/SFML/include/SFML/Config.hpp
+ ../code/Game/../../lib/SFML/include/SFML/Graphics.hpp
+ ../code/Game/../../lib/SFML/include/SFML/Graphics/BlendMode.hpp
+ ../code/Game/../../lib/SFML/include/SFML/Graphics/CircleShape.hpp
+ ../code/Game/../../lib/SFML/include/SFML/Graphics/Color.hpp
+ ../code/Game/../../lib/SFML/include/SFML/Graphics/ConvexShape.hpp
+ ../code/Game/../../lib/SFML/include/SFML/Graphics/Drawable.hpp
+ ../code/Game/../../lib/SFML/include/SFML/Graphics/Export.hpp
+ ../code/Game/../../lib/SFML/include/SFML/Graphics/Font.hpp
+ ../code/Game/../../lib/SFML/include/SFML/Graphics/Glsl.hpp
+ ../code/Game/../../lib/SFML/include/SFML/Graphics/Glsl.inl
+ ../code/Game/../../lib/SFML/include/SFML/Graphics/Glyph.hpp
+ ../code/Game/../../lib/SFML/include/SFML/Graphics/Image.hpp
+ ../code/Game/../../lib/SFML/include/SFML/Graphics/PrimitiveType.hpp
+ ../code/Game/../../lib/SFML/include/SFML/Graphics/Rect.hpp
+ ../code/Game/../../lib/SFML/include/SFML/Graphics/Rect.inl
+ ../code/Game/../../lib/SFML/include/SFML/Graphics/RectangleShape.hpp
+ ../code/Game/../../lib/SFML/include/SFML/Graphics/RenderStates.hpp
+ ../code/Game/../../lib/SFML/include/SFML/Graphics/RenderTarget.hpp
+ ../code/Game/../../lib/SFML/include/SFML/Graphics/RenderTexture.hpp
+ ../code/Game/../../lib/SFML/include/SFML/Graphics/RenderWindow.hpp
+ ../code/Game/../../lib/SFML/include/SFML/Graphics/Shader.hpp
+ ../code/Game/../../lib/SFML/include/SFML/Graphics/Shape.hpp
+ ../code/Game/../../lib/SFML/include/SFML/Graphics/Sprite.hpp
+ ../code/Game/../../lib/SFML/include/SFML/Graphics/Text.hpp
+ ../code/Game/../../lib/SFML/include/SFML/Graphics/Texture.hpp
+ ../code/Game/../../lib/SFML/include/SFML/Graphics/Transform.hpp
+ ../code/Game/../../lib/SFML/include/SFML/Graphics/Transformable.hpp
+ ../code/Game/../../lib/SFML/include/SFML/Graphics/Vertex.hpp
+ ../code/Game/../../lib/SFML/include/SFML/Graphics/VertexArray.hpp
+ ../code/Game/../../lib/SFML/include/SFML/Graphics/VertexBuffer.hpp
+ ../code/Game/../../lib/SFML/include/SFML/Graphics/View.hpp
+ ../code/Game/../../lib/SFML/include/SFML/System.hpp
+ ../code/Game/../../lib/SFML/include/SFML/System/Clock.hpp
+ ../code/Game/../../lib/SFML/include/SFML/System/Err.hpp
+ ../code/Game/../../lib/SFML/include/SFML/System/Export.hpp
+ ../code/Game/../../lib/SFML/include/SFML/System/FileInputStream.hpp
+ ../code/Game/../../lib/SFML/include/SFML/System/InputStream.hpp
+ ../code/Game/../../lib/SFML/include/SFML/System/Lock.hpp
+ ../code/Game/../../lib/SFML/include/SFML/System/MemoryInputStream.hpp
+ ../code/Game/../../lib/SFML/include/SFML/System/Mutex.hpp
+ ../code/Game/../../lib/SFML/include/SFML/System/NonCopyable.hpp
+ ../code/Game/../../lib/SFML/include/SFML/System/Sleep.hpp
+ ../code/Game/../../lib/SFML/include/SFML/System/String.hpp
+ ../code/Game/../../lib/SFML/include/SFML/System/String.inl
+ ../code/Game/../../lib/SFML/include/SFML/System/Thread.hpp
+ ../code/Game/../../lib/SFML/include/SFML/System/Thread.inl
+ ../code/Game/../../lib/SFML/include/SFML/System/ThreadLocal.hpp
+ ../code/Game/../../lib/SFML/include/SFML/System/ThreadLocalPtr.hpp
+ ../code/Game/../../lib/SFML/include/SFML/System/ThreadLocalPtr.inl
+ ../code/Game/../../lib/SFML/include/SFML/System/Time.hpp
+ ../code/Game/../../lib/SFML/include/SFML/System/Utf.hpp
+ ../code/Game/../../lib/SFML/include/SFML/System/Utf.inl
+ ../code/Game/../../lib/SFML/include/SFML/System/Vector2.hpp
+ ../code/Game/../../lib/SFML/include/SFML/System/Vector2.inl
+ ../code/Game/../../lib/SFML/include/SFML/System/Vector3.hpp
+ ../code/Game/../../lib/SFML/include/SFML/System/Vector3.inl
+ ../code/Game/../../lib/SFML/include/SFML/Window.hpp
+ ../code/Game/../../lib/SFML/include/SFML/Window/Clipboard.hpp
+ ../code/Game/../../lib/SFML/include/SFML/Window/Context.hpp
+ ../code/Game/../../lib/SFML/include/SFML/Window/ContextSettings.hpp
+ ../code/Game/../../lib/SFML/include/SFML/Window/Cursor.hpp
+ ../code/Game/../../lib/SFML/include/SFML/Window/Event.hpp
+ ../code/Game/../../lib/SFML/include/SFML/Window/Export.hpp
+ ../code/Game/../../lib/SFML/include/SFML/Window/GlResource.hpp
+ ../code/Game/../../lib/SFML/include/SFML/Window/Joystick.hpp
+ ../code/Game/../../lib/SFML/include/SFML/Window/Keyboard.hpp
+ ../code/Game/../../lib/SFML/include/SFML/Window/Mouse.hpp
+ ../code/Game/../../lib/SFML/include/SFML/Window/Sensor.hpp
+ ../code/Game/../../lib/SFML/include/SFML/Window/Touch.hpp
+ ../code/Game/../../lib/SFML/include/SFML/Window/VideoMode.hpp
+ ../code/Game/../../lib/SFML/include/SFML/Window/Window.hpp
+ ../code/Game/../../lib/SFML/include/SFML/Window/WindowHandle.hpp
+ ../code/Game/../../lib/SFML/include/SFML/Window/WindowStyle.hpp
+ ../code/Game/include/Painter.h
+ ../code/Player/../Army/include/Attack.h
+ ../code/Player/../Army/include/Point.h
+ ../code/Player/../Army/include/Unit/Unit.h
+ C:/Users/iusup/TP/code/Game/src/Painter.cpp

@@ -35,6 +35,8 @@ public:
     virtual const std::shared_ptr<sf::CircleShape>& GetShape() const override; 
     virtual void SetShape(const sf::CircleShape&) override;
 
+    virtual void Update() override;
+
     virtual ~UnitDecorator() = default;
 
 private:

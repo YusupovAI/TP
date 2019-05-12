@@ -12,7 +12,7 @@ Game::Game(const Player& player1, const Player& player2) : player1_(player1), pl
 
 
 
-void Game::Play() {
+short Game::Play() {
     while (window_.isOpen() ) {
         sf::Event event;
 	window_.pollEvent(event);
@@ -35,8 +35,8 @@ void Game::Play() {
 			std::vector<std::shared_ptr<Unit> >& army = (current_turn_ == PlayerTurns::F_PLAYER_TURN ? player2_.GetArmy() : player1_.GetArmy());
 			auto iter = std::remove_if(army.begin(), army.end(), [](const std::shared_ptr<Unit>& unit) {return unit->GetHP() == 0;});
 			army.erase(iter);
-			if (player1_.GetHero()->GetHP() == 0) {return;};
-			if (player2_.GetHero()->GetHP() == 0) {return;};
+			if (player1_.GetHero()->GetHP() == 0) {return 2;};
+			if (player2_.GetHero()->GetHP() == 0) {return 1;};
 		    }
 		}
 	    }
@@ -44,11 +44,7 @@ void Game::Play() {
 
 	if (sf::Keyboard::isKeyPressed(sf::Keyboard::Space)) {
 	    Sleep(200);
-	    for (auto& unit:player1_.GetArmy()) {visit_.Visit(unit);}
-	    for (auto& unit:player2_.GetArmy()) {visit_.Visit(unit);}
-	    visit_.Visit(player1_.GetHero());
-	    visit_.Visit(player2_.GetHero());
-	    NextTurn();
+	    	    NextTurn();
 	}
 
 	Draw();
@@ -81,6 +77,10 @@ void Game::NextTurn() {
 	default:
 	    break;
     }
+    for (auto& unit:player1_.GetArmy()) {visit_.Visit(unit);}
+    visit_.Visit(player1_.GetHero());
+    for (auto& unit:player2_.GetArmy()) {visit_.Visit(unit);}
+    visit_.Visit(player2_.GetHero());
 }
 
 bool Game::CeilFree(const Point& p) const {

@@ -12,7 +12,7 @@ public:
     Game(const Player&, const Player&);
     Game() = delete;
     void Draw();
-    void Play();
+    short Play();
 
 private:
     unsigned int turn_;

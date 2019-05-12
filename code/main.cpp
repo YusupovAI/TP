@@ -11,7 +11,8 @@
 #include "Hero/HumanHeroBuilder.h"
 #include "Hero/OrcHeroBuilder.h"
 #include "Hero/HeroDirector.h"
-
+#include <string>
+#include <fstream>
 
 
 
@@ -22,42 +23,57 @@ int main(int argc, char* argv[]) {
     director1.ChangeBuilder(std::make_shared<OrcHeroBuilder>());
     director2.ChangeBuilder(std::make_shared<HumanHeroBuilder>());
 
+    std::string filename("field.txt");
+    std::ifstream in(filename);
 
-    player1.CreateHorseman(Point(0, 0));
-    player1.CreateHorseman(Point(1, 0));
-    player1.CreateMage(Point(2, 0));
-    player1.CreateInfantry(Point(3, 0));
-    player1.CreateInfantry(Point(4, 0));
-    if (argv[0] == "Wise") {
-        player1.SetHero(*(director1.CreateWiseHero(Point(5, 0))));
-    } else {
-	player1.SetHero(*(CreateMightyHero(Point(5, 0))));
+    for (int y = 0; y < 7; ++y) {
+	    std::string current;
+	in >> current;
+	for (int x = 0; x < 20; ++x) {
+	    if (current[x] == 'H') {player1.CreateHorseman(Point(x, y));}
+	    if (current[x] == 'I') {player1.CreateInfantry(Point(x, y));}
+	    if (current[x] == 'M') {player1.CreateMage(Point(x, y));}
+	    if (current[x] == '*') {
+		if (argc > 1 && std::string(argv[1]) == std::string("Wise")) {
+        	    player1.SetHero(*(director1.CreateWiseHero(Point(x, y))));
+    		} else {
+		    player1.SetHero(*(director1.CreateMightyHero(Point(x, y))));
+    		}
+	    } 
+	}
     }
-    player1.CreateInfantry(Point(6, 0));
-    player1.CreateInfantry(Point(7, 0));
-    player1.CreateMage(Point(8, 0));
-    player1.CreateHorseman(Point(9, 0));
-    player1.CreateHorseman(Point(10, 0));
 
-
-    player2.CreateHorseman(Point(19, 14));
-    player2.CreateHorseman(Point(18, 14));
-    player2.CreateMage(Point(17, 14));
-    player2.CreateInfantry(Point(16, 14));
-    player2.CreateInfantry(Point(15, 14));
-    if (argv[1] == "Wise") {
-    	player2.SetHero(*(director2.CreateWiseHero(Point(14, 14))));
-    } else {
-	player2.SetHero(*(director2.CreateMightyHero(Point(14, 14))));
+    std::string tmp;
+    in >> tmp;
+    
+    for (int y = 8; y < 15; ++y) {
+	std::string current;
+	in >> current;
+	for (int x = 0; x < 20; ++x) {
+	    if (current[x] == 'H') {player2.CreateHorseman(Point(x, y));}
+	    if (current[x] == 'I') {player2.CreateInfantry(Point(x, y));}
+	    if (current[x] == 'M') {player2.CreateMage(Point(x, y));}
+	    if (current[x] == '*') {
+		if (argc > 2 && std::string(argv[2]) == std::string("Wise")) {
+        	    player2.SetHero(*(director2.CreateWiseHero(Point(x, y))));
+    		} else {
+		    player2.SetHero(*(director2.CreateMightyHero(Point(x, y))));
+    		}
+	    } 
+	}
     }
-    player2.CreateInfantry(Point(13, 14));
-    player2.CreateInfantry(Point(12, 14));
-    player2.CreateMage(Point(11, 14));
-    player2.CreateHorseman(Point(10, 14));
-    player2.CreateHorseman(Point(9, 14));
+
+    in.close();
 
 
     Game game(player1, player2);
-    game.Play();
+
+    short result = game.Play();
+    if (result == 1) {
+	std::cout << "First player won";
+    } 
+    if (result == 2) {
+	std::cout << "Second player won";
+    }
     return 0;
 }

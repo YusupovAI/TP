@@ -83,15 +83,15 @@ TEST(HeroBuilder, HumanWiseHero) {
     std::shared_ptr<HeroBuilder> builder = std::make_shared<HumanHeroBuilder>();
     HeroDirector director(builder);
     auto hero = director.CreateWiseHero(Point(0, 0));
-    EXPECT_EQ(hero->GetHP(), 250);
-    EXPECT_EQ(hero->GetMana(), 100);
+    EXPECT_EQ(hero->GetHP(), HumanCharacteristics::hero_hp);
+    EXPECT_EQ(hero->GetMana(), HumanCharacteristics::hero_mana);
     EXPECT_EQ(hero->GetWeapon(), Hero::EWeaponType::weapon_none);
     EXPECT_FALSE(hero->GetHorse());
     EXPECT_TRUE(hero->GetShield());
     EXPECT_EQ(hero->GetArmor(), 2);
     EXPECT_EQ(hero->GetAttack()->GetDamage(), HumanCharacteristics::hero_attack->GetDamage());
-    EXPECT_EQ(hero->GetAttackRange(), 4);
-    EXPECT_EQ(hero->GetTurnPoints(), 5);
+    EXPECT_EQ(hero->GetAttackRange(), HumanCharacteristics::hero_attack_range);
+    EXPECT_EQ(hero->GetTurnPoints(), HumanCharacteristics::hero_turn_points);
     EXPECT_EQ(hero->GetAbility(), Hero::EAbilityType::lightning);
     EXPECT_EQ(hero->GetPosition(), Point(0, 0));
 }
@@ -101,7 +101,7 @@ TEST(HeroBuilder, HumanMightyHero) {
     std::shared_ptr<HeroBuilder> builder = std::make_shared<HumanHeroBuilder>();
     HeroDirector director(builder);
     auto hero = director.CreateMightyHero(Point(1, 1));
-    EXPECT_EQ(hero->GetHP(), 250);
+    EXPECT_EQ(hero->GetHP(), HumanCharacteristics::hero_hp);
     EXPECT_EQ(hero->GetMana(), 0);
     EXPECT_EQ(hero->GetWeapon(), Hero::EWeaponType::sword);
     EXPECT_TRUE(hero->GetHorse());
@@ -109,9 +109,9 @@ TEST(HeroBuilder, HumanMightyHero) {
     EXPECT_EQ(hero->GetArmor(), 4);
     EXPECT_EQ(hero->GetAttack()->GetDamage(), HumanCharacteristics::hero_sword_attack->GetDamage());
     EXPECT_EQ(hero->GetAbility(), Hero::EAbilityType::ability_none);
-    EXPECT_EQ(hero->GetAttackRange(), 1);
+    EXPECT_EQ(hero->GetAttackRange(), HumanCharacteristics::hero_attack_range);
     EXPECT_EQ(hero->GetPosition(), Point(1, 1));
-    EXPECT_EQ(hero->GetTurnPoints(), 5);
+    EXPECT_EQ(hero->GetTurnPoints(), HumanCharacteristics::hero_turn_points);
 }
 
 
@@ -119,15 +119,15 @@ TEST(HeroBuilder, OrcWiseHero) {
     std::shared_ptr<HeroBuilder> builder = std::make_shared<OrcHeroBuilder>();
     HeroDirector director(builder);
     auto hero = director.CreateWiseHero(Point(0, 0));
-    EXPECT_EQ(hero->GetHP(), 300);
-    EXPECT_EQ(hero->GetMana(), 50);
+    EXPECT_EQ(hero->GetHP(), OrcCharacteristics::hero_hp);
+    EXPECT_EQ(hero->GetMana(), OrcCharacteristics::hero_mana);
     EXPECT_EQ(hero->GetWeapon(), Hero::EWeaponType::weapon_none);
     EXPECT_FALSE(hero->GetHorse());
     EXPECT_TRUE(hero->GetShield());
     EXPECT_EQ(hero->GetArmor(), 0);
     EXPECT_EQ(hero->GetAttack()->GetDamage(), OrcCharacteristics::hero_attack->GetDamage());
-    EXPECT_EQ(hero->GetTurnPoints(), 3);
-    EXPECT_EQ(hero->GetAttackRange(), 4);
+    EXPECT_EQ(hero->GetTurnPoints(), OrcCharacteristics::hero_turn_points);
+    EXPECT_EQ(hero->GetAttackRange(), OrcCharacteristics::hero_attack_range);
     EXPECT_EQ(hero->GetAbility(), Hero::EAbilityType::lightning);
     EXPECT_EQ(hero->GetPosition(), Point(0, 0));
 }
@@ -137,15 +137,15 @@ TEST(HeroBuilder, OrcMightyHero) {
     std::shared_ptr<HeroBuilder> builder = std::make_shared<OrcHeroBuilder>();
     HeroDirector director(builder);
     auto hero = director.CreateMightyHero(Point(1, 1));
-    EXPECT_EQ(hero->GetHP(), 300);
+    EXPECT_EQ(hero->GetHP(), OrcCharacteristics::hero_hp);
     EXPECT_EQ(hero->GetMana(), 0);
     EXPECT_EQ(hero->GetWeapon(), Hero::EWeaponType::sword);
     EXPECT_TRUE(hero->GetHorse());
     EXPECT_TRUE(hero->GetShield());
     EXPECT_EQ(hero->GetArmor(), 0);
-    EXPECT_EQ(hero->GetAttack()->GetDamage(), OrcCharacteristics::hero_stick_attack->GetDamage());
-    EXPECT_EQ(hero->GetTurnPoints(), 3);
-    EXPECT_EQ(hero->GetAttackRange(), 1);
+    EXPECT_EQ(hero->GetAttack()->GetDamage(), OrcCharacteristics::hero_sword_attack->GetDamage());
+    EXPECT_EQ(hero->GetTurnPoints(), OrcCharacteristics::hero_turn_points);
+    EXPECT_EQ(hero->GetAttackRange(), OrcCharacteristics::hero_attack_range);
     EXPECT_EQ(hero->GetAbility(), Hero::EAbilityType::ability_none);
     EXPECT_EQ(hero->GetPosition(), Point(1, 1));
 }

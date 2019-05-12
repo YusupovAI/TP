@@ -3,8 +3,9 @@
 //
 
 #include "Hero/HumanHeroBuilder.h"
-#include "Attack.h"
+#include "Attack/Attack.h"
 #include "settings/characteristics.h"
+#include "SFML/Graphics.hpp"
 
 
 void HumanHeroBuilder::BuildCharacteristics() {
@@ -12,6 +13,7 @@ void HumanHeroBuilder::BuildCharacteristics() {
     result_->SetHP(HumanCharacteristics::hero_hp);
     result_->SetAttack(HumanCharacteristics::hero_attack);
     result_->SetTurnPoints(HumanCharacteristics::hero_turn_points);
+    result_->SetCurTurnPoints(HumanCharacteristics::hero_turn_points);
     result_->SetAttackRange(HumanCharacteristics::hero_attack_range);
 }
 
@@ -47,4 +49,10 @@ void HumanHeroBuilder::BuildHorse(unsigned int turn_points) {
 void HumanHeroBuilder::BuildShield(unsigned int armor) {
     result_->SetShield(true);
     result_->SetArmor(armor);
+}
+
+void HumanHeroBuilder::BuildShape() {
+    sf::CircleShape shape(16, 6);
+    shape.setFillColor(sf::Color(128, 0, 0));
+    result_->SetShape(shape);
 }

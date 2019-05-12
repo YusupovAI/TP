@@ -28,6 +28,11 @@ public:
 
     std::vector<std::shared_ptr<Unit> >& GetArmy();
 
+    const std::vector<std::shared_ptr<Unit> >& GetArmy() const;
+
+    std::shared_ptr<Hero>& GetHero();
+    const std::shared_ptr<Hero>& GetHero() const;
+
 private:
     std::vector<std::shared_ptr<Unit> > army_;
     std::shared_ptr<UnitFactory> factory_;

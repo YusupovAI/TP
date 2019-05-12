@@ -63,5 +63,7 @@ unsigned int Hero::GetArmor() const {
 }
 
 
-
+void Hero::Accept(const Visitor& visit) const {
+    visit.VisitHero(*this);
+}
 

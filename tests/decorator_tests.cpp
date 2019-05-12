@@ -12,7 +12,7 @@ TEST(DecoratorTest, DoubleAttackDecoratorHuman) {
     unit1 = std::make_shared<DoubleAttackUnit>(unit1);
     unsigned int hp1 = unit2->GetHP();
     unit1->Offense(unit2);
-    EXPECT_EQ(hp1 , unit2->GetHP() + 2 * unit1->GetAttack().GetDamage());
+    EXPECT_EQ(hp1 , unit2->GetHP() + 2 * unit1->GetAttack()->GetDamage());
 }
 
 TEST(DecoratorTest, DobleAttackDecoratorOrc) {
@@ -22,7 +22,7 @@ TEST(DecoratorTest, DobleAttackDecoratorOrc) {
     unit1 = std::make_shared<DoubleAttackUnit>(unit1);
     unsigned int hp1 = unit2->GetHP();
     unit1->Offense(unit2);
-    EXPECT_EQ(hp1 , unit2->GetHP() + 2 * unit1->GetAttack().GetDamage()); 
+    EXPECT_EQ(hp1 , unit2->GetHP() + 2 * unit1->GetAttack()->GetDamage()); 
 }
 
 TEST(DecoratorTest, FireAttackDecoratorHuman) {
@@ -32,7 +32,7 @@ TEST(DecoratorTest, FireAttackDecoratorHuman) {
     unit1 = std::make_shared<FireAttackUnit>(unit1);
     unsigned int hp1 = unit2->GetHP();
     unit1->Offense(unit2);
-    EXPECT_EQ(hp1 , unit2->GetHP() + unit1->GetAttack().GetDamage() + 10);
+    EXPECT_EQ(hp1 , unit2->GetHP() + unit1->GetAttack()->GetDamage() + 10);
 }
 
 TEST(DecoratorTest, FireAttackDecoratorOrc) {
@@ -42,5 +42,5 @@ TEST(DecoratorTest, FireAttackDecoratorOrc) {
     unit1 = std::make_shared<FireAttackUnit>(unit1);
     unsigned int hp1 = unit2->GetHP();
     unit1->Offense(unit2);
-    EXPECT_EQ(hp1 , unit2->GetHP() + unit1->GetAttack().GetDamage() + 10); 
+    EXPECT_EQ(hp1 , unit2->GetHP() + unit1->GetAttack()->GetDamage() + 10); 
 }

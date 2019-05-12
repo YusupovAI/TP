@@ -36,11 +36,11 @@ void UnitDecorator::SetCurTurnPoints(unsigned int cur_turn_points) {
     unit_->SetCurTurnPoints(cur_turn_points);
 }
 
-Attack UnitDecorator::GetAttack() const {
+const std::shared_ptr<Attack>& UnitDecorator::GetAttack() const {
     return unit_->GetAttack();
 }
 
-void UnitDecorator::SetAttack(Attack attack) {
+void UnitDecorator::SetAttack(const std::shared_ptr<Attack>& attack) {
     unit_->SetAttack(attack);
 }
 
@@ -60,7 +60,7 @@ void UnitDecorator::SetPosition(const Point &position) {
     unit_->SetPosition(position);
 }
 
-void UnitDecorator::Attacked(const Attack& attack) {
+void UnitDecorator::Attacked(const std::shared_ptr<Attack>& attack) {
     unit_->Attacked(attack);
 }
 
@@ -74,4 +74,8 @@ void UnitDecorator::SetShape(const sf::CircleShape& shape) {
 
 void UnitDecorator::Update() {
     unit_->Update();
+}
+
+void UnitDecorator::Accept(const Visitor& visit) const {
+    unit_->Accept(visit);
 }

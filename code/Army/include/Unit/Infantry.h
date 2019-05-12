@@ -11,6 +11,8 @@ class Infantry final : public BaseUnit {
 public:
     explicit Infantry(const Point &p) : BaseUnit(p) {};
 
+    void Accept(const Visitor& visit) const override {visit.VisitInfantry(*this);};
+
     ~Infantry() override = default;
 };
 

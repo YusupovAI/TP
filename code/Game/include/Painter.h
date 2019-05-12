@@ -6,12 +6,13 @@
 #include "Unit/Unit.h"
 #include "SFML/Window.hpp"
 #include "SFML/Graphics.hpp"
+#include "Hero/Hero.h"
 
 class Painter final {
 
 public:
     Painter();
-    void Draw(sf::RenderWindow& window, std::vector<std::shared_ptr<Unit> >&, std::vector<std::shared_ptr<Unit> >&);
+    void Draw(sf::RenderWindow& window, std::vector<std::shared_ptr<Unit> >&, std::vector<std::shared_ptr<Unit> >&, std::shared_ptr<Hero>&, std::shared_ptr<Hero>&);
 
 private:
     void DrawUnit(sf::RenderWindow& window, std::shared_ptr<Unit>&);

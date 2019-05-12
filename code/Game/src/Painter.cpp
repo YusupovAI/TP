@@ -5,7 +5,7 @@
 Painter::Painter() : x_(20), y_(15), move_model_(4), ceil_(sf::RectangleShape(sf::Vector2f(40, 40))) {};
 
 
-void Painter::Draw(sf::RenderWindow& window, std::vector<std::shared_ptr<Unit> >& army1, std::vector<std::shared_ptr<Unit> >& army2) {
+void Painter::Draw(sf::RenderWindow& window, std::vector<std::shared_ptr<Unit> >& army1, std::vector<std::shared_ptr<Unit> >& army2, std::shared_ptr<Hero>& hero1, std::shared_ptr<Hero>& hero2) {
     window.clear();
     DrawField(window);
     for (auto& unit:army1) {
@@ -14,6 +14,10 @@ void Painter::Draw(sf::RenderWindow& window, std::vector<std::shared_ptr<Unit> >
     for (auto&  unit:army2) {
 	DrawUnit(window, unit);
     }
+    auto tmp1 = std::dynamic_pointer_cast<Unit>(hero1);
+    auto tmp2 = std::dynamic_pointer_cast<Unit>(hero2);
+    DrawUnit(window, tmp1);
+    DrawUnit(window, tmp2);
     window.display();
 }
 

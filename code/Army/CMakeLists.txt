@@ -20,6 +20,7 @@ target_include_directories(
 set(FACTORY_SOURCES_DIR ${CMAKE_CURRENT_SOURCE_DIR}/src/Factory)
 set(HERO_SOURCES_DIR ${CMAKE_CURRENT_SOURCE_DIR}/src/Hero)
 set(UNIT_SOURCE_DIR ${CMAKE_CURRENT_SOURCE_DIR}/src/Unit)
+set(ATTACK_SOURCE_DIR ${CMAKE_CURRENT_SOURCE_DIR}/src/Attack)
 
 target_link_libraries(
 	army
@@ -39,9 +40,13 @@ target_sources(
         ${HERO_SOURCES_DIR}/HeroDirector.cpp
         ${HERO_SOURCES_DIR}/HumanHeroBuilder.cpp
         ${HERO_SOURCES_DIR}/OrcHeroBuilder.cpp
-	${CMAKE_CURRENT_SOURCE_DIR}/src/Attack.cpp
 	${UNIT_SOURCE_DIR}/BaseUnit.cpp
 	${UNIT_SOURCE_DIR}/UnitDecorator.cpp
 	${UNIT_SOURCE_DIR}/DoubleAttackUnit.cpp
 	${UNIT_SOURCE_DIR}/FireAttackUnit.cpp
+	${CMAKE_CURRENT_SOURCE_DIR}/src/Visitor/file_writing_visitor.cpp
+	${ATTACK_SOURCE_DIR}/Attack.cpp
+	${ATTACK_SOURCE_DIR}/UsualAttack.cpp
+	${ATTACK_SOURCE_DIR}/DoubleAttack.cpp
+	${ATTACK_SOURCE_DIR}/PercentAttack.cpp
 )

@@ -50,6 +50,8 @@ public:
 
     virtual void Cast(std::shared_ptr<Unit>);
 
+    void Accept(const Visitor&) const;
+
 
 private:
     EAbilityType ability_;

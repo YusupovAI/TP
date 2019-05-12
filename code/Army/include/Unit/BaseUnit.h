@@ -26,9 +26,9 @@ public:
 
     virtual void SetCurTurnPoints(unsigned int cur_turn_points) override;
 
-    virtual Attack GetAttack() const override;
+    virtual const std::shared_ptr<Attack>& GetAttack() const override;
 
-    virtual void SetAttack(Attack attack) override;
+    virtual void SetAttack(const std::shared_ptr<Attack>& attack) override;
 
     virtual unsigned int GetAttackRange() const override;
 
@@ -38,7 +38,7 @@ public:
 
     virtual void SetPosition(const Point &position) override;
 
-    virtual void Attacked(const Attack& attack) override;
+    virtual void Attacked(const std::shared_ptr<Attack>& attack) override;
 
     virtual const std::shared_ptr<sf::CircleShape>& GetShape() const override;
 
@@ -54,7 +54,7 @@ protected:
     unsigned int damage_;
     unsigned int attack_range_;
     Point position_;
-    Attack attack_;
+    std::shared_ptr<Attack> attack_;
     std::shared_ptr<sf::CircleShape> shape_;
 
 };

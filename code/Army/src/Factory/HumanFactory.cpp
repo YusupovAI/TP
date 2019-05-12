@@ -7,7 +7,7 @@
 #include "Unit/Mage.h"
 #include "Unit/Infantry.h"
 #include "settings/characteristics.h"
-#include "Attack.h"
+#include "Attack/Attack.h"
 #include "SFML/Graphics.hpp"
 
 HumanFactory::HumanFactory() {

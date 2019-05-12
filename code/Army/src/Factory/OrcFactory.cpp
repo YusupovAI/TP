@@ -4,6 +4,7 @@
 #include "Unit/Infantry.h"
 #include "settings/characteristics.h"
 #include "SFML/Graphics.hpp"
+#include "Attack/Attack.h"
 
 OrcFactory::OrcFactory() {
     infantry_model_ = sf::CircleShape(16, 4);

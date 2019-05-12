@@ -10,6 +10,8 @@
 class Horseman final : public BaseUnit {
 public:
     explicit Horseman(const Point &p) : BaseUnit(p) {};
+    
+    void Accept(const Visitor& visitor) const override {visitor.VisitHorseman(*this);}
 
     ~Horseman() override = default;
 };

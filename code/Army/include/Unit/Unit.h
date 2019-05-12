@@ -7,8 +7,9 @@
 
 #include "Point.h"
 #include <memory>
-#include "Attack.h"
+#include "Attack/Attack.h"
 #include "SFML/Graphics.hpp"
+#include "Visitor/visitor.h"
 
 class Unit {
 public:
@@ -34,9 +35,9 @@ public:
 
     virtual void SetCurTurnPoints(unsigned int cur_turn_points) = 0;
 
-    virtual Attack GetAttack() const = 0;
+    virtual const std::shared_ptr<Attack>& GetAttack() const = 0;
 
-    virtual void SetAttack(Attack attack) = 0;
+    virtual void SetAttack(const std::shared_ptr<Attack>& attack) = 0;
 
     virtual unsigned int GetAttackRange() const = 0;
 
@@ -46,13 +47,15 @@ public:
 
     virtual void SetPosition(const Point &position) = 0;
 
-    virtual void Attacked(const Attack& attack) = 0;
+    virtual void Attacked(const std::shared_ptr<Attack>& attack) = 0;
 
     virtual const std::shared_ptr<sf::CircleShape>& GetShape() const = 0;
 
     virtual void SetShape(const sf::CircleShape&) = 0;
 
     virtual void Update() = 0;
+
+    virtual void Accept(const Visitor&) const = 0;
 
     virtual ~Unit() = default;
 

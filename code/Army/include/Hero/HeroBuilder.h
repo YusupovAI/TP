@@ -26,6 +26,8 @@ public:
 
     std::shared_ptr<Hero> GetResult() const;
 
+    virtual void BuildShape() = 0;
+
     virtual ~HeroBuilder() = default;
 
 protected:

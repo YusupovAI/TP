@@ -19,12 +19,8 @@ void BaseUnit::Offense(const std::shared_ptr<Unit> &w) {
     }
 }
 
-void BaseUnit::Attacked(const Attack& attack) {
-    if (attack.GetDamage() > hp_) {
-	hp_ = 0;
-    } else {
-	hp_ -= attack.GetDamage();
-    }
+void BaseUnit::Attacked(const std::shared_ptr<Attack>& attack) {
+    attack->Apply(*this);
 }
 
 void BaseUnit::Move(const Point &p) {
@@ -56,7 +52,7 @@ unsigned int BaseUnit::GetTurnPoints() const {
 }
 
 
-void BaseUnit::SetAttack(Attack attack) {
+void BaseUnit::SetAttack(const std::shared_ptr<Attack>& attack) {
     attack_ = attack;
 }
 
@@ -64,7 +60,7 @@ unsigned int BaseUnit::GetAttackRange() const {
     return attack_range_;
 }
 
-Attack BaseUnit::GetAttack() const {
+const std::shared_ptr<Attack>& BaseUnit::GetAttack() const {
     return attack_;
 }
 

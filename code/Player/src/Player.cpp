@@ -25,3 +25,16 @@ void Player::SetHero(const Hero &hero) {
 std::vector<std::shared_ptr<Unit> >& Player::GetArmy() {
     return this->army_;
 }
+
+const std::vector<std::shared_ptr<Unit> >& Player::GetArmy() const {
+    return this->army_;
+}
+
+std::shared_ptr<Hero>& Player::GetHero() {
+    return hero_;
+}
+
+
+const std::shared_ptr<Hero>& Player::GetHero() const {
+    return hero_;
+}

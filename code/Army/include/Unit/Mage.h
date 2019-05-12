@@ -11,6 +11,8 @@ class Mage final: public BaseUnit {
 public:
     explicit Mage(const Point &p) : BaseUnit(p) {};
 
+    void Accept(const Visitor& visit) const override {visit.VisitMage(*this);}; 
+
     ~Mage() override = default;
 };
 

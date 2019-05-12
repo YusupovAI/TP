@@ -5,6 +5,7 @@
 #include "Hero/OrcHeroBuilder.h"
 #include <cstdlib>
 #include "settings/characteristics.h"
+#include "Attack/Attack.h"
 
 
 void OrcHeroBuilder::BuildWeapon(Hero::EWeaponType weapon) {
@@ -33,6 +34,7 @@ void OrcHeroBuilder::BuildCharacteristics() {
     result_ = std::make_shared<Hero>();
     result_->SetHP(OrcCharacteristics::hero_hp);
     result_->SetTurnPoints(OrcCharacteristics::hero_turn_points);
+    result_->SetCurTurnPoints(OrcCharacteristics::hero_turn_points);
     result_->SetAttack(OrcCharacteristics::hero_attack);
     result_->SetAttackRange(OrcCharacteristics::hero_attack_range);
 }
@@ -45,4 +47,11 @@ void OrcHeroBuilder::BuildShield(unsigned int armor) {
 
 void OrcHeroBuilder::BuildHorse(unsigned int turn_points) {
     result_->SetHorse(true);
+}
+
+void OrcHeroBuilder::BuildShape() {
+    sf::CircleShape shape(16, 6);
+    shape.setFillColor(sf::Color(0, 0, 128));
+    result_->SetShape(shape);
+
 }

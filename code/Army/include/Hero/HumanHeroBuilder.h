@@ -21,6 +21,8 @@ public:
     void BuildHorse(unsigned int turn_points) override;
 
     void BuildShield(unsigned int armor) override;
+
+    void BuildShape() override;
 };
 
 

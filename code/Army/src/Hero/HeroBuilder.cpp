@@ -2,7 +2,7 @@
 // Created by iusup on 27.03.2019.
 //
 
-#include "HeroBuilder.h"
+#include "Hero/HeroBuilder.h"
 #include <memory>
 
 

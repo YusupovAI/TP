@@ -2,7 +2,7 @@
 // Created by iusup on 23.03.2019.
 //
 
-#include "headers/Point.h"
+#include "Point.h"
 
 Point::Point(int x, int y) : x_(x), y_(y) {}
 

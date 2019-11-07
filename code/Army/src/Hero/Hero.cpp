@@ -2,13 +2,13 @@
 // Created by iusup on 26.03.2019.
 //
 
-#include "Hero.h"
+#include "Hero/Hero.h"
 
 Hero::Hero()
-        : Unit(), ability_(EAbilityType::ability_none), horse_(false), weapon_(EWeaponType::weapon_none),
+        : BaseUnit(), ability_(EAbilityType::ability_none), horse_(false), weapon_(EWeaponType::weapon_none),
           shield_(false), mana_(0), armor_(0) {}
 
-Hero::Hero(const Point &p) : Unit(p), ability_(EAbilityType::ability_none), horse_(false),
+Hero::Hero(const Point &p) : BaseUnit(p), ability_(EAbilityType::ability_none), horse_(false),
                              weapon_(EWeaponType::weapon_none), shield_(false), mana_(0), armor_(0) {}
 
 void Hero::Cast(std::shared_ptr<Unit> w) {}
@@ -62,15 +62,8 @@ unsigned int Hero::GetArmor() const {
     return armor_;
 }
 
-void Hero::Attacked(unsigned int damage) {
-    if (damage < armor_) { return; }
-    damage -= armor_;
-    if (damage > hp_) {
 
-    } else {
-        hp_ -= damage;
-    }
+void Hero::Accept(const Visitor& visit) const {
+    visit.VisitHero(*this);
 }
-
-
 

@@ -2,49 +2,41 @@
 // Created by iusup on 27.03.2019.
 //
 
-#include "OrcHeroBuilder.h"
+#include "Hero/OrcHeroBuilder.h"
 #include <cstdlib>
+#include "settings/characteristics.h"
+#include "Attack/Attack.h"
 
 
 void OrcHeroBuilder::BuildWeapon(Hero::EWeaponType weapon) {
     result_->SetWeapon(weapon);
     switch (weapon) {
         case Hero::EWeaponType::stick:
-            result_->SetDamage(35);
+            result_->SetAttack(OrcCharacteristics::hero_stick_attack);
             break;
         case Hero::EWeaponType::mythical_thing:
-            result_->SetDamage(std::rand() % 10 + 30);
+            result_->SetAttack(OrcCharacteristics::hero_mythical_thing_attack);
             break;
         case Hero::EWeaponType::sword:
-            result_->SetDamage(33);
+            result_->SetAttack(OrcCharacteristics::hero_sword_attack);
             break;
         default:
-            result_->SetDamage(30);
+            result_->SetAttack(OrcCharacteristics::hero_attack);
     }
 }
 
 void OrcHeroBuilder::BuildAbility(Hero::EAbilityType ability) {
     result_->SetAbility(ability);
-    result_->SetMana(50);
-    switch (ability) {
-        case Hero::EAbilityType::lightning:
-            result_->SetAttackRange(4);
-            break;
-        case Hero::EAbilityType::fighting_spirit:
-            result_->SetAttackRange(2);
-            break;
-        default:
-            result_->SetAttackRange(3);
-            break;
-    }
+    result_->SetMana(OrcCharacteristics::hero_mana);
 }
 
 void OrcHeroBuilder::BuildCharacteristics() {
     result_ = std::make_shared<Hero>();
-    result_->SetHP(300);
-    result_->SetTurnPoints(3);
-    result_->SetDamage(20);
-    result_->SetAttackRange(1);
+    result_->SetHP(OrcCharacteristics::hero_hp);
+    result_->SetTurnPoints(OrcCharacteristics::hero_turn_points);
+    result_->SetCurTurnPoints(OrcCharacteristics::hero_turn_points);
+    result_->SetAttack(OrcCharacteristics::hero_attack);
+    result_->SetAttackRange(OrcCharacteristics::hero_attack_range);
 }
 
 void OrcHeroBuilder::BuildShield(unsigned int armor) {
@@ -55,4 +47,11 @@ void OrcHeroBuilder::BuildShield(unsigned int armor) {
 
 void OrcHeroBuilder::BuildHorse(unsigned int turn_points) {
     result_->SetHorse(true);
+}
+
+void OrcHeroBuilder::BuildShape() {
+    sf::CircleShape shape(16, 6);
+    shape.setFillColor(sf::Color(0, 0, 128));
+    result_->SetShape(shape);
+
 }
